@@ -192,6 +192,14 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
     }
 
     if (tag === "ul" || tag === "ol") {
+      // Liste invalide (texte libre ou div/p hors <li>) : on parcourt tous les nœuds.
+      const hasStray =
+        $(el).children().toArray().some((c) => tagName(c) !== "li") ||
+        $(el).contents().toArray().some((n) => n.type === "text" && (n.data ?? "").trim() !== "");
+      if (hasStray) {
+        await walkContainer(el);
+        return;
+      }
       for (const liNode of $(el).children().toArray()) {
           const li = liNode;
           if (!li || li.type !== "tag") continue;
@@ -244,9 +252,80 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       return;
     }
 
-    for (const child of childElements) {
-      await walk(child);
+    await walkContainer(el);
+  }
+
+  const INLINE_TAGS = new Set([
+    "a", "strong", "b", "em", "i", "u", "span", "font", "sup", "sub", "small", "abbr", "cite", "code", "mark",
+  ]);
+
+  /** Un nœud inline « pur » : pas d'image ni de bloc dedans (sinon il passe par walk). */
+  function isPureInline(node) {
+    if (node.type !== "tag") return false;
+    if (!INLINE_TAGS.has(tagName(node))) return false;
+    return $(node).find("img, p, div, ul, ol, li, h1, h2, h3, h4, h5, h6, figure, blockquote, table").length === 0;
+  }
+
+  /** Transforme une suite de nœuds inline (texte libre, <br>, liens, gras…) en paragraphes. */
+  function flushInline(buffer) {
+    // Coupe aux doubles <br> (= changement de paragraphe sur WordPress).
+    const parts = [];
+    let cur = [];
+    let brRun = [];
+    for (const node of buffer) {
+      if (node.type === "tag" && tagName(node) === "br") {
+        brRun.push(node);
+        continue;
+      }
+      if (brRun.length >= 2) {
+        parts.push(cur);
+        cur = [];
+      } else if (brRun.length === 1) {
+        cur.push(brRun[0]);
+      }
+      brRun = [];
+      cur.push(node);
     }
+    parts.push(cur);
+    for (const part of parts) {
+      const wrapper = $("<p></p>");
+      for (const n of part) wrapper.append($(n).clone());
+      const markDefs = [];
+      const spans = inlineSpans($, wrapper.get(0), pageUrl, markDefs);
+      // Retire les retours à la ligne et espaces en bord de paragraphe.
+      while (spans.length && /^\s*$/.test(spans[0].text)) spans.shift();
+      while (spans.length && /^\s*$/.test(spans[spans.length - 1].text)) spans.pop();
+      if (spans.length === 0) continue;
+      spans[0].text = spans[0].text.replace(/^\s+/, "");
+      spans[spans.length - 1].text = spans[spans.length - 1].text.replace(/\s+$/, "");
+      blocks.push({ _type: "block", _key: blockKey(), style: "normal", markDefs, children: spans });
+    }
+  }
+
+  /**
+   * Parcourt TOUS les nœuds enfants (pas seulement les éléments) : le texte posé
+   * directement dans un conteneur, entre des <br>, était ignoré (pages WordPress
+   * sans <p>, souvent plusieurs milliers de mots perdus).
+   */
+  async function walkContainer(el) {
+    let buffer = [];
+    const flush = () => {
+      if (buffer.length) flushInline(buffer);
+      buffer = [];
+    };
+    for (const node of $(el).contents().toArray()) {
+      if (node.type === "text") {
+        if ((node.data ?? "").trim() !== "" || buffer.length) buffer.push(node);
+      } else if (node.type === "tag" && tagName(node) === "br") {
+        if (buffer.length) buffer.push(node);
+      } else if (isPureInline(node)) {
+        buffer.push(node);
+      } else if (node.type === "tag") {
+        flush();
+        await walk(node);
+      }
+    }
+    flush();
   }
 
   const top = $root.children().toArray();
@@ -262,9 +341,7 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       });
     }
   } else {
-    for (const child of top) {
-      await walk(child);
-    }
+    await walkContainer($root.get(0));
   }
 
   return blocks;
