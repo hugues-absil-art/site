@@ -139,6 +139,13 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
     }
   }
 
+  /** Images dans un paragraphe ou un item de liste (souvent enveloppées dans un lien) : inlineSpans les ignore. */
+  async function emitNestedImages(el) {
+    for (const img of $(el).find("img").toArray()) {
+      await emitImage(img);
+    }
+  }
+
   async function walk(el) {
     if (!el || el.type !== "tag") return;
     const tag = tagName(el);
@@ -159,7 +166,10 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       const markDefs = [];
       const children = inlineSpans($, el, pageUrl, markDefs);
       const plain = $(el).text().replace(/\s+/g, " ").trim();
-      if (!plain && children.length === 0) return;
+      if (!plain && children.length === 0) {
+        await emitNestedImages(el);
+        return;
+      }
       let style = "normal";
       if (tag === "blockquote") style = "blockquote";
       else if (tag === "h1") style = "h1";
@@ -175,19 +185,26 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
             ? children
             : [{ _type: "span", _key: blockKey(), text: plain, marks: [] }],
       });
+      await emitNestedImages(el);
       return;
     }
 
     if (tag === "ul" || tag === "ol") {
-      $(el)
-        .children("li")
-        .each((_, liNode) => {
+      for (const liNode of $(el).children().toArray()) {
           const li = liNode;
-          if (!li || li.type !== "tag") return;
+          if (!li || li.type !== "tag") continue;
+          // HTML invalide fréquent sur WordPress : div/p directement dans une liste.
+          if (tagName(li) !== "li") {
+            await walk(li);
+            continue;
+          }
           const markDefs = [];
           const children = inlineSpans($, li, pageUrl, markDefs);
           const text = $(li).text().replace(/\s+/g, " ").trim();
-          if (!text && children.length === 0) return;
+          if (!text && children.length === 0) {
+            await emitNestedImages(li);
+            continue;
+          }
           blocks.push({
             _type: "block",
             _key: blockKey(),
@@ -200,7 +217,8 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
                 ? children
                 : [{ _type: "span", _key: blockKey(), text, marks: [] }],
           });
-        });
+          await emitNestedImages(li);
+      }
       return;
     }
 
