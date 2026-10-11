@@ -126,11 +126,13 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       try {
         const ref = await uploadImage(full, alt);
         if (ref) {
+          // Le champ Contenu n'accepte plus l'image native (voir blockContent.ts) : imageWithLayout.
           blocks.push({
-            _type: "image",
+            _type: "imageWithLayout",
             _key: blockKey(),
-            asset: { _type: "reference", _ref: ref },
-            ...(alt ? { alt } : {}),
+            image: { _type: "image", asset: { _type: "reference", _ref: ref } },
+            layout: "centered",
+            size: "medium",
           });
         }
       } catch {
