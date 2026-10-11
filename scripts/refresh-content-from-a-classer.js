@@ -82,7 +82,7 @@ for (const t of targets) {
   updated++;
 }
 
-const out = "../inventaire/refresh_contenus" + (dryRun ? ".simulation.csv" : ".resultat.csv");
+const out = "../../inventaire/refresh_contenus" + (dryRun ? ".simulation.csv" : ".resultat.csv");
 fs.writeFileSync(
   new URL(out, import.meta.url),
   "﻿" +
