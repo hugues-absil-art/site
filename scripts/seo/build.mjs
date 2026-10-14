@@ -30,7 +30,7 @@ const DIST = path.join(ROOT, "dist");
 const SITE_URL = (process.env.VITE_SITE_URL || "https://hugues-absil.com").replace(/\/$/, "");
 const SITE_NAME = "Hugues Absil";
 const DEFAULT_TITLE = "Hugues Absil - Artiste Contemporain";
-const DEFAULT_DESC = "Site officiel de Hugues Absil, artiste contemporain. Découvrez ses œuvres, expositions et actualités.";
+const DEFAULT_DESC = "Hugues Absil, artiste peintre, graveur et dessinateur : œuvres, expositions, biographie, critiques d'art et cours d'histoire de l'art.";
 const BASE = process.env.VITE_BASE_PATH
   ? process.env.VITE_BASE_PATH.replace(/\/$/, "")
   : process.env.GITHUB_PAGES === "true"
@@ -57,6 +57,7 @@ const legacy = JSON.parse(fs.readFileSync(path.join(ROOT, "seo/legacy-map.json")
 const sanity = createClient({ projectId, dataset, apiVersion: "2024-01-01", useCdn: false }); // données à jour (pas le cache du CDN)
 
 // ---------- utilitaires ----------
+const RETIRED_IMAGE_LINK = /^https?:\/\/(?:www\.)?hugues-absil\.com\/wordpress\/wp-content\/uploads\/.+\.(?:jpe?g|png|gif|webp|avif|tiff?)(?:[?#"%].*)?$/i;
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const attr = esc;
 const href = (p) => `${BASE}${p}`;
@@ -117,7 +118,7 @@ function ptToHtml(blocks, altFallback = "") {
           for (const m of c.marks || []) {
             if (m === "strong") t = `<strong>${t}</strong>`;
             else if (m === "em") t = `<em>${t}</em>`;
-            else if (defs[m]?.href) t = `<a href="${attr(defs[m].href)}">${t}</a>`;
+            else if (defs[m]?.href && !RETIRED_IMAGE_LINK.test(defs[m].href.trim())) t = `<a href="${attr(defs[m].href)}">${t}</a>`;
           }
           return t;
         })
@@ -334,16 +335,47 @@ for (const c of cats) {
   if (items.length || children.length) sitemap.push({ loc: p, lastmod: "", images: [] });
 }
 
-// ---------- accueil ----------
+// ---------- accueil : la page qui porte l'essentiel du trafic (marque « Hugues Absil ») ----------
+const [paintings, biography] = await Promise.all([
+  sanity.fetch(`*[_type=="painting" && gallery == true && !(_id in path("drafts.**")) && defined(image.asset._ref)] | order(year desc){title,year,reference,dimensions,"technique":technique->title,"series":series->title,"ref":image.asset._ref}`).catch(() => []),
+  sanity.fetch(`*[_type=="biography"][0]{text}`).catch(() => null),
+]);
 const homeLinks = cats.filter((c) => !c.parent).map((c) => `<li><a href="${attr(href(`/${prefixOf(c.section)}/${c.slug}`))}">${esc(c.title)}</a></li>`).join("");
-const homeBody = `<h1>Hugues Absil, artiste contemporain</h1>\n<p>${esc(DEFAULT_DESC)}</p>\n<h2>Rubriques</h2><ul>${homeLinks}</ul>`;
+const workAlt = (w) => `${[w.technique, w.dimensions ? `${w.dimensions} cm` : "", w.year].filter(Boolean).join(", ")} : ${w.title}${w.series ? `, série ${w.series}` : ""}`;
+const bySeries = new Map();
+for (const w of paintings) (bySeries.get(w.series || "Autres œuvres") || bySeries.set(w.series || "Autres œuvres", []).get(w.series || "Autres œuvres")).push(w);
+const galleryHtml = [...bySeries.entries()].map(([serie, list]) =>
+  `<h3>${esc(serie)}</h3>\n` + list.map((w) => {
+    const img = imageUrl(w.ref, 800);
+    if (!img) return "";
+    const width = Math.min(img.w, 800);
+    return `<figure><img src="${attr(img.url)}" alt="${attr(workAlt(w))}" width="${width}" height="${Math.round((img.h * width) / img.w)}" loading="lazy"><figcaption>${esc(workAlt(w))}</figcaption></figure>`;
+  }).join("\n")
+).join("\n");
+const exhibitionsHtml = docs
+  .filter((d) => d.kind === "exhibition" && !d.dupOf && !d.noindex)
+  .sort((a, b) => String(b.dateStart || "").localeCompare(String(a.dateStart || "")))
+  .slice(0, 15)
+  .map((d) => `<li><a href="${attr(href(d.canonical))}">${esc(d.title)}</a>${d.dateStart ? ` (${esc(dateOnly(d.dateStart))})` : ""}</li>`)
+  .join("");
+const homeBody = `<h1>Hugues Absil, artiste peintre, graveur et dessinateur</h1>
+<p>${esc(DEFAULT_DESC)}</p>
+${biography?.text ? `<h2>Biographie</h2>\n${ptToHtml(biography.text, SITE_NAME)}` : ""}
+<h2>Œuvres</h2>
+${galleryHtml}
+${exhibitionsHtml ? `<h2>Expositions</h2><ul>${exhibitionsHtml}</ul>` : ""}
+<h2>Critiques d'art, cours et ressources</h2><ul>${homeLinks}</ul>`;
+const worksLd = paintings.slice(0, 40).map((w) => {
+  const img = imageUrl(w.ref, 1200);
+  return { "@type": "VisualArtwork", name: w.title, dateCreated: w.year ? String(w.year) : undefined, artMedium: w.technique || undefined, image: img?.url, artist: { "@type": "Person", name: SITE_NAME } };
+});
 fs.writeFileSync(
   path.join(DIST, "index.html"),
   renderPage({
     title: DEFAULT_TITLE, description: DEFAULT_DESC, canonicalPath: "/", body: homeBody,
     jsonLd: [
       { "@context": "https://schema.org", "@type": "WebSite", name: SITE_NAME, url: `${SITE_URL}/`, inLanguage: "fr" },
-      { "@context": "https://schema.org", "@type": "Person", name: SITE_NAME, url: `${SITE_URL}/`, jobTitle: "Artiste peintre, graveur et dessinateur" },
+      { "@context": "https://schema.org", "@type": "Person", name: SITE_NAME, url: `${SITE_URL}/`, jobTitle: "Artiste peintre, graveur et dessinateur", workExample: worksLd },
     ],
   })
 );

@@ -6,6 +6,7 @@ import type {
 import type { PortableTextBlock, TypedObject } from "@portabletext/types";
 import type { CSSProperties, ReactNode } from "react";
 import { urlFor } from "./client";
+import { isRetiredImageLink } from "@/lib/seo";
 
 interface PortableTextProps {
   content: TypedObject | TypedObject[] | unknown;
@@ -208,7 +209,7 @@ const portableTextComponents = {
       value,
     }: PortableTextMarkComponentProps<{ _type: "link"; href?: string }>) => {
       const href = value?.href?.trim();
-      if (!href) return <span>{children}</span>;
+      if (!href || isRetiredImageLink(href)) return <span>{children}</span>;
       const external = /^https?:\/\//i.test(href);
       return (
         <a

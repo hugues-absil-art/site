@@ -8,7 +8,7 @@ export const SITE_URL = (
 export const SITE_NAME = "Hugues Absil";
 export const DEFAULT_TITLE = "Hugues Absil - Artiste Contemporain";
 export const DEFAULT_DESCRIPTION =
-  "Site officiel de Hugues Absil, artiste contemporain. Découvrez ses œuvres, expositions et actualités.";
+  "Hugues Absil, artiste peintre, graveur et dessinateur : œuvres, expositions, biographie, critiques d'art et cours d'histoire de l'art.";
 
 type LegacyEntry = { t?: string; s?: string; r?: string };
 const ROUTES = legacyRoutes as Record<string, LegacyEntry>;
@@ -29,6 +29,16 @@ export function lookupLegacy(pathname: string): LegacyEntry | null {
 export function legacyPathFor(type: string, slug: string | null | undefined): string | null {
   if (!slug) return null;
   return REVERSE.get(`${type}:${slug}`) ?? null;
+}
+
+/**
+ * Lien vers une image de l'ancien WordPress (/wp-content/uploads/….jpg) : ces fichiers disparaîtront avec WordPress,
+ * et l'image est déjà affichée dans la page. On garde le texte du lien, sans lien.
+ */
+export function isRetiredImageLink(href: string | null | undefined): boolean {
+  return /^https?:\/\/(?:www\.)?hugues-absil\.com\/wordpress\/wp-content\/uploads\/.+\.(?:jpe?g|png|gif|webp|avif|tiff?)(?:[?#"%].*)?$/i.test(
+    (href || "").trim()
+  );
 }
 
 /** Texte brut d'un contenu Portable Text, tronqué proprement. */

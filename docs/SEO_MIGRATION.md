@@ -72,13 +72,31 @@ publiée n'a aucune destination). `seo/adresses-sans-page.json` liste les adress
 6. Surveiller 4 à 8 semaines : rapport « Pages », erreurs 404, performances ; le trafic peut fluctuer.
 7. Ne pas résilier WordPress avant que Search Console confirme l'indexation des nouvelles pages.
 
+
+## Ce que montre la Search Console (export du 14/10/2026, 16 mois, recherche Web)
+
+| Constat | Conséquence |
+|---|---|
+| 380 clics, ~8 900 impressions ; **98 % des requêtes contiennent « absil » ou « hugues »** (« hugues absil » : 180 clics, position 1,2) | Le référencement actuel est celui de la **marque**, pas des articles |
+| **79 % des clics** viennent de l'accueil ; **16 %** de 16 documents PDF/Word dans `/wordpress/wp-content/uploads/` ; **3 %** des pages d'articles (aquarelle-humide : 7 clics, liste-des-expositions : 3) ; 136 images : 1 clic | Priorités : l'accueil, les documents, puis le reste |
+| Toutes les URL indexées sont en **`http://`** | La propriété Search Console est en http ; créer une propriété **Domaine** (enregistrement DNS TXT chez IONOS) pour voir http/https/www ensemble |
+| 23 pages indexées sur ~130 connues ; 11 « explorées, non indexées » | Marge de progression : pages complètes, titres uniques, canoniques (fait) |
+
+Décisions qui en découlent :
+- **Accueil** : même adresse (`/`), même début de titre (« Hugues Absil »), description ajoutée (WordPress n'en avait pas), H1,
+  biographie, œuvres par série (texte alternatif : technique, dimensions, année), expositions récentes et données
+  structurées (`Person`, `VisualArtwork`) dans le HTML statique : ~840 mots lisibles sans JavaScript (WordPress : ~820).
+- **Documents** : les 16 documents vus par Google et les 3 documents liés depuis les pages (**97 Mo**) sont copiés dans
+  `public/wordpress/wp-content/uploads/…`, donc servis **à la même adresse**. Ils ne peuvent pas être redirigés (GitHub Pages).
+- **Images** : pas ré-hébergées à l'identique (1 clic en 16 mois). Les liens du texte vers d'anciens fichiers image
+  (`/wp-content/uploads/*.jpg`) sont retirés (le texte reste) ; les images affichées viennent du CDN Sanity.
+- **Galeries WordPress** : sans trafic mesurable ; elles redirigent vers l'accueil, qui contient maintenant la galerie en HTML.
+
 ## Limites connues et améliorations possibles
 
 - Pas de vrai 301 (limite de GitHub Pages). Pour en obtenir, héberger le site sur un service qui les permet
   (Netlify, Cloudflare Pages…) : le script de table peut produire un fichier `_redirects`.
-- Les images WordPress (`/wp-content/uploads/…`) disparaissent avec WordPress : le trafic Google Images associé est
-  perdu tant que ces fichiers ne sont pas ré-hébergés (tâche C3 du suivi). Prévoir des noms de fichiers et textes
-  alternatifs descriptifs.
+- Les images WordPress disparaissent avec WordPress (trafic image mesuré : négligeable). Les nouvelles images ont des textes alternatifs descriptifs.
 - Les pages de galerie WordPress (personnages, paysages…) n'ont pas d'équivalent individuel : elles redirigent vers
   l'accueil (section galerie). Créer de vraies pages par série améliorerait le référencement des œuvres.
 - Titres : les titres actuels de Sanity sont utilisés (certains diffèrent de WordPress).
