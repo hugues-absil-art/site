@@ -39,8 +39,12 @@ Google « Redirects and Google Search »). Le serveur reste en 200 : c'est la me
 L'application charge ensuite normalement par-dessus (les balises sont aussi mises à jour côté navigateur par
 `src/lib/seo.ts`, de façon cohérente). Les anciennes adresses sont résolues par `src/seo/legacy-routes.json`.
 
-`.github/workflows/deploy.yml` relance le build **chaque nuit** : une page publiée dans Sanity reçoit sa page statique
-et entre dans le sitemap au plus tard le lendemain.
+`.github/workflows/deploy.yml` **contrôle toutes les 4 heures** si le contenu publié dans Sanity a changé et ne
+reconstruit le site que dans ce cas : le job `check` compare la version du contenu (nombre de documents + date de
+dernière modification, requête publique à Sanity) à celle écrite dans `build-info.json` du site déjà en ligne. Un push
+sur `main` ou un lancement manuel reconstruit toujours. Une page publiée dans Sanity reçoit ainsi sa page statique et
+entre dans le sitemap en moins de 4 heures. Pour une publication immédiate : lancer « Run workflow » dans l'onglet Actions
+(une publication instantanée automatique est possible avec un webhook Sanity, qui demande un jeton GitHub).
 
 ## Mettre à jour la table des anciennes adresses
 

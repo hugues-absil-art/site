@@ -6,12 +6,6 @@
   "hasTarget": false
  },
  {
-  "path": "/wordpress/le-cubisme-une-revolution-esthetique-sa-naissance-et-son-rayonnement-serge-fauchereau-ed-flammarion/",
-  "title": "le cubisme, une révolution esthétique. sa naissance et son rayonnement. Serge Fauchereau. éd. Flammarion",
-  "date": "2012-09-03",
-  "hasTarget": true
- },
- {
   "path": "/wordpress/parade-exposition-des-trois-peintres-nitkowski-adam-et-alary/",
   "title": "les trois peintres Nitkowski, Adam et Alary à la galerie Polad Hardouin à Paris jusqu'au 6 octobre 2012",
   "date": "2012-09-03",
@@ -22,12 +16,6 @@
   "title": "Louis Soutter à la maison rouge jusqu'au 23 septembre",
   "date": "2012-09-03",
   "hasTarget": false
- },
- {
-  "path": "/wordpress/la-nuit-tombee-de-antoine-choplin/",
-  "title": "La nuit tombée de Antoine Choplin",
-  "date": "2012-09-23",
-  "hasTarget": true
  },
  {
   "path": "/wordpress/raphael-les-dernieres-annees-au-musee-du-louvre-jusquau-14-janvier/",
@@ -72,22 +60,10 @@
   "hasTarget": false
  },
  {
-  "path": "/wordpress/jean-delville1867-1953-maitre-de-lideal/",
-  "title": "Jean Delville(1867-1953). maître de l’idéal.",
-  "date": "2014-07-28",
-  "hasTarget": true
- },
- {
   "path": "/wordpress/salon-des-createurs-destampe-mercredi-15-octobre-de-11-a-22h/",
   "title": "Salon des créateurs d’estampe. mercredi 15 octobre 2014 de 11 à 22h",
   "date": "2014-09-04",
   "hasTarget": false
- },
- {
-  "path": "/wordpress/white-cube/",
-  "title": "white cube",
-  "date": "2015-03-16",
-  "hasTarget": true
  },
  {
   "path": "/wordpress/valerie-jouve/",
@@ -138,12 +114,6 @@
   "hasTarget": false
  },
  {
-  "path": "/wordpress/ninfa-dolorosa/",
-  "title": "ninfa dolorosa",
-  "date": "2019-08-30",
-  "hasTarget": true
- },
- {
   "path": "/wordpress/stage-grenade/",
   "title": "stage grenade",
   "date": "2019-10-27",
@@ -156,22 +126,10 @@
   "hasTarget": false
  },
  {
-  "path": "/wordpress/homo-faber/",
-  "title": "homo faber",
-  "date": "2019-11-04",
-  "hasTarget": true
- },
- {
   "path": "/wordpress/le-corbusiermusee/",
   "title": "le corbusier penseur du musée",
   "date": "2019-11-24",
   "hasTarget": false
- },
- {
-  "path": "/wordpress/greco/",
-  "title": "greco",
-  "date": "2019-11-28",
-  "hasTarget": true
  },
  {
   "path": "/wordpress/greco-2/",
@@ -192,30 +150,6 @@
   "hasTarget": false
  },
  {
-  "path": "/wordpress/eloge-de-laplomb/",
-  "title": "éloge de l’aplomb. ",
-  "date": "2020-12-02",
-  "hasTarget": true
- },
- {
-  "path": "/wordpress/polyphonies-de-klee/",
-  "title": "polyphonies de Klee",
-  "date": "2021-02-16",
-  "hasTarget": true
- },
- {
-  "path": "/wordpress/divisionniste-1/",
-  "title": "divisionniste.1",
-  "date": "2021-05-30",
-  "hasTarget": true
- },
- {
-  "path": "/wordpress/divisionniste-2/",
-  "title": "divisionniste.2",
-  "date": "2021-06-08",
-  "hasTarget": true
- },
- {
   "path": "/wordpress/le-contour/",
   "title": "le contour",
   "date": "2022-09-06",
@@ -232,18 +166,6 @@
   "title": "les dégradés",
   "date": "2022-11-08",
   "hasTarget": false
- },
- {
-  "path": "/wordpress/9937/",
-  "title": "les fleurs de nolde",
-  "date": "2023-03-07",
-  "hasTarget": true
- },
- {
-  "path": "/wordpress/warhol-basquiat/",
-  "title": "Warhol basquiat",
-  "date": "2023-04-14",
-  "hasTarget": true
  },
  {
   "path": "/wordpress/gameroe-berthe-edgar-jusquau-7-juillet/",
@@ -268,11 +190,5 @@
   "title": "Noir et Blanc  du 01 avril au 17 mai 2026 à point rouge gallery (st Rémy-de-Provence)",
   "date": "2026-02-27",
   "hasTarget": false
- },
- {
-  "path": "/wordpress/les-anges-de-lhistoire-images-des-temps-inquiets-georges-didi-huberman-ed-de-minuit/",
-  "title": "Les Anges de l'Histoire",
-  "date": "2026-03-03",
-  "hasTarget": true
  }
 ]
