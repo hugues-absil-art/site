@@ -5,6 +5,7 @@ import Image from "@/components/ui/Image";
 import Button from "@/components/ui/Button";
 import PortableText from "@/lib/sanity/portableText";
 import { getExhibitionBySlug } from "@/lib/sanity/data";
+import { useSeo, legacyPathFor, plainFromPortable, SITE_NAME } from "@/lib/seo";
 
 const statusLabels: Record<string, string> = {
   current: "En cours",
@@ -20,8 +21,9 @@ function formatDate(dateString: string | null | undefined) {
     : date.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
 }
 
-export default function ExhibitionPage() {
-  const { slug } = useParams<{ slug: string }>();
+export default function ExhibitionPage(props: { slug?: string }) {
+  const params = useParams<{ slug: string }>();
+  const slug = props.slug ?? params.slug;
   const [exhibition, setExhibition] = useState<Awaited<ReturnType<typeof getExhibitionBySlug>>>(null);
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
@@ -38,6 +40,36 @@ export default function ExhibitionPage() {
       setLoading(false);
     });
   }, [slug]);
+
+  const seoPath = legacyPathFor("exhibition", slug) ?? `/expositions/${slug}`;
+  const seoDescription = exhibition ? exhibition.description?.trim() || plainFromPortable(exhibition.body) : undefined;
+  useSeo({
+    enabled: !!exhibition,
+    title: exhibition?.title ?? "",
+    description: seoDescription,
+    path: seoPath,
+    image: exhibition?.imageUrl || null,
+    type: "article",
+    jsonLd: exhibition
+      ? {
+          "@context": "https://schema.org",
+          "@type": "ExhibitionEvent",
+          name: exhibition.title,
+          description: seoDescription,
+          startDate: exhibition.dateStart || undefined,
+          endDate: exhibition.dateEnd || undefined,
+          image: exhibition.imageUrl ? [exhibition.imageUrl] : undefined,
+          location: exhibition.venue
+            ? {
+                "@type": "Place",
+                name: exhibition.venue,
+                address: [exhibition.city, exhibition.country].filter(Boolean).join(", ") || undefined,
+              }
+            : undefined,
+          performer: { "@type": "Person", name: SITE_NAME },
+        }
+      : null,
+  });
 
   if (loading) {
     return (

@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Calendar } from "lucide-react";
 import Image from "@/components/ui/Image";
 import { getPressArticleBySlug } from "@/lib/sanity/data";
+import { useSeo, legacyPathFor, plainFromPortable, SITE_URL, SITE_NAME } from "@/lib/seo";
 import PortableText from "@/lib/sanity/portableText";
 import Button from "@/components/ui/Button";
 import { getVideoEmbedUrl } from "@/lib/videoEmbed";
@@ -14,8 +15,9 @@ function formatDate(dateString: string | null | undefined) {
   return date.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
 }
 
-export default function PressArticlePage() {
-  const { slug } = useParams<{ slug: string }>();
+export default function PressArticlePage(props: { slug?: string }) {
+  const params = useParams<{ slug: string }>();
+  const slug = props.slug ?? params.slug;
   const [article, setArticle] = useState<Awaited<ReturnType<typeof getPressArticleBySlug>>>(null);
   const [loading, setLoading] = useState(true);
   const [notFound, setNotFound] = useState(false);
@@ -35,6 +37,30 @@ export default function PressArticlePage() {
       setLoading(false);
     });
   }, [slug]);
+
+  const seoPath = legacyPathFor("pressArticle", slug) ?? `/presse/${slug}`;
+  const seoDescription = article ? article.excerpt?.trim() || plainFromPortable(article.content) : undefined;
+  useSeo({
+    enabled: !!article,
+    title: article?.title ?? "",
+    description: seoDescription,
+    path: seoPath,
+    image: article?.imageUrl || null,
+    type: "article",
+    jsonLd: article
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: article.title,
+          description: seoDescription,
+          image: article.imageUrl ? [article.imageUrl] : undefined,
+          datePublished: article.date || undefined,
+          author: { "@type": "Person", name: SITE_NAME },
+          publisher: article.publication ? { "@type": "Organization", name: article.publication } : undefined,
+          mainEntityOfPage: `${SITE_URL}${seoPath}`,
+        }
+      : null,
+  });
 
   if (loading) {
     return (

@@ -1,0 +1,5396 @@
+{
+ "site": "https://hugues-absil.com",
+ "entries": [
+  {
+   "path": "/wordpress/travaux-aout-2012/",
+   "wpId": "1",
+   "wpSlug": "travaux-aout-2012",
+   "wpType": "post",
+   "title": "Les Actualités Artistiques en travaux",
+   "date": "2012-08-30",
+   "modified": "2012-09-01",
+   "target": null,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/",
+   "wpId": "19",
+   "wpSlug": "histoire-de-lart2",
+   "wpType": "page",
+   "title": "Histoire de l'art",
+   "date": "2012-09-01",
+   "modified": "2026-03-03",
+   "target": null,
+   "redirect": "/enseignement/histoire-art"
+  },
+  {
+   "path": "/wordpress/accueil/",
+   "wpId": "30",
+   "wpSlug": "accueil",
+   "wpType": "page",
+   "title": "Accueil",
+   "date": "2012-09-01",
+   "modified": "2013-03-01",
+   "target": null,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/gianada2012/",
+   "wpId": "67",
+   "wpSlug": "gianada2012",
+   "wpType": "post",
+   "title": "Le mythe de la couleur, fondation Gianadda",
+   "date": "2012-09-01",
+   "modified": "2012-09-03",
+   "target": {
+    "id": "1b2eb918-e764-406d-b0ce-a8ccba30eab6",
+    "type": "resource",
+    "slug": "le-mythe-de-la-couleur-fondation-gianadda-van-gogh-picasso-kandinsky-collection-merzbacher-le-mythe-de-la-couleur-jusqu-au-25-novembre-2012"
+   }
+  },
+  {
+   "path": "/wordpress/le-son-que-jai-vu_2012-13/",
+   "wpId": "74",
+   "wpSlug": "le-son-que-jai-vu_2012-13",
+   "wpType": "post",
+   "title": "Le son que j'ai vu, Galerie DDG",
+   "date": "2012-12-15",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "crawl-67bfa316ad37a9d77637d9d9d0a52325",
+    "type": "exhibition",
+    "slug": "le-son-que-j-ai-vu-galerie-ddg"
+   }
+  },
+  {
+   "path": "/wordpress/salon-art-terrible-espace-commines-paris/",
+   "wpId": "82",
+   "wpSlug": "salon-art-terrible-espace-commines-paris",
+   "wpType": "post",
+   "title": "Salon Art Terrible (Espace Commines, Paris)",
+   "date": "2012-09-01",
+   "modified": "2012-10-31",
+   "target": {
+    "id": "crawl-8c2ba18d224db0bc14e9d2e0de99db22",
+    "type": "exhibition",
+    "slug": "salon-art-terrible-espace-commines-paris"
+   }
+  },
+  {
+   "path": "/wordpress/mac-2000-2/",
+   "wpId": "96",
+   "wpSlug": "mac-2000-2",
+   "wpType": "post",
+   "title": "Mac 2000",
+   "date": "2012-09-02",
+   "modified": "2012-10-31",
+   "target": {
+    "id": "crawl-89c7bcca9d66d76ad50d035ddc55cece",
+    "type": "exhibition",
+    "slug": "mac-2000-en-2012"
+   }
+  },
+  {
+   "path": "/wordpress/art-cite/",
+   "wpId": "99",
+   "wpSlug": "art-cite",
+   "wpType": "post",
+   "title": "Salon art cité",
+   "date": "2012-09-03",
+   "modified": "2013-01-02",
+   "target": {
+    "id": "crawl-e0c6c9b89fdee3a23481d10976d57ded",
+    "type": "exhibition",
+    "slug": "11e-salon-art-cite"
+   }
+  },
+  {
+   "path": "/wordpress/jean-metzinger-albert-gleizes-du-cubisme-et-apres/",
+   "wpId": "109",
+   "wpSlug": "jean-metzinger-albert-gleizes-du-cubisme-et-apres",
+   "wpType": "post",
+   "title": "Jean Metzinger, Albert Gleizes, Du cubisme et après",
+   "date": "2012-09-03",
+   "modified": "2012-09-03",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfq0HOix",
+    "type": "resource",
+    "slug": "jean-metzinger-albert-gleizes-du-cubisme-et-apres"
+   }
+  },
+  {
+   "path": "/wordpress/stage/",
+   "wpId": "126",
+   "wpSlug": "stage",
+   "wpType": "page",
+   "title": "Stage de peinture à Venise du 24 au 2 juillet 2013",
+   "date": "2012-09-03",
+   "modified": "2013-08-31",
+   "target": null
+  },
+  {
+   "path": "/wordpress/gerhard-richter-panorama/",
+   "wpId": "132",
+   "wpSlug": "gerhard-richter-panorama",
+   "wpType": "post",
+   "title": "Gerhard Richter. \"Panorama\".",
+   "date": "2012-09-03",
+   "modified": "2012-09-03",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfq0IDLV",
+    "type": "resource",
+    "slug": "gerhard-richter-panorama"
+   }
+  },
+  {
+   "path": "/wordpress/hubris-la-fabrique-du-monstre-dans-lart-moderne-jean-clair-ed-gallimard/",
+   "wpId": "137",
+   "wpSlug": "hubris-la-fabrique-du-monstre-dans-lart-moderne-jean-clair-ed-gallimard",
+   "wpType": "post",
+   "title": "Hubris. La fabrique du monstre dans l’art moderne, Jean Clair. Ed. gallimard",
+   "date": "2012-09-03",
+   "modified": "2012-09-03",
+   "target": {
+    "id": "d2fa142d-8826-47c8-b88b-632fb9c29e8e",
+    "type": "resource",
+    "slug": "hubris-la-fabrique-du-monstre-dans-l-art-moderne-jean-clair-editions-gallimard"
+   }
+  },
+  {
+   "path": "/wordpress/le-cubisme-une-revolution-esthetique-sa-naissance-et-son-rayonnement-serge-fauchereau-ed-flammarion/",
+   "wpId": "139",
+   "wpSlug": "le-cubisme-une-revolution-esthetique-sa-naissance-et-son-rayonnement-serge-fauchereau-ed-flammarion",
+   "wpType": "post",
+   "title": "le cubisme, une révolution esthétique. sa naissance et son rayonnement. Serge Fauchereau. éd. Flammarion",
+   "date": "2012-09-03",
+   "modified": "2012-09-17",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoZGFul",
+    "type": "resource",
+    "slug": "le-cubisme-une-revolution-esthetique-sa-naissance-et-son-rayonnement-serge-fauchereau-ed-flammarion"
+   }
+  },
+  {
+   "path": "/wordpress/gina-pane-terre-artiste-ciel-sophie-duplaix-ed-actes-sud/",
+   "wpId": "142",
+   "wpSlug": "gina-pane-terre-artiste-ciel-sophie-duplaix-ed-actes-sud",
+   "wpType": "post",
+   "title": "Gina Pane. Terre-artiste-ciel. Sophie Duplaix. Ed. Actes Sud",
+   "date": "2012-09-03",
+   "modified": "2012-09-03",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfpxnsxk",
+    "type": "resource",
+    "slug": "gina-pane-terre-artiste-ciel-sophie-duplaix-ed-actes-sud"
+   }
+  },
+  {
+   "path": "/wordpress/parade-exposition-des-trois-peintres-nitkowski-adam-et-alary/",
+   "wpId": "156",
+   "wpSlug": "parade-exposition-des-trois-peintres-nitkowski-adam-et-alary",
+   "wpType": "post",
+   "title": "les trois peintres Nitkowski, Adam et Alary à la galerie Polad Hardouin à Paris jusqu'au 6 octobre 2012",
+   "date": "2012-09-03",
+   "modified": "2012-09-18",
+   "target": null
+  },
+  {
+   "path": "/wordpress/louis-soutter/",
+   "wpId": "162",
+   "wpSlug": "louis-soutter",
+   "wpType": "post",
+   "title": "Louis Soutter à la maison rouge jusqu'au 23 septembre",
+   "date": "2012-09-03",
+   "modified": "2012-09-18",
+   "target": null
+  },
+  {
+   "path": "/wordpress/deftig-barock/",
+   "wpId": "169",
+   "wpSlug": "deftig-barock",
+   "wpType": "post",
+   "title": "Deftig Barock.",
+   "date": "2012-09-03",
+   "modified": "2012-09-04",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoZGdln",
+    "type": "resource",
+    "slug": "deftig-barock"
+   }
+  },
+  {
+   "path": "/wordpress/lart-en-guerre-france-1938-47/",
+   "wpId": "177",
+   "wpSlug": "lart-en-guerre-france-1938-47",
+   "wpType": "post",
+   "title": "l'art en guerre. France 1938-47",
+   "date": "2012-09-03",
+   "modified": "2012-09-12",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfpxp1jo",
+    "type": "resource",
+    "slug": "l-art-en-guerre-france-1938-47"
+   }
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/le-realisme/",
+   "wpId": "184",
+   "wpSlug": "le-realisme",
+   "wpType": "page",
+   "title": "1850.Le Réalisme",
+   "date": "2012-09-03",
+   "modified": "2013-02-16",
+   "target": {
+    "id": "6afaa2ee-b5cd-4580-bc43-d594e860343d",
+    "type": "resource",
+    "slug": "le-realisme-1850"
+   }
+  },
+  {
+   "path": "/wordpress/lancement-du-site-hugues-absil-com/",
+   "wpId": "202",
+   "wpSlug": "lancement-du-site-hugues-absil-com",
+   "wpType": "post",
+   "title": "Lancement du site hugues-absil.com",
+   "date": "2012-07-04",
+   "modified": "2012-09-03",
+   "target": {
+    "id": "crawl-f588b12942997a1fb6346e36c2d2ce28",
+    "type": "exhibition",
+    "slug": "actualites-artistiques-5"
+   }
+  },
+  {
+   "path": "/wordpress/paul-rebeyrolle-au-chateau-de-chambord/",
+   "wpId": "211",
+   "wpSlug": "paul-rebeyrolle-au-chateau-de-chambord",
+   "wpType": "post",
+   "title": "Rebeyrolle  au château de Chambord jusqu’au au 23 septembre",
+   "date": "2012-09-04",
+   "modified": "2012-09-18",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyD3HQz",
+    "type": "resource",
+    "slug": "rebeyrolle-au-chateau-de-chambord"
+   }
+  },
+  {
+   "path": "/wordpress/1908-cubisme-de-picasso-et-braque/",
+   "wpId": "225",
+   "wpSlug": "1908-cubisme-de-picasso-et-braque",
+   "wpType": "post",
+   "title": "1908. cubisme de Picasso et Braque",
+   "date": "2012-09-10",
+   "modified": "2012-09-11",
+   "target": {
+    "id": "wp-resource-225",
+    "type": "resource",
+    "slug": "1908-cubisme-de-picasso-et-braque"
+   }
+  },
+  {
+   "path": "/wordpress/1908-cubisme-de-picasso-et-braque-2/",
+   "wpId": "228",
+   "wpSlug": "1908-cubisme-de-picasso-et-braque-2",
+   "wpType": "post",
+   "title": "1908. cubisme de Picasso et Braque",
+   "date": "2012-09-10",
+   "modified": "2012-09-12",
+   "target": {
+    "id": "wp-resource-228",
+    "type": "resource",
+    "slug": "1908-cubisme-de-picasso-et-braque-2"
+   }
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/1908-cubisme-picasso-braque/",
+   "wpId": "283",
+   "wpSlug": "1908-cubisme-picasso-braque",
+   "wpType": "page",
+   "title": "1908. Cubisme de Picasso et Braque",
+   "date": "2012-09-12",
+   "modified": "2020-11-12",
+   "target": {
+    "id": "c45e37bc-d59a-4aaa-b1ad-b8bc7398033a",
+    "type": "resource",
+    "slug": "1908-cubisme-de-picasso-et-braque-cubisme-cubisme"
+   }
+  },
+  {
+   "path": "/wordpress/291/",
+   "wpId": "291",
+   "wpSlug": "291",
+   "wpType": "post",
+   "title": "cindy sherman à la galerie Gagosian  Jusqu’au 10 ocotobre",
+   "date": "2012-09-16",
+   "modified": "2012-09-18",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfpxp6oe",
+    "type": "resource",
+    "slug": "cindy-sherman-a-la-galerie-gagosian-jusqu-au-10-ocotobre"
+   }
+  },
+  {
+   "path": "/wordpress/le-cercle-dart-moderne/",
+   "wpId": "310",
+   "wpSlug": "le-cercle-dart-moderne",
+   "wpType": "post",
+   "title": "Le Cercle d'art moderne au Musée du Luxembourg jusqu’au 6 janvier 2013 ",
+   "date": "2012-09-18",
+   "modified": "2012-09-18",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyD3LIT",
+    "type": "resource",
+    "slug": "le-cercle-d-art-moderne-au-musee-du-luxembourg-jusqu-au-6-janvier-2013"
+   }
+  },
+  {
+   "path": "/wordpress/la-nuit-tombee-de-antoine-choplin/",
+   "wpId": "333",
+   "wpSlug": "la-nuit-tombee-de-antoine-choplin",
+   "wpType": "post",
+   "title": "La nuit tombée de Antoine Choplin",
+   "date": "2012-09-23",
+   "modified": "2012-09-23",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyD3KOL",
+    "type": "resource",
+    "slug": "la-nuit-tombee-de-antoine-choplin"
+   }
+  },
+  {
+   "path": "/wordpress/338/",
+   "wpId": "338",
+   "wpSlug": "338",
+   "wpType": "post",
+   "title": "RODIN, LA CHAIR, LE MARBRE  musée Rodin. Paris jusqu’au 3 mars au musée Rodin jusqu’au 3 mars 2013",
+   "date": "2012-09-23",
+   "modified": "2012-09-23",
+   "target": {
+    "id": "0eb27af5-3447-4013-82ad-8173ca88ff23",
+    "type": "resource",
+    "slug": "rodin-la-chair-le-marbre-musee-rodin-paris-jusqu-au-3-mars-au-musee-rodin-jusqu-au-3-mars-2013"
+   }
+  },
+  {
+   "path": "/wordpress/bohemes-au-grand-palais-jusquau-14-janvier/",
+   "wpId": "343",
+   "wpSlug": "bohemes-au-grand-palais-jusquau-14-janvier",
+   "wpType": "post",
+   "title": "Bohêmes au Grand Palais jusqu’au 14 janvier",
+   "date": "2012-09-25",
+   "modified": "2012-09-25",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoarKy7",
+    "type": "resource",
+    "slug": "bohemes-au-grand-palais-jusqu-au-14-janvier"
+   }
+  },
+  {
+   "path": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/",
+   "wpId": "351",
+   "wpSlug": "van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars",
+   "wpType": "post",
+   "title": "\"Van Gogh, rêves de Japon\" et \"Hiroshige, l’art du voyage\" à la pinacotheque de jusqu'au 17 mars",
+   "date": "2012-10-04",
+   "modified": "2012-10-04",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoasCKB",
+    "type": "resource",
+    "slug": "van-gogh-reves-de-japon-et-hiroshige-l-art-du-voyage-a-la-pinacotheque-de-jusqu-au-17-mars-1772302062055"
+   }
+  },
+  {
+   "path": "/wordpress/edward-hopper-au-grand-palais-jusquau-28-janvier/",
+   "wpId": "358",
+   "wpSlug": "edward-hopper-au-grand-palais-jusquau-28-janvier",
+   "wpType": "post",
+   "title": "Edward Hopper  au Grand Palais jusqu'au 28 janvier",
+   "date": "2012-10-09",
+   "modified": "2012-10-09",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfq7k2gl",
+    "type": "resource",
+    "slug": "edward-hopper-au-grand-palais"
+   }
+  },
+  {
+   "path": "/wordpress/bohemes-au-grand-palais-jusquau-14-janvier-2/",
+   "wpId": "363",
+   "wpSlug": "bohemes-au-grand-palais-jusquau-14-janvier-2",
+   "wpType": "post",
+   "title": "Bohèmes au Grand Palais jusqu'au 14 janvier",
+   "date": "2013-01-01",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfq2eZZW",
+    "type": "resource",
+    "slug": "bohemes-au-grand-palais-jusqu-au-14-janvier-1772301680167"
+   }
+  },
+  {
+   "path": "/wordpress/alice-springs-les-stenopes-de-choi-et-claude-nori-a-la-mep-jusquau-4-novembre/",
+   "wpId": "366",
+   "wpSlug": "alice-springs-les-stenopes-de-choi-et-claude-nori-a-la-mep-jusquau-4-novembre",
+   "wpType": "post",
+   "title": "Alice Springs, les sténopés de Choi et Claude Nori à la MEP jusqu'au 4 novembre",
+   "date": "2012-10-12",
+   "modified": "2012-10-22",
+   "target": {
+    "id": "wp-resource-366",
+    "type": "resource",
+    "slug": "alice-springs-les-stenopes-de-choi-et-claude-nori-a-la-mep-jusquau-4-novembre"
+   }
+  },
+  {
+   "path": "/wordpress/raphael-les-dernieres-annees-au-musee-du-louvre-jusquau-14-janvier/",
+   "wpId": "378",
+   "wpSlug": "raphael-les-dernieres-annees-au-musee-du-louvre-jusquau-14-janvier",
+   "wpType": "post",
+   "title": "Raphaël,  les dernières années au musée du Louvre jusqu'au 14 janvier",
+   "date": "2012-10-21",
+   "modified": "2012-10-21",
+   "target": null
+  },
+  {
+   "path": "/wordpress/kiefer-ouverture-des-galeries-ropac-et-gagosian-en-seine-saint-denis/",
+   "wpId": "387",
+   "wpSlug": "kiefer-ouverture-des-galeries-ropac-et-gagosian-en-seine-saint-denis",
+   "wpType": "post",
+   "title": "Kiefer : ouverture des galeries Ropac et Gagosian en Seine Saint-Denis.",
+   "date": "2012-10-22",
+   "modified": "2012-10-31",
+   "target": {
+    "id": "84d50374-fb87-4c3e-824e-5265afae975b",
+    "type": "resource",
+    "slug": "kiefer-ouverture-des-galeries-ropac-et-gagosian-en-seine-saint-denis-octobre-2012"
+   }
+  },
+  {
+   "path": "/wordpress/soutine-au-musee-de-lorangerie-jusquau-21-janvier/",
+   "wpId": "397",
+   "wpSlug": "soutine-au-musee-de-lorangerie-jusquau-21-janvier",
+   "wpType": "post",
+   "title": "Soutine au Musée de l'Orangerie jusqu'au 21 janvier",
+   "date": "2012-10-30",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "0de78cb4-1fce-4564-8c31-d0fa14b55ea4",
+    "type": "resource",
+    "slug": "soutine-au-musee-de-l-orangerie"
+   }
+  },
+  {
+   "path": "/wordpress/venise-5/",
+   "wpId": "424",
+   "wpSlug": "venise-5",
+   "wpType": "post",
+   "title": "Venise",
+   "date": "2012-10-30",
+   "modified": "2013-07-08",
+   "target": null,
+   "redirect": "/wordpress/galerie-2/venise/",
+   "duplicateOf": "/wordpress/galerie-2/venise/"
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/2012-la-memoire-de-anselm-kiefer/",
+   "wpId": "433",
+   "wpSlug": "2012-la-memoire-de-anselm-kiefer",
+   "wpType": "page",
+   "title": "2012. La mémoire de Anselm Kiefer",
+   "date": "2012-10-31",
+   "modified": "2012-10-31",
+   "target": {
+    "id": "45a41461-5c07-4315-9f48-c4bf3c8d8fc9",
+    "type": "resource",
+    "slug": "la-memoire-selon-anselm-kiefer"
+   }
+  },
+  {
+   "path": "/wordpress/464/",
+   "wpId": "464",
+   "wpSlug": "464",
+   "wpType": "post",
+   "title": "\"Morgenthau Plan\" d'Anselm Kiefer à la galerie Gagosian jusqu'au 26 janvier",
+   "date": "2012-11-09",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "f6c7d9a4-5bf5-4d09-9b68-5704adf5987c",
+    "type": "resource",
+    "slug": "morgenthau-plan-d-anselm-kiefer-a-la-galerie-gagosian-jusqu-au-26-janvier-2013"
+   }
+  },
+  {
+   "path": "/wordpress/olivier-de-sagazan-a-la-galerie-marie-vitoux-jusquau-8-decembre/",
+   "wpId": "473",
+   "wpSlug": "olivier-de-sagazan-a-la-galerie-marie-vitoux-jusquau-8-decembre",
+   "wpType": "post",
+   "title": "Olivier de Sagazan à la galerie Marie Vitoux jusqu'au 8 décembre",
+   "date": "2012-11-10",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "wp-resource-473",
+    "type": "resource",
+    "slug": "olivier-de-sagazan-a-la-galerie-marie-vitoux-jusquau-8-decembre"
+   }
+  },
+  {
+   "path": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/",
+   "wpId": "478",
+   "wpSlug": "modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais",
+   "wpType": "post",
+   "title": "modernisme ou modernité (les photographies du cercle de Gustave Le Gray. jusqu'au 6 janvier au Petit Palais",
+   "date": "2012-11-12",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoareTn",
+    "type": "resource",
+    "slug": "modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusqu-au-6-janvier-au-petit-palais"
+   }
+  },
+  {
+   "path": "/wordpress/489/",
+   "wpId": "489",
+   "wpSlug": "489",
+   "wpType": "post",
+   "title": "\"Je suis innocent\" - Adel Abdessemed au Centre Georges-Pompidou",
+   "date": "2012-12-27",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "228c5356-8ed5-4f35-870f-d2eb1044c074",
+    "type": "resource",
+    "slug": "je-suis-innocent-adel-abdessemed-au-centre-georges-pompidou-jusqu-au-7-janvier-2013"
+   }
+  },
+  {
+   "path": "/wordpress/technique/le-monotype/",
+   "wpId": "503",
+   "wpSlug": "le-monotype",
+   "wpType": "page",
+   "title": "Le monotype",
+   "date": "2012-12-27",
+   "modified": "2021-09-09",
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTtAfeC1",
+    "type": "resource",
+    "slug": "le-monotype"
+   }
+  },
+  {
+   "path": "/wordpress/lart-en-guerre/",
+   "wpId": "513",
+   "wpSlug": "lart-en-guerre",
+   "wpType": "post",
+   "title": "L'art en guerre",
+   "date": "2012-12-27",
+   "modified": "2013-07-08",
+   "target": null
+  },
+  {
+   "path": "/wordpress/technique/",
+   "wpId": "518",
+   "wpSlug": "technique",
+   "wpType": "page",
+   "title": "Technique",
+   "date": "2012-12-28",
+   "modified": "2024-11-28",
+   "target": null,
+   "redirect": "/enseignement/technique-picturale"
+  },
+  {
+   "path": "/wordpress/continents-noirs-au-mamcs-musee-dart-moderne-de-strasbourg-jusquau-3-fevrier-2013/",
+   "wpId": "526",
+   "wpSlug": "continents-noirs-au-mamcs-musee-dart-moderne-de-strasbourg-jusquau-3-fevrier-2013",
+   "wpType": "post",
+   "title": "\"Continents noirs \"  au MAMCS, Musée d’art moderne de Strasbourg jusqu'au 3 février  2013",
+   "date": "2012-12-31",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoas2r5",
+    "type": "resource",
+    "slug": "continents-noirs"
+   }
+  },
+  {
+   "path": "/wordpress/annette-messager-catherine-grenier-editions-flammarion-cndp/",
+   "wpId": "529",
+   "wpSlug": "annette-messager-catherine-grenier-editions-flammarion-cndp",
+   "wpType": "post",
+   "title": "Annette messager. Catherine  GRENIER. Editions  FLAMMARION / CNDP",
+   "date": "2012-12-31",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfq2eYIo",
+    "type": "resource",
+    "slug": "annette-messager-catherine-grenier-editions-flammarion-cndp"
+   }
+  },
+  {
+   "path": "/wordpress/les-expositions-a-ne-pas-manquer/",
+   "wpId": "566",
+   "wpSlug": "les-expositions-a-ne-pas-manquer",
+   "wpType": "page",
+   "title": "Les expositions à ne pas manquer",
+   "date": "2013-01-01",
+   "modified": "2013-01-01",
+   "target": null
+  },
+  {
+   "path": "/wordpress/liste-dexpositions-a-voir/",
+   "wpId": "578",
+   "wpSlug": "liste-dexpositions-a-voir",
+   "wpType": "page",
+   "title": "liste d'expositions à voir",
+   "date": "2013-01-01",
+   "modified": "2016-11-14",
+   "target": null,
+   "redirect": "/wordpress/liste-des-expositions-de-lannee-2016-2017/",
+   "duplicateOf": "/wordpress/liste-des-expositions-de-lannee-2016-2017/"
+  },
+  {
+   "path": "/wordpress/stage-de-peinture-a-venise-du-24-au-2-juillet-2013/",
+   "wpId": "583",
+   "wpSlug": "stage-de-peinture-a-venise-du-24-au-2-juillet-2013",
+   "wpType": "post",
+   "title": "Stage de peinture à Venise du 24 au 2 juillet 2013",
+   "date": "2013-01-02",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GSQBaO",
+    "type": "resource",
+    "slug": "stage-de-peinture-a-venise-du-24-au-2-juillet-2013"
+   }
+  },
+  {
+   "path": "/wordpress/1905-fauvisme/",
+   "wpId": "607",
+   "wpSlug": "1905-fauvisme",
+   "wpType": "page",
+   "title": "1905.Fauvisme",
+   "date": "2013-01-04",
+   "modified": "2025-08-07",
+   "target": {
+    "id": "872607e7-8650-4f85-90cb-ca0bac6ac15d",
+    "type": "resource",
+    "slug": "cours-general-le-fauvisme-1905-1907"
+   }
+  },
+  {
+   "path": "/wordpress/pour-feter-ses-20-ans-amtm-invite-20-artistes/",
+   "wpId": "646",
+   "wpSlug": "pour-feter-ses-20-ans-amtm-invite-20-artistes",
+   "wpType": "post",
+   "title": "AMTM invite 20 artistes",
+   "date": "2013-01-05",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "crawl-dad2792d35d7a3d02dbe4de5829e8910",
+    "type": "exhibition",
+    "slug": "amtm-invite-20-artistes"
+   }
+  },
+  {
+   "path": "/wordpress/escande-exposition-de-ronan-barrot-au-musee-dart-et-dhistoire-louis-senlecq-31-grande-rue-95290-lisle-adam/",
+   "wpId": "671",
+   "wpSlug": "escande-exposition-de-ronan-barrot-au-musee-dart-et-dhistoire-louis-senlecq-31-grande-rue-95290-lisle-adam",
+   "wpType": "post",
+   "title": "Escande - exposition de Ronan Barrot au musée d'Art et d'Histoire Louis Senlecq (31, Grande Rue 95290 L'Isle-Adam)",
+   "date": "2013-01-28",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyGniAf",
+    "type": "resource",
+    "slug": "escande-exposition-de-ronan-barrot-au-musee-d-art-et-d-histoire-louis-senlecq-31-grande-rue-95290-l-isle-adam"
+   }
+  },
+  {
+   "path": "/wordpress/0000-chronologie-des-mouvements/",
+   "wpId": "682",
+   "wpSlug": "0000-chronologie-des-mouvements",
+   "wpType": "page",
+   "title": "0000.Chronologie des mouvements",
+   "date": "2013-02-04",
+   "modified": "2013-08-24",
+   "target": {
+    "id": "wp-resource-682",
+    "type": "resource",
+    "slug": "0000-chronologie-des-mouvements"
+   }
+  },
+  {
+   "path": "/wordpress/1916-analyse-du-portrait-de-tristan-tzara-de-arp/",
+   "wpId": "688",
+   "wpSlug": "1916-analyse-du-portrait-de-tristan-tzara-de-arp",
+   "wpType": "page",
+   "title": "1916. \"portrait de Tristan Tzara\" de Arp",
+   "date": "2013-02-09",
+   "modified": "2019-11-29",
+   "target": {
+    "id": "f03b4f58-05c1-478d-8fa0-acf440c89796",
+    "type": "resource",
+    "slug": "portrait-de-tristan-tzara-de-arp-1916"
+   }
+  },
+  {
+   "path": "/wordpress/1923-dada-a-hanovre-merz/",
+   "wpId": "710",
+   "wpSlug": "1923-dada-a-hanovre-merz",
+   "wpType": "page",
+   "title": "1923. Dada à Hanovre (Merz)",
+   "date": "2013-02-11",
+   "modified": "2013-02-11",
+   "target": {
+    "id": "7d84bf2a-0cee-4db5-9e14-054a559842ee",
+    "type": "resource",
+    "slug": "1923-dada-a-hanovre-merz"
+   }
+  },
+  {
+   "path": "/wordpress/1520-manierisme/",
+   "wpId": "718",
+   "wpSlug": "1520-manierisme",
+   "wpType": "page",
+   "title": "1520. Maniérisme",
+   "date": "2013-02-12",
+   "modified": "2013-02-16",
+   "target": {
+    "id": "wp-resource-718",
+    "type": "resource",
+    "slug": "1520-manierisme"
+   }
+  },
+  {
+   "path": "/wordpress/1920-23-dada-a-paris/",
+   "wpId": "734",
+   "wpSlug": "1920-23-dada-a-paris",
+   "wpType": "page",
+   "title": "1920-23 Dada à Paris",
+   "date": "2013-02-16",
+   "modified": "2013-02-16",
+   "target": {
+    "id": "adf03467-9355-4284-b49e-e5ffd097b119",
+    "type": "resource",
+    "slug": "1920-23-dada-a-paris"
+   }
+  },
+  {
+   "path": "/wordpress/1920-dada-a-cologne-max-ernst-et-johannes-theodor-baargeld/",
+   "wpId": "738",
+   "wpSlug": "1920-dada-a-cologne-max-ernst-et-johannes-theodor-baargeld",
+   "wpType": "page",
+   "title": "1920 : Dada à Cologne. Max Ernst et Johannes Theodor Baargeld",
+   "date": "2013-02-16",
+   "modified": "2013-02-16",
+   "target": {
+    "id": "87c6a34b-048d-4fc1-9493-3b327f45e100",
+    "type": "resource",
+    "slug": "1920-dada-a-cologne-max-ernst-et-johannes-theodor-baargeld"
+   }
+  },
+  {
+   "path": "/wordpress/1913-14-lequipe-de-cardiff-de-r-delaunay/",
+   "wpId": "772",
+   "wpSlug": "1913-14-lequipe-de-cardiff-de-r-delaunay",
+   "wpType": "page",
+   "title": "1913-14.\"L’équipe de Cardiff\" de R.Delaunay",
+   "date": "2013-02-18",
+   "modified": "2013-02-18",
+   "target": {
+    "id": "ee163797-a7cd-4362-9c2d-9d0742a14f77",
+    "type": "resource",
+    "slug": "1913-14-l-equipe-de-cardiff-de-r-delaunay"
+   }
+  },
+  {
+   "path": "/wordpress/1918-dada-a-berlin/",
+   "wpId": "784",
+   "wpSlug": "1918-dada-a-berlin",
+   "wpType": "post",
+   "title": "1918. Dada à Berlin",
+   "date": "2013-02-18",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoas5ox",
+    "type": "resource",
+    "slug": "1918-dada-a-berlin"
+   }
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/1918-dada-a-berlin-2/",
+   "wpId": "790",
+   "wpSlug": "1918-dada-a-berlin-2",
+   "wpType": "page",
+   "title": "1918. dada à Berlin",
+   "date": "2013-02-18",
+   "modified": "2013-08-15",
+   "target": null,
+   "redirect": "/wordpress/1918-dada-a-berlin/",
+   "duplicateOf": "/wordpress/1918-dada-a-berlin/"
+  },
+  {
+   "path": "/wordpress/1917-duchamp/",
+   "wpId": "793",
+   "wpSlug": "1917-duchamp",
+   "wpType": "page",
+   "title": "1917. Duchamp",
+   "date": "2013-02-21",
+   "modified": "2016-02-28",
+   "target": {
+    "id": "788f6f81-d69a-4c03-b3b9-4c8ea1e6dfe4",
+    "type": "resource",
+    "slug": "les-debuts-de-marcel-duchamp"
+   }
+  },
+  {
+   "path": "/wordpress/1927-proces-de-brancusi-contre-les-etats-unis/",
+   "wpId": "797",
+   "wpSlug": "1927-proces-de-brancusi-contre-les-etats-unis",
+   "wpType": "page",
+   "title": "1927. Procès de Brancusi contre les Etats-Unis",
+   "date": "2013-02-23",
+   "modified": "2013-02-24",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GSRiYy",
+    "type": "resource",
+    "slug": "1927-proces-de-brancusi-contre-les-etats-unis"
+   }
+  },
+  {
+   "path": "/wordpress/carnet-de-travail/",
+   "wpId": "825",
+   "wpSlug": "carnet-de-travail",
+   "wpType": "page",
+   "title": "carnet de travail",
+   "date": "2013-03-01",
+   "modified": "2013-10-07",
+   "target": {
+    "id": "wp-resource-825",
+    "type": "resource",
+    "slug": "carnet-de-travail"
+   }
+  },
+  {
+   "path": "/wordpress/dossier-de-specialite-au-bac-l/",
+   "wpId": "845",
+   "wpSlug": "dossier-de-specialite-au-bac-l",
+   "wpType": "page",
+   "title": "dossier de spécialité au Bac L",
+   "date": "2013-03-01",
+   "modified": "2019-10-17",
+   "target": null
+  },
+  {
+   "path": "/wordpress/disaster-the-end-of-days-a-la-galerie-ropac-a-pantin-jusqtuau-1er-juin/",
+   "wpId": "850",
+   "wpSlug": "disaster-the-end-of-days-a-la-galerie-ropac-a-pantin-jusqtuau-1er-juin",
+   "wpType": "post",
+   "title": "\"Disaster, the End of Days\" à la galerie Ropac (à Pantin) jusqtu'au 1er juin",
+   "date": "2013-03-07",
+   "modified": "2013-07-08",
+   "target": null
+  },
+  {
+   "path": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/",
+   "wpId": "863",
+   "wpSlug": "track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars",
+   "wpType": "post",
+   "title": "Track\".Sophie Ristelhueber à la galerie Putman  jusqu'au 16 mars",
+   "date": "2013-03-07",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "wp-resource-863",
+    "type": "resource",
+    "slug": "track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars"
+   }
+  },
+  {
+   "path": "/wordpress/technique/oeuvres-du-programme-facultatif-et-specialite-en-arts-plastiques/",
+   "wpId": "876",
+   "wpSlug": "oeuvres-du-programme-facultatif-et-specialite-en-arts-plastiques",
+   "wpType": "page",
+   "title": "oeuvres du programme facultatif et spécialité en arts plastiques",
+   "date": "2013-03-12",
+   "modified": "2014-09-22",
+   "target": {
+    "id": "wp-resource-876",
+    "type": "resource",
+    "slug": "oeuvres-du-programme-facultatif-et-specialite-en-arts-plastiques"
+   }
+  },
+  {
+   "path": "/wordpress/technique/deroulement-des-epreuves-du-bac-arts-plastiques/",
+   "wpId": "881",
+   "wpSlug": "deroulement-des-epreuves-du-bac-arts-plastiques",
+   "wpType": "page",
+   "title": "déroulement des épreuves du bac arts plastiques",
+   "date": "2013-03-12",
+   "modified": "2013-03-13",
+   "target": null
+  },
+  {
+   "path": "/wordpress/lautobiographie-et-la-fiction/",
+   "wpId": "886",
+   "wpSlug": "lautobiographie-et-la-fiction",
+   "wpType": "page",
+   "title": "L’autobiographie et la fiction",
+   "date": "2013-03-12",
+   "modified": "2013-03-31",
+   "target": {
+    "id": "f46f27a4-0628-478c-a553-873167db3a48",
+    "type": "resource",
+    "slug": "l-autobiographie-et-la-fiction"
+   }
+  },
+  {
+   "path": "/wordpress/courbet/",
+   "wpId": "894",
+   "wpSlug": "courbet",
+   "wpType": "page",
+   "title": "Courbet",
+   "date": "2013-03-14",
+   "modified": "2014-04-01",
+   "target": {
+    "id": "96b4fc6a-981f-460d-a7e7-445dbb07d3ac",
+    "type": "resource",
+    "slug": "courbet-1819"
+   }
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/1924-surrealisme-les-puissances-du-reve/",
+   "wpId": "924",
+   "wpSlug": "1924-surrealisme-les-puissances-du-reve",
+   "wpType": "page",
+   "title": "1924. Surréalisme.  Les puissances du rêve.",
+   "date": "2013-03-23",
+   "modified": "2013-08-24",
+   "target": {
+    "id": "wp-resource-924",
+    "type": "resource",
+    "slug": "1924-surrealisme-les-puissances-du-reve"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-de-paysages-au-chateau-des-tourelles-a-plessis-trevise-du-04-avril-au-30-avril-2013/",
+   "wpId": "955",
+   "wpSlug": "exposition-de-paysages-au-chateau-des-tourelles-a-plessis-trevise-du-04-avril-au-30-avril-2013",
+   "wpType": "post",
+   "title": "Exposition de paysages au Château des Tourelles à Plessis-Trévise Du 04 avril au 30 avril 2013",
+   "date": "2013-03-31",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "crawl-c026ab29127270a8eaa4ec523c70351d",
+    "type": "exhibition",
+    "slug": "exposition-de-paysages-au-chateau-des-tourelles-a-plessis-trevise-du-04-avril-au-30-avril-2013"
+   }
+  },
+  {
+   "path": "/wordpress/courbet/relations-de-courbet-avec-bruyas-proudhon-champfleury-et-baudelaire/",
+   "wpId": "970",
+   "wpSlug": "relations-de-courbet-avec-bruyas-proudhon-champfleury-et-baudelaire",
+   "wpType": "page",
+   "title": "Relations de Courbet avec Bruyas, Proudhon, Champfleury et Baudelaire,",
+   "date": "2013-04-04",
+   "modified": "2014-12-14",
+   "target": {
+    "id": "32f90c7c-118b-4b26-94b7-44a46e45bb70",
+    "type": "resource",
+    "slug": "relations-de-courbet-avec-bruyas-proudhon-champfleury-et-baudelaire"
+   }
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/1950-la-sculpture-le-mouvement-et-le-son-apres-1950/",
+   "wpId": "995",
+   "wpSlug": "1950-la-sculpture-le-mouvement-et-le-son-apres-1950",
+   "wpType": "page",
+   "title": "1950. la sculpture, le mouvement et le son après 1950",
+   "date": "2013-04-21",
+   "modified": "2022-12-11",
+   "target": {
+    "id": "wp-resource-995",
+    "type": "resource",
+    "slug": "1950-la-sculpture-le-mouvement-et-le-son-apres-1950"
+   }
+  },
+  {
+   "path": "/wordpress/julio-le-parc-au-palais-de-tokyo-jusquau-13-mai/",
+   "wpId": "1006",
+   "wpSlug": "julio-le-parc-au-palais-de-tokyo-jusquau-13-mai",
+   "wpType": "post",
+   "title": "Julio Le Parc au Palais de Tokyo jusqu'au 13 mai",
+   "date": "2013-04-23",
+   "modified": "2013-07-08",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyGnpAj",
+    "type": "resource",
+    "slug": "julio-le-parc-au-palais-de-tokyo-jusqu-au-13-mai"
+   }
+  },
+  {
+   "path": "/wordpress/salon-pulsart-du-8-au-12-mai/",
+   "wpId": "1008",
+   "wpSlug": "salon-pulsart-du-8-au-12-mai",
+   "wpType": "post",
+   "title": "Salon Puls'art du 8 au 12 mai",
+   "date": "2013-04-28",
+   "modified": "2013-08-24",
+   "target": {
+    "id": "crawl-0040f734c74e3ccba49f0bd04b242f5f",
+    "type": "exhibition",
+    "slug": "salon-puls-art-du-8-au-12-mai-2013"
+   }
+  },
+  {
+   "path": "/wordpress/epreuve-facultative-darts-plastiques-du-bac/",
+   "wpId": "1037",
+   "wpSlug": "epreuve-facultative-darts-plastiques-du-bac",
+   "wpType": "page",
+   "title": "Épreuve facultative d'arts plastiques du BAC",
+   "date": "2013-05-21",
+   "modified": "2019-10-18",
+   "target": {
+    "id": "wp-resource-1037",
+    "type": "resource",
+    "slug": "epreuve-facultative-darts-plastiques-du-bac"
+   }
+  },
+  {
+   "path": "/wordpress/under-the-water-de-kawamata-2011/",
+   "wpId": "1040",
+   "wpSlug": "under-the-water-de-kawamata-2011",
+   "wpType": "page",
+   "title": "« Under the Water » de Kawamata (2011)",
+   "date": "2013-05-21",
+   "modified": "2013-08-13",
+   "target": null
+  },
+  {
+   "path": "/wordpress/conseil-pour-lanalyse-plastique-dune-peinture/",
+   "wpId": "1045",
+   "wpSlug": "conseil-pour-lanalyse-plastique-dune-peinture",
+   "wpType": "page",
+   "title": "conseil pour l'analyse plastique d'une peinture",
+   "date": "2013-06-15",
+   "modified": "2019-11-29",
+   "target": {
+    "id": "72f35814-f844-4557-a006-bb66ecd7054d",
+    "type": "resource",
+    "slug": "conseils-et-exemples-d-analyse-plastique-d-une-oeuvre"
+   }
+  },
+  {
+   "path": "/wordpress/actualites-artistiques2/",
+   "wpId": "1093",
+   "wpSlug": "actualites-artistiques2",
+   "wpType": "page",
+   "title": "Actualités artistiques",
+   "date": "2013-07-08",
+   "modified": "2013-08-25",
+   "target": null,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/contact/",
+   "wpId": "1114",
+   "wpSlug": "contact",
+   "wpType": "page",
+   "title": "Contact",
+   "date": "2013-07-08",
+   "modified": "2013-07-08",
+   "target": null,
+   "redirect": "/#contact"
+  },
+  {
+   "path": "/wordpress/galerie-2/",
+   "wpId": "1156",
+   "wpSlug": "galerie-2",
+   "wpType": "page",
+   "title": "Galerie",
+   "date": "2013-07-11",
+   "modified": "2023-12-23",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/biographie-2/",
+   "wpId": "1167",
+   "wpSlug": "biographie-2",
+   "wpType": "page",
+   "title": "Biographie",
+   "date": "2013-07-19",
+   "modified": "2025-01-02",
+   "target": null,
+   "redirect": "/#biography"
+  },
+  {
+   "path": "/wordpress/galerie-2/paysages/",
+   "wpId": "1259",
+   "wpSlug": "paysages",
+   "wpType": "page",
+   "title": "Paysages",
+   "date": "2013-08-14",
+   "modified": "2026-04-22",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/galerie-2/venise/",
+   "wpId": "1260",
+   "wpSlug": "venise",
+   "wpType": "page",
+   "title": "Venise",
+   "date": "2013-08-14",
+   "modified": "2013-08-14",
+   "target": {
+    "id": "crawl-ed1b27791e3d2ffdfb292d40946bf1a3",
+    "type": "exhibition",
+    "slug": "venise"
+   }
+  },
+  {
+   "path": "/wordpress/galerie-2/musiciens/",
+   "wpId": "1261",
+   "wpSlug": "musiciens",
+   "wpType": "page",
+   "title": "Musiciens",
+   "date": "2013-08-14",
+   "modified": "2026-04-22",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/galerie-2/paysages-orphiques/",
+   "wpId": "1262",
+   "wpSlug": "paysages-orphiques",
+   "wpType": "page",
+   "title": "Paysages orphiques",
+   "date": "2013-08-14",
+   "modified": "2013-08-14",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/galerie-2/personnages/",
+   "wpId": "1263",
+   "wpSlug": "personnages",
+   "wpType": "page",
+   "title": "Personnages",
+   "date": "2013-08-14",
+   "modified": "2026-04-22",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/exposition-personnelle-les-infirmieres-galerie-5-au-11-septembre-2013/",
+   "wpId": "1401",
+   "wpSlug": "exposition-personnelle-les-infirmieres-galerie-5-au-11-septembre-2013",
+   "wpType": "post",
+   "title": "Exposition personnelle - les infirmières galerie - 5 au 11 septembre 2013",
+   "date": "2013-08-29",
+   "modified": "2013-08-29",
+   "target": {
+    "id": "wp-exhibition-1401",
+    "type": "exhibition",
+    "slug": "exposition-personnelle-les-infirmieres-galerie-5-au-11-septembre-2013"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-personnelle-galerie-duvivier-jusquau-26-septembre/",
+   "wpId": "1409",
+   "wpSlug": "exposition-personnelle-galerie-duvivier-jusquau-26-septembre",
+   "wpType": "post",
+   "title": "Exposition personnelle – galerie Duvivier – jusqu'au 26 septembre",
+   "date": "2013-09-08",
+   "modified": "2013-09-25",
+   "target": {
+    "id": "wp-exhibition-1409",
+    "type": "exhibition",
+    "slug": "exposition-personnelle-galerie-duvivier-jusquau-26-septembre"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-de-venise-jusquau-24-novembre/",
+   "wpId": "1417",
+   "wpSlug": "biennale-de-venise-jusquau-24-novembre",
+   "wpType": "post",
+   "title": "Biennale de Venise  Jusqu’au 24 novembre",
+   "date": "2013-09-09",
+   "modified": "2013-09-09",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCoas6t5",
+    "type": "resource",
+    "slug": "biennale-de-venise-jusqu-au-24-novembre"
+   }
+  },
+  {
+   "path": "/wordpress/les-papesses-collection-lambert-en-avignon-5-rue-violette-84000-avignon-jusquau-lundi-11-novembre/",
+   "wpId": "1421",
+   "wpSlug": "les-papesses-collection-lambert-en-avignon-5-rue-violette-84000-avignon-jusquau-lundi-11-novembre",
+   "wpType": "post",
+   "title": "Les papesses.Collection Lambert en Avignon 5 rue Violette  84000 Avignon Jusqu’au lundi 11 novembre.",
+   "date": "2013-09-09",
+   "modified": "2013-09-09",
+   "target": {
+    "id": "f68f19de-3bc8-430d-ae2d-acc31b140e43",
+    "type": "resource",
+    "slug": "les-papesses-collection-lambert-en-avignon-jusqu-au-lundi-11-novembre-2013"
+   }
+  },
+  {
+   "path": "/wordpress/expressions/",
+   "wpId": "1428",
+   "wpSlug": "expressions",
+   "wpType": "post",
+   "title": "Expressions!",
+   "date": "2013-09-22",
+   "modified": "2013-09-22",
+   "target": {
+    "id": "crawl-6290e81d9bbf77cad261d84f8f08ae69",
+    "type": "exhibition",
+    "slug": "expressions-26-septembre-au-3-octobre-2013-a-les-infirmieres-galerie"
+   }
+  },
+  {
+   "path": "/wordpress/journees-portes-ouvertes-des-ateliers-dartistes-a-chatou/",
+   "wpId": "1430",
+   "wpSlug": "journees-portes-ouvertes-des-ateliers-dartistes-a-chatou",
+   "wpType": "post",
+   "title": "Journées portes ouvertes des ateliers d'artistes à Chatou",
+   "date": "2013-09-22",
+   "modified": "2013-09-25",
+   "target": {
+    "id": "crawl-3b43724b577d94c78bcc1f035c696e3f",
+    "type": "resource",
+    "slug": "journees-portes-ouvertes-des-ateliers-d-artistes-a-chatou"
+   }
+  },
+  {
+   "path": "/wordpress/georges-braque-au-grand-palais-jusquau-6-janvier/",
+   "wpId": "1448",
+   "wpSlug": "georges-braque-au-grand-palais-jusquau-6-janvier",
+   "wpType": "post",
+   "title": "Georges Braque au Grand Palais jusqu'au 6 janvier",
+   "date": "2013-10-06",
+   "modified": "2013-10-06",
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTt6GoTP",
+    "type": "resource",
+    "slug": "georges-braque-au-grand-palais-1773495692939"
+   }
+  },
+  {
+   "path": "/wordpress/le-cote-sombre-georg-baselitz/",
+   "wpId": "1451",
+   "wpSlug": "le-cote-sombre-georg-baselitz",
+   "wpType": "post",
+   "title": "Le Côté sombre, Georg Baselitz. ",
+   "date": "2013-10-07",
+   "modified": "2013-10-07",
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTt6ICaB",
+    "type": "resource",
+    "slug": "le-cote-sombre-georg-baselitz"
+   }
+  },
+  {
+   "path": "/wordpress/epreuves-du-bac-darts-plastiques/",
+   "wpId": "1469",
+   "wpSlug": "epreuves-du-bac-darts-plastiques",
+   "wpType": "page",
+   "title": "Épreuves du bac et concours",
+   "date": "2013-10-07",
+   "modified": "2021-02-13",
+   "target": null,
+   "redirect": "/enseignement/atelier-stages"
+  },
+  {
+   "path": "/wordpress/stages-de-dessin-peinture/",
+   "wpId": "1478",
+   "wpSlug": "stages-de-dessin-peinture",
+   "wpType": "post",
+   "title": "Stages de dessin-peinture",
+   "date": "2013-10-07",
+   "modified": "2013-10-07",
+   "target": null,
+   "redirect": "/enseignement/atelier-stages"
+  },
+  {
+   "path": "/wordpress/stages-de-dessin-peinture/",
+   "wpId": "1481",
+   "wpSlug": "stages-de-dessin-peinture",
+   "wpType": "page",
+   "title": "Stages et cours de dessin-peinture",
+   "date": "2013-10-07",
+   "modified": "2026-03-16",
+   "target": null,
+   "redirect": "/enseignement/atelier-stages"
+  },
+  {
+   "path": "/wordpress/modele-vivant-dessin-peinture-monotype-gravure-dimanche-13-octobre-de-17-a-20h/",
+   "wpId": "1489",
+   "wpSlug": "modele-vivant-dessin-peinture-monotype-gravure-dimanche-13-octobre-de-17-a-20h",
+   "wpType": "page",
+   "title": "MODÈLE VIVANT  dessin, peinture, monotype, gravure.   dimanche 13 octobre de 17 à 20h",
+   "date": "2013-10-07",
+   "modified": "2013-10-07",
+   "target": null,
+   "redirect": "/wordpress/stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h/",
+   "duplicateOf": "/wordpress/stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h/"
+  },
+  {
+   "path": "/wordpress/expressionnisme/",
+   "wpId": "1500",
+   "wpSlug": "expressionnisme",
+   "wpType": "page",
+   "title": "expressionnisme",
+   "date": "2013-10-08",
+   "modified": "2016-11-24",
+   "target": {
+    "id": "6b982b9d-4db3-4858-a83b-34dea130acce",
+    "type": "resource",
+    "slug": "expressionnisme"
+   }
+  },
+  {
+   "path": "/wordpress/force-de-lexpression/",
+   "wpId": "1511",
+   "wpSlug": "force-de-lexpression",
+   "wpType": "post",
+   "title": "force de l'expressionnisme?",
+   "date": "2013-10-08",
+   "modified": "2026-01-22",
+   "target": null
+  },
+  {
+   "path": "/wordpress/esquisses-peintes-de-lepoque-romantique/",
+   "wpId": "1522",
+   "wpSlug": "esquisses-peintes-de-lepoque-romantique",
+   "wpType": "post",
+   "title": "Esquisses peintes de l’époque romantique",
+   "date": "2013-10-22",
+   "modified": "2013-10-22",
+   "target": null
+  },
+  {
+   "path": "/wordpress/1917-duchamp-quelques-citations/",
+   "wpId": "1532",
+   "wpSlug": "1917-duchamp-quelques-citations",
+   "wpType": "page",
+   "title": "1917. Duchamp : quelques citations",
+   "date": "2013-10-22",
+   "modified": "2017-04-16",
+   "target": {
+    "id": "e62090b8-e8fe-48d4-a608-9a9f7c2d2b89",
+    "type": "resource",
+    "slug": "marcel-duchamp-en-quelques-citations"
+   }
+  },
+  {
+   "path": "/wordpress/dessin/",
+   "wpId": "1550",
+   "wpSlug": "dessin",
+   "wpType": "post",
+   "title": "dessin",
+   "date": "2013-10-22",
+   "modified": "2013-10-22",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/dessin/",
+   "wpId": "1555",
+   "wpSlug": "dessin",
+   "wpType": "page",
+   "title": "dessin",
+   "date": "2013-10-22",
+   "modified": "2020-06-14",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/galerie-2/estampe/",
+   "wpId": "1560",
+   "wpSlug": "estampe",
+   "wpType": "page",
+   "title": "Estampe",
+   "date": "2013-10-22",
+   "modified": "2025-06-07",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/exposition-de-gravures-du-14-au-20-octobre/",
+   "wpId": "1579",
+   "wpSlug": "exposition-de-gravures-du-14-au-20-octobre",
+   "wpType": "post",
+   "title": "exposition de gravures du 14 au 20 novembre 2013",
+   "date": "2013-10-23",
+   "modified": "2014-07-08",
+   "target": {
+    "id": "crawl-b51201c67610cc8860a0695fc2fbe4cc",
+    "type": "exhibition",
+    "slug": "exposition-de-gravures-du-14-au-20-novembre-2013"
+   }
+  },
+  {
+   "path": "/wordpress/la-fiac-au-grand-palais-du-24-au-27-octobre/",
+   "wpId": "1583",
+   "wpSlug": "la-fiac-au-grand-palais-du-24-au-27-octobre",
+   "wpType": "post",
+   "title": "La FIAC au Grand Palais du 24 au 27 octobre",
+   "date": "2013-10-23",
+   "modified": "2013-10-23",
+   "target": null
+  },
+  {
+   "path": "/wordpress/expressionnisime-abstrait/",
+   "wpId": "1675",
+   "wpSlug": "expressionnisime-abstrait",
+   "wpType": "page",
+   "title": "expressionnisime abstrait",
+   "date": "2013-11-15",
+   "modified": "2025-12-05",
+   "target": {
+    "id": "wp-resource-1675",
+    "type": "resource",
+    "slug": "expressionnisime-abstrait"
+   }
+  },
+  {
+   "path": "/wordpress/etre-artiste-cest-le-meilleur-moyen-de-communiquer-avec-les-gens-sans-parler-une-oeuvre-dart-est-un-bon-outil-de-communication-elle-peut-interpeller-et-faire-parler-kawamata/",
+   "wpId": "1694",
+   "wpSlug": "etre-artiste-cest-le-meilleur-moyen-de-communiquer-avec-les-gens-sans-parler-une-oeuvre-dart-est-un-bon-outil-de-communication-elle-peut-interpeller-et-faire-parler-kawamata",
+   "wpType": "page",
+   "title": "\"Etre artiste c’est le meilleur moyen de communiquer avec les gens, sans parler. Une œuvre d’art est un bon outil de communication: elle peut interpeller et faire parler\" (Kawamata)",
+   "date": "2013-11-16",
+   "modified": "2013-11-16",
+   "target": {
+    "id": "wp-resource-1694",
+    "type": "resource",
+    "slug": "etre-artiste-cest-le-meilleur-moyen-de-communiquer-avec-les-gens-sans-parler-une-oeuvre-dart-est-un-bon-outil-de-communication-elle-peut-interpeller-et-faire-parler-kawamata"
+   }
+  },
+  {
+   "path": "/wordpress/le-passage-des-chaises-kawamata-1997/",
+   "wpId": "1708",
+   "wpSlug": "le-passage-des-chaises-kawamata-1997",
+   "wpType": "post",
+   "title": "le passage des chaises (Kawamata. 1997)",
+   "date": "2013-11-16",
+   "modified": "2013-11-17",
+   "target": {
+    "id": "ae65c927-2f09-4f05-a9c4-8d1a0932cec7",
+    "type": "resource",
+    "slug": "le-passage-des-chaises-kawamata-1997"
+   }
+  },
+  {
+   "path": "/wordpress/kawamata-et-le-travail-en-groupe/",
+   "wpId": "1716",
+   "wpSlug": "kawamata-et-le-travail-en-groupe",
+   "wpType": "page",
+   "title": "Kawamata et le travail en groupe",
+   "date": "2013-11-16",
+   "modified": "2013-11-20",
+   "target": {
+    "id": "2cec98b3-b595-4f79-8981-ba0766d71a2c",
+    "type": "resource",
+    "slug": "kawamata-et-le-travail-en-groupe"
+   }
+  },
+  {
+   "path": "/wordpress/lespace-chez-kawamata/",
+   "wpId": "1727",
+   "wpSlug": "lespace-chez-kawamata",
+   "wpType": "page",
+   "title": "l'espace chez Kawamata",
+   "date": "2013-11-17",
+   "modified": "2013-11-17",
+   "target": {
+    "id": "97c4f481-0eeb-4d31-8493-cc4cbadc2bdd",
+    "type": "resource",
+    "slug": "le-traitement-de-l-espace-chez-kawamata"
+   }
+  },
+  {
+   "path": "/wordpress/le-traitement-de-lespace-chez-kawamata/",
+   "wpId": "1741",
+   "wpSlug": "le-traitement-de-lespace-chez-kawamata",
+   "wpType": "page",
+   "title": "le traitement de l'espace chez Kawamata",
+   "date": "2013-11-21",
+   "modified": "2013-11-21",
+   "target": null,
+   "redirect": "/wordpress/lespace-chez-kawamata/",
+   "duplicateOf": "/wordpress/lespace-chez-kawamata/"
+  },
+  {
+   "path": "/wordpress/agenda-des-portes-ouvertes-decoles-dart/",
+   "wpId": "1770",
+   "wpSlug": "agenda-des-portes-ouvertes-decoles-dart",
+   "wpType": "page",
+   "title": "agenda des jpo 2020",
+   "date": "2014-01-01",
+   "modified": "2020-01-02",
+   "target": {
+    "id": "wp-resource-1770",
+    "type": "resource",
+    "slug": "agenda-des-portes-ouvertes-decoles-dart"
+   }
+  },
+  {
+   "path": "/wordpress/concours/",
+   "wpId": "1780",
+   "wpSlug": "concours",
+   "wpType": "page",
+   "title": "concours 2018",
+   "date": "2014-01-01",
+   "modified": "2018-12-29",
+   "target": {
+    "id": "wp-resource-1780",
+    "type": "resource",
+    "slug": "concours"
+   }
+  },
+  {
+   "path": "/wordpress/stage-de-dessin-peinture-en-toscane-a-l-argena-du-27-juin-2014-au-6-juillet-2014/",
+   "wpId": "1785",
+   "wpSlug": "stage-de-dessin-peinture-en-toscane-a-l-argena-du-27-juin-2014-au-6-juillet-2014",
+   "wpType": "page",
+   "title": "stage de dessin peinture en Toscane à l’ Argena du 12 au 19 juillet 2014",
+   "date": "2014-01-01",
+   "modified": "2014-07-28",
+   "target": null
+  },
+  {
+   "path": "/wordpress/1-dada-1916-24/",
+   "wpId": "1795",
+   "wpSlug": "1-dada-1916-24",
+   "wpType": "post",
+   "title": "1. Dada  (1916-24) ",
+   "date": "2014-01-27",
+   "modified": "2014-01-27",
+   "target": {
+    "id": "84af6696-e4f2-4f45-a657-b8a07e3a6903",
+    "type": "resource",
+    "slug": "dada-cours-general-1916-1924"
+   }
+  },
+  {
+   "path": "/wordpress/1-dada-a-zurich-1916-18/",
+   "wpId": "1798",
+   "wpSlug": "1-dada-a-zurich-1916-18",
+   "wpType": "page",
+   "title": "1. Dada à Zurich (1916-18)",
+   "date": "2014-01-27",
+   "modified": "2014-01-27",
+   "target": {
+    "id": "68e02d92-12b1-45d1-9c9e-930bc0e35f17",
+    "type": "resource",
+    "slug": "dada-a-zurich-1916-18"
+   }
+  },
+  {
+   "path": "/wordpress/analyse-de-guitare-petit-eclaireur-1913-de-braque/",
+   "wpId": "1805",
+   "wpSlug": "analyse-de-guitare-petit-eclaireur-1913-de-braque",
+   "wpType": "post",
+   "title": "analyse de \"guitare (petit éclaireur)\" (1913) de Braque",
+   "date": "2014-01-27",
+   "modified": "2014-03-29",
+   "target": {
+    "id": "wp-resource-1805",
+    "type": "resource",
+    "slug": "analyse-de-guitare-petit-eclaireur-1913-de-braque"
+   }
+  },
+  {
+   "path": "/wordpress/nu-descendant-un-escalier-en-quoi-peut-on-dire-que-duchamp-rejette-la-peinture-comme-un-art-perime-duchamp-se-demande-peut-on-faire-des-oeuvres-qui-ne-soient-pas-dar/",
+   "wpId": "1884",
+   "wpSlug": "nu-descendant-un-escalier-en-quoi-peut-on-dire-que-duchamp-rejette-la-peinture-comme-un-art-perime-duchamp-se-demande-peut-on-faire-des-oeuvres-qui-ne-soient-pas-dar",
+   "wpType": "page",
+   "title": "nu descendant un escalier -« en quoi peut-on dire que Duchamp rejette la peinture comme un art périmé » ? - Duchamp se demande « peut-on faire des œuvres qui ne soient pas d’art ? »",
+   "date": "2014-03-16",
+   "modified": "2014-03-16",
+   "target": {
+    "id": "c996ac60-3f72-4d05-8283-6b965dac566a",
+    "type": "resource",
+    "slug": "nu-descendant-un-escalier-mduchamp-en-1912"
+   }
+  },
+  {
+   "path": "/wordpress/bill-viola-au-grand-palais-jusquau-21-juillet/",
+   "wpId": "1901",
+   "wpSlug": "bill-viola-au-grand-palais-jusquau-21-juillet",
+   "wpType": "post",
+   "title": "Bill Viola au grand Palais jusqu'au 21 juillet",
+   "date": "2014-03-30",
+   "modified": "2014-03-30",
+   "target": {
+    "id": "7e13de27-b5ac-4ecc-b763-77b7e337a59d",
+    "type": "resource",
+    "slug": "bill-viola-au-grand-palais-jusqu-au-21-juillet-2014"
+   }
+  },
+  {
+   "path": "/wordpress/histoire-de-lart2/le-realisme/courbet-ou-la-peinture-a-loeil-de-jean-luc-marion/",
+   "wpId": "1909",
+   "wpSlug": "courbet-ou-la-peinture-a-loeil-de-jean-luc-marion",
+   "wpType": "page",
+   "title": "\"Courbet ou la peinture à l’œil\" de Jean-Luc Marion",
+   "date": "2014-04-01",
+   "modified": "2014-06-04",
+   "target": {
+    "id": "47dc2e9f-ab28-46aa-9770-fb6639199ef7",
+    "type": "resource",
+    "slug": "courbet-ou-la-peinture-a-l-oeil"
+   }
+  },
+  {
+   "path": "/wordpress/carte-blanche-a-latelier-michael-woolwort/",
+   "wpId": "1946",
+   "wpSlug": "carte-blanche-a-latelier-michael-woolwort",
+   "wpType": "post",
+   "title": "carte blanche à l'atelier Michael Woolworth",
+   "date": "2014-06-27",
+   "modified": "2014-06-27",
+   "target": {
+    "id": "d5d0b5c4-eecc-4954-9ab2-bb9d839acd47",
+    "type": "resource",
+    "slug": "carte-blanche-a-l-atelier-michael-woolworth"
+   }
+  },
+  {
+   "path": "/wordpress/dessin-et-aquarelle-et-lithographie-a-bagatelle/",
+   "wpId": "1953",
+   "wpSlug": "dessin-et-aquarelle-et-lithographie-a-bagatelle",
+   "wpType": "post",
+   "title": "Dessin et aquarelle  et lithographie  à Bagatelle",
+   "date": "2014-06-27",
+   "modified": "2014-06-27",
+   "target": {
+    "id": "3fVk255H0aipQzY5mXoh6S",
+    "type": "resource",
+    "slug": "dessin-et-aquarelle-et-lithographie-a-bagatelle"
+   }
+  },
+  {
+   "path": "/wordpress/salon-comparaisons-du-25112014-au-30112014/",
+   "wpId": "1967",
+   "wpSlug": "salon-comparaisons-du-25112014-au-30112014",
+   "wpType": "post",
+   "title": "salon COMPARAISONS au grand Palais à Paris du 25/11/2014 au 30/11/2014",
+   "date": "2014-10-04",
+   "modified": "2014-10-05",
+   "target": {
+    "id": "wp-exhibition-1967",
+    "type": "exhibition",
+    "slug": "salon-comparaisons-du-25112014-au-30112014"
+   }
+  },
+  {
+   "path": "/wordpress/salon-figuration-critique-du-16-au-20-septembre-2014-au-bastille-design-center/",
+   "wpId": "1971",
+   "wpSlug": "salon-figuration-critique-du-16-au-20-septembre-2014-au-bastille-design-center",
+   "wpType": "post",
+   "title": "salon FIGURATION CRITIQUE du 16 au 20 septembre 2014  au Bastille Design Center ",
+   "date": "2014-07-08",
+   "modified": "2014-07-08",
+   "target": {
+    "id": "crawl-5a2da41fd6037f00811b632c90813dd2",
+    "type": "exhibition",
+    "slug": "salon-figuration-critique-du-16-au-20-septembre-2014"
+   }
+  },
+  {
+   "path": "/wordpress/journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h/",
+   "wpId": "1977",
+   "wpSlug": "journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h",
+   "wpType": "post",
+   "title": "journées ateliers portes ouvertes à Chatou le 27 et 28 septembre de 14 à 19h ",
+   "date": "2014-07-08",
+   "modified": "2014-07-08",
+   "target": {
+    "id": "crawl-4599f101e61bb8fe794fd5edccc9e954",
+    "type": "resource",
+    "slug": "journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h"
+   }
+  },
+  {
+   "path": "/wordpress/jean-delville1867-1953-maitre-de-lideal/",
+   "wpId": "1981",
+   "wpSlug": "jean-delville1867-1953-maitre-de-lideal",
+   "wpType": "post",
+   "title": "Jean Delville(1867-1953). maître de l’idéal.",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5BqtCVe",
+    "type": "resource",
+    "slug": "jean-delville-1867-1953-maitre-de-l-ideal-1773497995114"
+   }
+  },
+  {
+   "path": "/wordpress/mantegna-de-mauro-lucco-ed-actes-sud/",
+   "wpId": "1984",
+   "wpSlug": "mantegna-de-mauro-lucco-ed-actes-sud",
+   "wpType": "post",
+   "title": "Mantegna. de Mauro Lucco. éd. actes Sud",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GPOmMU",
+    "type": "resource",
+    "slug": "mantegna-de-mauro-lucco-ed-actes-sud"
+   }
+  },
+  {
+   "path": "/wordpress/el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre/",
+   "wpId": "1991",
+   "wpSlug": "el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre",
+   "wpType": "post",
+   "title": "\"El Lissitzky. L’expérience de la totalité\" au Musée Picasso à Malaga jusqu’au 24 septembre",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "a8553e80-4987-413d-8705-71663a681cb0",
+    "type": "resource",
+    "slug": "el-lissitzky-l-experience-de-la-totalite-au-musee-picasso-a-malaga-jusqu-au-24-septembre-2014"
+   }
+  },
+  {
+   "path": "/wordpress/philippe-cognee-au-domaine-national-de-chambord-jusquau-12-octobre/",
+   "wpId": "2000",
+   "wpSlug": "philippe-cognee-au-domaine-national-de-chambord-jusquau-12-octobre",
+   "wpType": "post",
+   "title": "Philippe Cognée au Domaine national de Chambord  Jusqu’au 12 octobre",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "5d7cae78-d318-444c-96b1-e9857d7f2f48",
+    "type": "resource",
+    "slug": "philippe-cognee-collectif-ed-somogy"
+   }
+  },
+  {
+   "path": "/wordpress/la-disparition-des-lucioles-prison-sainte-anne-avignon-jsuquau-25-nov-2014/",
+   "wpId": "2002",
+   "wpSlug": "la-disparition-des-lucioles-prison-sainte-anne-avignon-jsuquau-25-nov-2014",
+   "wpType": "post",
+   "title": "\"la disparition des lucioles\".  Prison Sainte-Anne, Avignon  jsuqu'au 25 nov. 2014",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "59a2717c-4d27-48be-866c-655bfef0f76c",
+    "type": "resource",
+    "slug": "la-disparition-des-lucioles-ouvrage-collectif-ed-actes-sud"
+   }
+  },
+  {
+   "path": "/wordpress/carrier-belleuse-le-maitre-de-rodin-22-mai-27-octobre-2014-musees-et-domaine-nationaux-du-palais-de-compiegne-place-du-general-de-gaulle-60200-compiegne/",
+   "wpId": "2009",
+   "wpSlug": "carrier-belleuse-le-maitre-de-rodin-22-mai-27-octobre-2014-musees-et-domaine-nationaux-du-palais-de-compiegne-place-du-general-de-gaulle-60200-compiegne",
+   "wpType": "post",
+   "title": "Carrier-Belleuse.le Maître de Rodin 22 mai – 27 octobre 2014  Musées et domaine nationaux du Palais de Compiègne  place du Général de Gaulle 60200 Compiègne   ",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "770c3f86-e6da-47a5-a219-437dbc1edd4b",
+    "type": "resource",
+    "slug": "carrier-belleuse-le-maitre-de-rodin-22-mai-27-octobre-2014-musees-et-domaine-nationaux-du-palais-de-compiegne"
+   }
+  },
+  {
+   "path": "/wordpress/de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre/",
+   "wpId": "2012",
+   "wpSlug": "de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre",
+   "wpType": "post",
+   "title": "De Staël au musée picasso d'Antibes et au Muma au Havre",
+   "date": "2014-07-28",
+   "modified": "2014-07-28",
+   "target": {
+    "id": "178d578e-1bd7-410a-8c51-166c04834355",
+    "type": "resource",
+    "slug": "nicolas-de-stael"
+   }
+  },
+  {
+   "path": "/wordpress/salon-des-createurs-destampe-mercredi-15-octobre-de-11-a-22h/",
+   "wpId": "2049",
+   "wpSlug": "salon-des-createurs-destampe-mercredi-15-octobre-de-11-a-22h",
+   "wpType": "post",
+   "title": "Salon des créateurs d’estampe. mercredi 15 octobre 2014 de 11 à 22h",
+   "date": "2014-09-04",
+   "modified": "2014-09-04",
+   "target": null
+  },
+  {
+   "path": "/wordpress/martial-raysse-au-centre-pompidou-jusquau-22-septembre/",
+   "wpId": "2055",
+   "wpSlug": "martial-raysse-au-centre-pompidou-jusquau-22-septembre",
+   "wpType": "post",
+   "title": "martial Raysse au Centre Pompidou jusqu'au 22 septembre",
+   "date": "2014-09-08",
+   "modified": "2014-09-08",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5Bqu5UD",
+    "type": "resource",
+    "slug": "martial-raysse-au-centre-pompidou-jusqu-au-22-septembre"
+   }
+  },
+  {
+   "path": "/wordpress/litterature-revue-de-breton-soupault-et-aragon/",
+   "wpId": "2072",
+   "wpSlug": "litterature-revue-de-breton-soupault-et-aragon",
+   "wpType": "post",
+   "title": "Man ray, picabia et la revue « littérature » (1922-1924) - Paris",
+   "date": "2014-09-08",
+   "modified": "2014-09-09",
+   "target": {
+    "id": "b176e291-e9c2-4bdb-91cb-abe2ed1222e6",
+    "type": "resource",
+    "slug": "man-ray-picabia-et-la-revue-litterature-1922-1924-exposition-au-centre-pompidou-jusqu-au-08-septembre-2014"
+   }
+  },
+  {
+   "path": "/wordpress/les-magiciens-de-la-terre/",
+   "wpId": "2082",
+   "wpSlug": "les-magiciens-de-la-terre",
+   "wpType": "post",
+   "title": "les magiciens de la terre",
+   "date": "2014-09-09",
+   "modified": "2014-09-10",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GPRJgW",
+    "type": "resource",
+    "slug": "les-magiciens-de-la-terre"
+   }
+  },
+  {
+   "path": "/wordpress/lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito-de-philippe-sers-ed-hazan/",
+   "wpId": "2115",
+   "wpSlug": "lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito-de-philippe-sers-ed-hazan",
+   "wpType": "post",
+   "title": "\"L’énigme Marcel Duchamp. L’art à l’épreuve du cogito\" de Philippe Sers. Ed Hazan",
+   "date": "2014-10-30",
+   "modified": "2014-10-30",
+   "target": {
+    "id": "wp-resource-2115",
+    "type": "resource",
+    "slug": "lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito-de-philippe-sers-ed-hazan"
+   }
+  },
+  {
+   "path": "/wordpress/expression-chez-rembrandt/",
+   "wpId": "2121",
+   "wpSlug": "expression-chez-rembrandt",
+   "wpType": "page",
+   "title": "expression chez Rembrandt",
+   "date": "2014-11-04",
+   "modified": "2014-11-04",
+   "target": {
+    "id": "763c30f9-59de-42ba-ad5f-c47244d76c17",
+    "type": "resource",
+    "slug": "ressource-44d76c17"
+   }
+  },
+  {
+   "path": "/wordpress/a-partir-de-quelques-exemples-precis-de-courbet-vous-vous-demanderez-ce-quest-un-paysage-pour-courbet-et-en-quoi-ce-peintre-questionne-la-notion-de-sublime/",
+   "wpId": "2128",
+   "wpSlug": "a-partir-de-quelques-exemples-precis-de-courbet-vous-vous-demanderez-ce-quest-un-paysage-pour-courbet-et-en-quoi-ce-peintre-questionne-la-notion-de-sublime",
+   "wpType": "page",
+   "title": "à partir de quelques exemples précis de Courbet, vous vous demanderez ce qu’est un paysage pour Courbet et en quoi ce peintre questionne la notion de sublime",
+   "date": "2014-11-10",
+   "modified": "2014-11-10",
+   "target": {
+    "id": "wp-resource-2128",
+    "type": "resource",
+    "slug": "a-partir-de-quelques-exemples-precis-de-courbet-vous-vous-demanderez-ce-quest-un-paysage-pour-courbet-et-en-quoi-ce-peintre-questionne-la-notion-de-sublime"
+   }
+  },
+  {
+   "path": "/wordpress/le-paysage-chez-courbet/",
+   "wpId": "2140",
+   "wpSlug": "le-paysage-chez-courbet",
+   "wpType": "page",
+   "title": "le paysage chez Courbet",
+   "date": "2014-11-11",
+   "modified": "2014-11-11",
+   "target": {
+    "id": "wp-resource-2140",
+    "type": "resource",
+    "slug": "le-paysage-chez-courbet"
+   }
+  },
+  {
+   "path": "/wordpress/le-sublime-au-xxe-siecle-analyse-de-newman/",
+   "wpId": "2154",
+   "wpSlug": "le-sublime-au-xxe-siecle-analyse-de-newman",
+   "wpType": "page",
+   "title": "le sublime au XXe siècle, analyse de Newman",
+   "date": "2014-11-16",
+   "modified": "2016-12-13",
+   "target": {
+    "id": "wp-resource-2154",
+    "type": "resource",
+    "slug": "le-sublime-au-xxe-siecle-analyse-de-newman"
+   }
+  },
+  {
+   "path": "/wordpress/constable/",
+   "wpId": "2189",
+   "wpSlug": "constable",
+   "wpType": "post",
+   "title": "Constable",
+   "date": "2014-11-25",
+   "modified": "2014-11-26",
+   "target": {
+    "id": "278423f2-fa97-4ad7-8db7-904959d5e70f",
+    "type": "resource",
+    "slug": "constable-vie-et-oeuvre-constable-constable"
+   }
+  },
+  {
+   "path": "/wordpress/7-edition-des-petits-formats-de-longuesse/",
+   "wpId": "2211",
+   "wpSlug": "7-edition-des-petits-formats-de-longuesse",
+   "wpType": "page",
+   "title": "7° édition des Petits Formats de Longuesse le 13-14 décembre",
+   "date": "2014-12-07",
+   "modified": "2014-12-07",
+   "target": {
+    "id": "crawl-c8649cc82f7296b65ca1476e3cf2848b",
+    "type": "exhibition",
+    "slug": "7-edition-des-petits-formats-de-longuesse-le-13-14-decembre-bis"
+   }
+  },
+  {
+   "path": "/wordpress/7-edition-des-petits-formats-de-longuesse/",
+   "wpId": "2216",
+   "wpSlug": "7-edition-des-petits-formats-de-longuesse",
+   "wpType": "post",
+   "title": "7° édition des Petits Formats de Longuesse",
+   "date": "2014-12-07",
+   "modified": "2014-12-07",
+   "target": null,
+   "redirect": "/wordpress/7-edition-des-petits-formats-de-longuesse/",
+   "duplicateOf": "/wordpress/7-edition-des-petits-formats-de-longuesse/"
+  },
+  {
+   "path": "/wordpress/naissance-de-lart-romantique/",
+   "wpId": "2225",
+   "wpSlug": "naissance-de-lart-romantique",
+   "wpType": "page",
+   "title": "!naissance de l'art romantique",
+   "date": "2014-12-15",
+   "modified": "2014-12-15",
+   "target": {
+    "id": "wp-resource-2225",
+    "type": "resource",
+    "slug": "naissance-de-lart-romantique"
+   }
+  },
+  {
+   "path": "/wordpress/cecily-brown-a-la-galerie-gagosian-jusquau-20-decembre/",
+   "wpId": "2239",
+   "wpSlug": "cecily-brown-a-la-galerie-gagosian-jusquau-20-decembre",
+   "wpType": "page",
+   "title": "CECILY BROWN à la galerie Gagosian jusqu'au 20 décembre",
+   "date": "2014-12-16",
+   "modified": "2014-12-16",
+   "target": {
+    "id": "f4a59e1c-d232-4925-9433-97644136953c",
+    "type": "resource",
+    "slug": "cecily-brown-a-la-galerie-gagosian-jusqu-au-20-decembre-2014"
+   }
+  },
+  {
+   "path": "/wordpress/cecily-brown-a-la-galerie-gagosian-jusquau-20-decembre/",
+   "wpId": "2242",
+   "wpSlug": "cecily-brown-a-la-galerie-gagosian-jusquau-20-decembre",
+   "wpType": "post",
+   "title": "CECILY BROWN à la galerie Gagosian jusqu'au 20 décembre",
+   "date": "2014-12-16",
+   "modified": "2014-12-16",
+   "target": null,
+   "redirect": "/wordpress/cecily-brown-a-la-galerie-gagosian-jusquau-20-decembre/",
+   "duplicateOf": "/wordpress/cecily-brown-a-la-galerie-gagosian-jusquau-20-decembre/"
+  },
+  {
+   "path": "/wordpress/les-casseurs-de-pierre-de-courbet/",
+   "wpId": "2259",
+   "wpSlug": "les-casseurs-de-pierre-de-courbet",
+   "wpType": "page",
+   "title": "les casseurs de pierre de Courbet",
+   "date": "2015-01-26",
+   "modified": "2015-01-26",
+   "target": {
+    "id": "900b35be-7d9e-4e72-853c-af8e079115dd",
+    "type": "resource",
+    "slug": "les-casseurs-de-pierre-de-courbet-en-1849-huile-sur-toile-159-259-cm-le-tableau-detruit"
+   }
+  },
+  {
+   "path": "/wordpress/stage-de-peinture-et-dessin-a-venise-du-24-juin-au-1er-juillet-2015/",
+   "wpId": "2277",
+   "wpSlug": "stage-de-peinture-et-dessin-a-venise-du-24-juin-au-1er-juillet-2015",
+   "wpType": "post",
+   "title": "stage de peinture et dessin à Venise du 24 juin au 1er juillet 2015",
+   "date": "2015-02-24",
+   "modified": "2015-02-24",
+   "target": null,
+   "redirect": "/wordpress/stage-venise-2017/",
+   "duplicateOf": "/wordpress/stage-venise-2017/"
+  },
+  {
+   "path": "/wordpress/triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn/",
+   "wpId": "2283",
+   "wpSlug": "triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn",
+   "wpType": "page",
+   "title": "TRIENNALE DE GRAVURE  EN TAILLE-DOUCE DE LISLE-SUR-TARN",
+   "date": "2015-03-09",
+   "modified": "2015-03-09",
+   "target": {
+    "id": "crawl-e3372d66dbe4a3f3a18f28d23563a332",
+    "type": "exhibition",
+    "slug": "la-troisieme-triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn-du-14-mars-au-31-mai"
+   }
+  },
+  {
+   "path": "/wordpress/la-troisieme-triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn/",
+   "wpId": "2291",
+   "wpSlug": "la-troisieme-triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn",
+   "wpType": "post",
+   "title": "LA TROISIEME TRIENNALE DE GRAVURE  EN TAILLE-DOUCE DE LISLE-SUR-TARN du 14 mars au 31 mai",
+   "date": "2015-03-09",
+   "modified": "2015-03-09",
+   "target": null,
+   "redirect": "/wordpress/triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn/",
+   "duplicateOf": "/wordpress/triennale-de-gravure-en-taille-douce-de-lisle-sur-tarn/"
+  },
+  {
+   "path": "/wordpress/stage-dessin-peinture-aquarelle-24-juin-au-samedi-1er-juillet-2015-venise-et-venetie/",
+   "wpId": "2295",
+   "wpSlug": "stage-dessin-peinture-aquarelle-24-juin-au-samedi-1er-juillet-2015-venise-et-venetie",
+   "wpType": "post",
+   "title": "Stage dessin-peinture  Aquarelle  24 juin au samedi 1er juillet 2015  Venise et Vénétie",
+   "date": "2015-03-09",
+   "modified": "2015-03-14",
+   "target": null,
+   "redirect": "/wordpress/stage-venise-2017/",
+   "duplicateOf": "/wordpress/stage-venise-2017/"
+  },
+  {
+   "path": "/wordpress/stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h/",
+   "wpId": "2302",
+   "wpSlug": "stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h",
+   "wpType": "post",
+   "title": "STAGE de MODÈLE VIVANT  dessin, peinture, monotype, gravure   dimanche 22 mars 2015 de 17 à 20h",
+   "date": "2015-03-09",
+   "modified": "2015-03-09",
+   "target": {
+    "id": "wp-resource-2302",
+    "type": "resource",
+    "slug": "stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h"
+   }
+  },
+  {
+   "path": "/wordpress/contact-exposition-de-olafur-oliasson-jusquau-23-fevrier-a-la-fondation-l-vuitton-a-paris/",
+   "wpId": "2310",
+   "wpSlug": "contact-exposition-de-olafur-oliasson-jusquau-23-fevrier-a-la-fondation-l-vuitton-a-paris",
+   "wpType": "post",
+   "title": "contact\" exposition de Olafur Oliasson jusqu'au 23 février à la fondation L.Vuitton à Paris",
+   "date": "2015-03-10",
+   "modified": "2015-03-14",
+   "target": {
+    "id": "347dfdfd-67e2-4780-a96f-8a76c0fe670b",
+    "type": "resource",
+    "slug": "contact-exposition-de-olafur-oliasson-jusqu-au-23-fevrier-2015-a-la-fondation-l-vuitton-a-paris"
+   }
+  },
+  {
+   "path": "/wordpress/franck-gehry-a-la-fondation-louis-vuitton-jusquau-16-mars/",
+   "wpId": "2318",
+   "wpSlug": "franck-gehry-a-la-fondation-louis-vuitton-jusquau-16-mars",
+   "wpType": "post",
+   "title": "Franck Gehry à la fondation Louis Vuitton jusqu'au 16 mars",
+   "date": "2015-03-10",
+   "modified": "2015-03-10",
+   "target": {
+    "id": "wp-resource-2318",
+    "type": "resource",
+    "slug": "franck-gehry-a-la-fondation-louis-vuitton-jusquau-16-mars"
+   }
+  },
+  {
+   "path": "/wordpress/collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusquau-18-janvier/",
+   "wpId": "2320",
+   "wpSlug": "collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusquau-18-janvier",
+   "wpType": "post",
+   "title": "\"collection ABCD de Bruno Decharme\" à la maison rouge jusqu'au 18 janvier",
+   "date": "2015-03-10",
+   "modified": "2015-03-10",
+   "target": {
+    "id": "e6c926cc-ba66-4d1b-92b8-6664e1655671",
+    "type": "resource",
+    "slug": "collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusqu-au-18-janvier-2014"
+   }
+  },
+  {
+   "path": "/wordpress/sade-attaquer-le-soleil-annie-le-brun-ed-gallimard/",
+   "wpId": "2323",
+   "wpSlug": "sade-attaquer-le-soleil-annie-le-brun-ed-gallimard",
+   "wpType": "post",
+   "title": "Sade. Attaquer le soleil. Annie Le Brun. Ed. gallimard.",
+   "date": "2015-03-10",
+   "modified": "2015-03-10",
+   "target": {
+    "id": "e2321c7f-61de-4f11-8c25-0afad228182a",
+    "type": "resource",
+    "slug": "sade-attaquer-le-soleil-annie-le-brun-ed-gallimard"
+   }
+  },
+  {
+   "path": "/wordpress/fatum-de-jerome-zonder-a-la-maison-rouge-jusquau-10-mai/",
+   "wpId": "2330",
+   "wpSlug": "fatum-de-jerome-zonder-a-la-maison-rouge-jusquau-10-mai",
+   "wpType": "post",
+   "title": "\"Fatum\" de Jérôme Zonder à la maison rouge jusqu'au 10 mai",
+   "date": "2015-03-14",
+   "modified": "2015-03-14",
+   "target": {
+    "id": "7055b9d0-332c-421d-9ae1-ad303156addd",
+    "type": "resource",
+    "slug": "fatum-de-jerome-zonder-a-la-maison-rouge-jusqu-au-10-mai-2015"
+   }
+  },
+  {
+   "path": "/wordpress/6eme-salon-dart-de-saint-germain-en-laye-du-samedi-28-mars-au-jeudi-16-avril-2015-au-manege-royal-de-st-germain-en-laye/",
+   "wpId": "2348",
+   "wpSlug": "6eme-salon-dart-de-saint-germain-en-laye-du-samedi-28-mars-au-jeudi-16-avril-2015-au-manege-royal-de-st-germain-en-laye",
+   "wpType": "post",
+   "title": "6ème SALON D’ART DE SAINT-GERMAIN-EN-LAYE  du samedi 28 mars au jeudi 16 avril 2015  au Manège Royal de St Germain-en-Laye",
+   "date": "2015-03-14",
+   "modified": "2015-03-14",
+   "target": {
+    "id": "crawl-de1e0af071e19f84c4173060b988c697",
+    "type": "exhibition",
+    "slug": "6eme-salon-d-art-de-saint-germain-en-laye-du-samedi-28-mars-au-jeudi-16-avril-2015-au-manege-bis"
+   }
+  },
+  {
+   "path": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/",
+   "wpId": "2353",
+   "wpSlug": "maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril",
+   "wpType": "post",
+   "title": "MARYL LE BERRE - \"DIPTYQUE\" à la galerie Marie Vitoux jusqu'au 18 avril",
+   "date": "2015-03-14",
+   "modified": "2015-03-16",
+   "target": {
+    "id": "c9f92845-34bc-4299-b079-362826dd0820",
+    "type": "resource",
+    "slug": "maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril"
+   }
+  },
+  {
+   "path": "/wordpress/white-cube/",
+   "wpId": "2385",
+   "wpSlug": "white-cube",
+   "wpType": "post",
+   "title": "white cube",
+   "date": "2015-03-16",
+   "modified": "2015-03-16",
+   "target": {
+    "id": "76y5EjmeLusgbergezTHQA",
+    "type": "resource",
+    "slug": "histoire-de-l-art-hugues-absil-page-4"
+   }
+  },
+  {
+   "path": "/wordpress/salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai/",
+   "wpId": "2412",
+   "wpSlug": "salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai",
+   "wpType": "post",
+   "title": "salon international du portrait à l' Orangerie du Château de Beauregard – 41120 CELLETTES  du 18 avril au 3 mai",
+   "date": "2015-04-11",
+   "modified": "2015-06-22",
+   "target": {
+    "id": "crawl-1f9986acc37b6780bb1084784dcb05ef",
+    "type": "exhibition",
+    "slug": "salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avr"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-a-pulsart-du-13-au-17-mai-au-mans/",
+   "wpId": "2418",
+   "wpSlug": "exposition-a-pulsart-du-13-au-17-mai-au-mans",
+   "wpType": "post",
+   "title": "exposition à Puls'art du 13 au 17 mai au Mans",
+   "date": "2015-05-02",
+   "modified": "2015-05-02",
+   "target": {
+    "id": "crawl-055cb0154c8cb0ae6dad7b2e2cf5f35d",
+    "type": "exhibition",
+    "slug": "exposition-a-pulsart-du-13-au-17-mai-au-mans"
+   }
+  },
+  {
+   "path": "/wordpress/analyse-plastique-des-huts-de-kawamata/",
+   "wpId": "2422",
+   "wpSlug": "analyse-plastique-des-huts-de-kawamata",
+   "wpType": "post",
+   "title": "analyse plastique des Huts de Kawamata",
+   "date": "2015-05-28",
+   "modified": "2015-05-28",
+   "target": {
+    "id": "wp-resource-2422",
+    "type": "resource",
+    "slug": "analyse-plastique-des-huts-de-kawamata"
+   }
+  },
+  {
+   "path": "/wordpress/journee-de-lestampe-contemporaine-le-15-juin-place-saint-sulpice-de-12-a-22h/",
+   "wpId": "2430",
+   "wpSlug": "journee-de-lestampe-contemporaine-le-15-juin-place-saint-sulpice-de-12-a-22h",
+   "wpType": "post",
+   "title": "Journée de l'estampe contemporaine le 15 juin place Saint Sulpice de 12 à 22h.",
+   "date": "2015-06-11",
+   "modified": "2015-06-11",
+   "target": {
+    "id": "wp-exhibition-2430",
+    "type": "exhibition",
+    "slug": "journee-de-lestampe-contemporaine-le-15-juin-place-saint-sulpice-de-12-a-22h"
+   }
+  },
+  {
+   "path": "/wordpress/craig-hanna/",
+   "wpId": "2459",
+   "wpSlug": "craig-hanna",
+   "wpType": "post",
+   "title": "Craig Hanna",
+   "date": "2015-07-26",
+   "modified": "2015-08-30",
+   "target": {
+    "id": "ca5ebee3-9466-4e2e-bd0c-3d9334da62b4",
+    "type": "resource",
+    "slug": "sketchbook-de-craig-hanna-ed-somogy"
+   }
+  },
+  {
+   "path": "/wordpress/garouste-en-chemin/",
+   "wpId": "2499",
+   "wpSlug": "garouste-en-chemin",
+   "wpType": "post",
+   "title": "Garouste en chemin ",
+   "date": "2015-07-31",
+   "modified": "2015-07-31",
+   "target": {
+    "id": "14a8b775-911f-4eb7-ace3-1e5f91f5f03f",
+    "type": "resource",
+    "slug": "garouste-en-chemin-jusqu-au-29-novembre-2015-fondation-maeght"
+   }
+  },
+  {
+   "path": "/wordpress/56eme-biennale-de-venise/",
+   "wpId": "2507",
+   "wpSlug": "56eme-biennale-de-venise",
+   "wpType": "post",
+   "title": "56ème biennale de Venise",
+   "date": "2015-07-31",
+   "modified": "2015-07-31",
+   "target": {
+    "id": "a937b4b8-571b-4836-a4b6-5df87b652add",
+    "type": "resource",
+    "slug": "56eme-biennale-de-venise-56emebiennale-de-venise-jusqu-au-22-novembre-2015"
+   }
+  },
+  {
+   "path": "/wordpress/formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre/",
+   "wpId": "2511",
+   "wpSlug": "formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre",
+   "wpType": "post",
+   "title": "Formes biographiques au Carré d’art à Nimes jusqu’au 20 septembre",
+   "date": "2015-08-01",
+   "modified": "2015-08-01",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5BqxNzv",
+    "type": "resource",
+    "slug": "formes-biographiques-1773499039969"
+   }
+  },
+  {
+   "path": "/wordpress/formes-biographiques/",
+   "wpId": "2515",
+   "wpSlug": "formes-biographiques",
+   "wpType": "post",
+   "title": "Formes biographiques",
+   "date": "2015-08-01",
+   "modified": "2015-08-01",
+   "target": {
+    "id": "9cc6b31c-1e28-4eba-bb19-7793477c873d",
+    "type": "resource",
+    "slug": "formes-biographiques-jean-francois-chevrier-ed-hazan"
+   }
+  },
+  {
+   "path": "/wordpress/formes-biographiques-2/",
+   "wpId": "2519",
+   "wpSlug": "formes-biographiques-2",
+   "wpType": "post",
+   "title": "Formes Biographiques",
+   "date": "2015-08-01",
+   "modified": "2015-08-01",
+   "target": null,
+   "redirect": "/wordpress/formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre/",
+   "duplicateOf": "/wordpress/formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre/"
+  },
+  {
+   "path": "/wordpress/valerie-jouve/",
+   "wpId": "2529",
+   "wpSlug": "valerie-jouve",
+   "wpType": "post",
+   "title": "valérie Jouve. du 02 juin au 27 sept. Le Jeu de Paume",
+   "date": "2015-08-30",
+   "modified": "2015-08-30",
+   "target": null
+  },
+  {
+   "path": "/wordpress/monika-sosnowska/",
+   "wpId": "2531",
+   "wpSlug": "monika-sosnowska",
+   "wpType": "post",
+   "title": "Monika Sosnowska.Cahiers d'art - galerie d'art  14 rue du Dragon, 75006, Paris, France jusqu'au 30 septembre",
+   "date": "2015-08-30",
+   "modified": "2015-08-30",
+   "target": null
+  },
+  {
+   "path": "/wordpress/henry-darger/",
+   "wpId": "2533",
+   "wpSlug": "henry-darger",
+   "wpType": "post",
+   "title": "Henry Darger",
+   "date": "2015-08-30",
+   "modified": "2015-08-30",
+   "target": null
+  },
+  {
+   "path": "/wordpress/germaine-krull/",
+   "wpId": "2535",
+   "wpSlug": "germaine-krull",
+   "wpType": "post",
+   "title": "Germaine Krull.jusqu'au 27 septembre au jeu de paume",
+   "date": "2015-08-30",
+   "modified": "2015-08-30",
+   "target": null
+  },
+  {
+   "path": "/wordpress/anna-et-bernhard-blume-la-photographie-transcendantale/",
+   "wpId": "2537",
+   "wpSlug": "anna-et-bernhard-blume-la-photographie-transcendantale",
+   "wpType": "post",
+   "title": "Anna et Bernhard Blume : La Photographie Transcendantale",
+   "date": "2015-08-30",
+   "modified": "2015-08-30",
+   "target": {
+    "id": "c251c1bf-809b-4002-9105-aaf074849c57",
+    "type": "resource",
+    "slug": "anna-et-bernhard-blume-la-photographie-transcendantale-galerie-de-photographies-du-centre-pompidou-du-1er-juillet-au-28-septembre-2015"
+   }
+  },
+  {
+   "path": "/wordpress/dolce-vita-art-decoratif-italien-1900-1940-du-liberty-au-design-industriel/",
+   "wpId": "2541",
+   "wpSlug": "dolce-vita-art-decoratif-italien-1900-1940-du-liberty-au-design-industriel",
+   "wpType": "post",
+   "title": "Dolce Vita, Art décoratif italien 1900-1940, du Liberty au design industriel. musée d'Orsay juqu'au 13 semptembre",
+   "date": "2015-08-30",
+   "modified": "2015-08-30",
+   "target": null
+  },
+  {
+   "path": "/wordpress/comparaisons-du-24-au-29-novembre/",
+   "wpId": "2561",
+   "wpSlug": "comparaisons-du-24-au-29-novembre",
+   "wpType": "post",
+   "title": "salon comparaisons du 24 au 29 novembre",
+   "date": "2015-10-13",
+   "modified": "2016-03-28",
+   "target": {
+    "id": "crawl-13c894fba3b74a0506d3605e6845c0d8",
+    "type": "exhibition",
+    "slug": "salon-comparaisons-du-24-au-29-novembre"
+   }
+  },
+  {
+   "path": "/wordpress/violence-et-fantastique-de-david-a-delacroix/",
+   "wpId": "2565",
+   "wpSlug": "violence-et-fantastique-de-david-a-delacroix",
+   "wpType": "post",
+   "title": "VIOLENCE ET FANTASTIQUE DE DAVID À DELACROIX",
+   "date": "2015-10-13",
+   "modified": "2015-10-13",
+   "target": {
+    "id": "crawl-f4a8c6cef0a642e4d111136211121549",
+    "type": "exhibition",
+    "slug": "expositions-en-ce-moment-hugues-absil-page-5"
+   }
+  },
+  {
+   "path": "/wordpress/dust-histoire-de-poussiere-dapres-man-ray-et-marcel-duchamp-au-bal-jusquau-31-janvier/",
+   "wpId": "2595",
+   "wpSlug": "dust-histoire-de-poussiere-dapres-man-ray-et-marcel-duchamp-au-bal-jusquau-31-janvier",
+   "wpType": "post",
+   "title": "\"Dust. histoire de poussière, d'après Man Ray et Marcel Duchamp\" au Bal jusqu'au 31 janvier",
+   "date": "2016-01-22",
+   "modified": "2016-01-22",
+   "target": null
+  },
+  {
+   "path": "/wordpress/duchamp/",
+   "wpId": "2600",
+   "wpSlug": "duchamp",
+   "wpType": "post",
+   "title": "duchamp",
+   "date": "2016-02-15",
+   "modified": "2016-02-15",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GPTHrM",
+    "type": "resource",
+    "slug": "duchamp"
+   }
+  },
+  {
+   "path": "/wordpress/marcel-duchamp-et-le-readymade/",
+   "wpId": "2606",
+   "wpSlug": "marcel-duchamp-et-le-readymade",
+   "wpType": "post",
+   "title": "Marcel Duchamp et le readymade",
+   "date": "2016-02-28",
+   "modified": "2017-04-16",
+   "target": {
+    "id": "a657937b-ad4d-4e20-9691-c3c4c3a1d817",
+    "type": "resource",
+    "slug": "marcel-duchamp-et-le-readymade"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-distances/",
+   "wpId": "2616",
+   "wpSlug": "exposition-distances",
+   "wpType": "post",
+   "title": "exposition DISTANCES",
+   "date": "2016-03-27",
+   "modified": "2016-05-05",
+   "target": {
+    "id": "crawl-a3924a0b5ca50c90997decc702599282",
+    "type": "exhibition",
+    "slug": "exposition-distances"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-dart-contemporain-de-cachan-du-2-au-31-mai-2016/",
+   "wpId": "2633",
+   "wpSlug": "biennale-dart-contemporain-de-cachan-du-2-au-31-mai-2016",
+   "wpType": "post",
+   "title": "Biennale d'art contemporain de Cachan du 2 au 31 mai 2016",
+   "date": "2016-05-05",
+   "modified": "2016-05-05",
+   "target": {
+    "id": "crawl-e1d415fc32db799540102e20962fc2ac",
+    "type": "exhibition",
+    "slug": "biennale-dart-contemporain-de-cachan-du-2-au-31-mai-2016"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-a-labbaye-de-pontlevoy-avec-la-biennale-109-du-4-mai-au-30-septembre-2016/",
+   "wpId": "2640",
+   "wpSlug": "exposition-a-labbaye-de-pontlevoy-avec-la-biennale-109-du-4-mai-au-30-septembre-2016",
+   "wpType": "post",
+   "title": "exposition à l'Abbaye de Pontlevoy avec la Biennale 109 du 4 mai au 30 septembre 2016",
+   "date": "2016-05-05",
+   "modified": "2016-07-27",
+   "target": {
+    "id": "crawl-e4912807def4a3659e0c74ac2f8c8296",
+    "type": "exhibition",
+    "slug": "exposition-a-labbaye-de-pontlevoy-avec-la-biennale-109-du-4-mai-au-30-septembre-2016"
+   }
+  },
+  {
+   "path": "/wordpress/journee-de-lestampe-contemporaine-le-13-juin-place-saint-sulpice/",
+   "wpId": "2670",
+   "wpSlug": "journee-de-lestampe-contemporaine-le-13-juin-place-saint-sulpice",
+   "wpType": "post",
+   "title": "Journée de l’estampe contemporaine le 13 juin place Saint Sulpice.",
+   "date": "2016-05-05",
+   "modified": "2016-09-11",
+   "target": {
+    "id": "wp-exhibition-2670",
+    "type": "exhibition",
+    "slug": "journee-de-lestampe-contemporaine-le-13-juin-place-saint-sulpice"
+   }
+  },
+  {
+   "path": "/wordpress/salon-international-du-portrait-15-au-28-aout-2016-chateau-desaint-jean-le-blanc-loiret/",
+   "wpId": "2687",
+   "wpSlug": "salon-international-du-portrait-15-au-28-aout-2016-chateau-desaint-jean-le-blanc-loiret",
+   "wpType": "post",
+   "title": "Salon international du portrait 15 au 28 août 2016 château deSaint Jean le Blanc (Loiret)",
+   "date": "2016-07-27",
+   "modified": "2016-10-17",
+   "target": {
+    "id": "crawl-2ef53fbfbee97e01bbcc2154213d2047",
+    "type": "exhibition",
+    "slug": "salon-international-du-portrait-15-au-28-aout-2016-chateau-desaint-jean-le-blanc-loiret"
+   }
+  },
+  {
+   "path": "/wordpress/liste-des-expositions-de-lannee-2016-2017/",
+   "wpId": "2718",
+   "wpSlug": "liste-des-expositions-de-lannee-2016-2017",
+   "wpType": "post",
+   "title": "liste des expositions de l'année 2016-2017",
+   "date": "2016-09-06",
+   "modified": "2016-11-14",
+   "target": {
+    "id": "wp-resource-2718",
+    "type": "resource",
+    "slug": "liste-des-expositions-de-lannee-2016-2017"
+   }
+  },
+  {
+   "path": "/wordpress/figuration-critique-2016/",
+   "wpId": "2726",
+   "wpSlug": "figuration-critique-2016",
+   "wpType": "post",
+   "title": "Figuration Critique du 14 au 18 septembre 2016",
+   "date": "2016-09-11",
+   "modified": "2016-09-11",
+   "target": {
+    "id": "crawl-ab5b962db8e54e151dff21cdd2da1518",
+    "type": "exhibition",
+    "slug": "figuration-critique-du-14-au-18-septembre-2016"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-109-a-labbaye-de-pontlevoy-jusquau-30-septembre/",
+   "wpId": "2733",
+   "wpSlug": "biennale-109-a-labbaye-de-pontlevoy-jusquau-30-septembre",
+   "wpType": "post",
+   "title": "biennale 109 à l'abbaye de Pontlevoy jusqu'au 30 septembre",
+   "date": "2016-09-11",
+   "modified": "2016-09-11",
+   "target": {
+    "id": "crawl-c5c2e2ea64482caaa929ca758059a459",
+    "type": "exhibition",
+    "slug": "biennale-109-a-labbaye-de-pontlevoy-jusquau-30-septembre"
+   }
+  },
+  {
+   "path": "/wordpress/impressionnisme/",
+   "wpId": "2738",
+   "wpSlug": "impressionnisme",
+   "wpType": "post",
+   "title": "impressionnisme",
+   "date": "2016-09-16",
+   "modified": "2016-09-16",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5BqxqIw",
+    "type": "resource",
+    "slug": "impressionnisme"
+   }
+  },
+  {
+   "path": "/wordpress/prix-de-peinture-de-saint-gregoire-du-5-au-20-novembre/",
+   "wpId": "2761",
+   "wpSlug": "prix-de-peinture-de-saint-gregoire-du-5-au-20-novembre",
+   "wpType": "post",
+   "title": "prix de peinture de Saint Grégoire du 5 au 20 novembre",
+   "date": "2016-10-17",
+   "modified": "2016-10-17",
+   "target": {
+    "id": "crawl-73ada170e08778e5592190643e94d667",
+    "type": "exhibition",
+    "slug": "octobre-2016-hugues-absil"
+   }
+  },
+  {
+   "path": "/wordpress/champ-de-coquelicots/",
+   "wpId": "2786",
+   "wpSlug": "champ-de-coquelicots",
+   "wpType": "post",
+   "title": "champ de coquelicots  ",
+   "date": "2016-11-10",
+   "modified": "2019-11-29",
+   "target": {
+    "id": "crawl-747a8d554197b08dd1a00fa8b2ed35dc",
+    "type": "resource",
+    "slug": "champ-de-coquelicots"
+   }
+  },
+  {
+   "path": "/wordpress/lydie-arickx/",
+   "wpId": "2796",
+   "wpSlug": "lydie-arickx",
+   "wpType": "post",
+   "title": "lydie arickx",
+   "date": "2016-11-13",
+   "modified": "2026-01-22",
+   "target": {
+    "id": "37b78df5-7cbb-4e52-a3d8-be0ca548f4f3",
+    "type": "resource",
+    "slug": "lydie-arickx"
+   }
+  },
+  {
+   "path": "/wordpress/le-cinquecento-en-italie-du-nord/",
+   "wpId": "2894",
+   "wpSlug": "le-cinquecento-en-italie-du-nord",
+   "wpType": "post",
+   "title": "le cinquecento en Italie du nord",
+   "date": "2016-11-14",
+   "modified": "2016-11-14",
+   "target": {
+    "id": "crawl-33101b6cf778d1eb5f321eb4a6387638",
+    "type": "resource",
+    "slug": "le-cinquecento-en-italie-du-nord"
+   }
+  },
+  {
+   "path": "/wordpress/conference-philo-art-autour-de-loeuvre-de-sophie-ristelhueber-mairie-du-14e-18-novembre-18h30/",
+   "wpId": "2922",
+   "wpSlug": "conference-philo-art-autour-de-loeuvre-de-sophie-ristelhueber-mairie-du-14e-18-novembre-18h30",
+   "wpType": "post",
+   "title": "conférence philo-art  autour de l’œuvre de Sophie RISTELHUEBER. mairie du 14e. 18 novembre. 18h30",
+   "date": "2016-11-17",
+   "modified": "2016-11-17",
+   "target": {
+    "id": "wp-exhibition-2922",
+    "type": "exhibition",
+    "slug": "conference-philo-art-autour-de-loeuvre-de-sophie-ristelhueber-mairie-du-14e-18-novembre-18h30"
+   }
+  },
+  {
+   "path": "/wordpress/analyse-plastique-de-interieur-au-violon-de-matisse-1918-21-huile-sur-toile/",
+   "wpId": "2933",
+   "wpSlug": "analyse-plastique-de-interieur-au-violon-de-matisse-1918-21-huile-sur-toile",
+   "wpType": "post",
+   "title": "\"intérieur au violon\" de Matisse. (1918-21. Huile sur toile)",
+   "date": "2016-11-24",
+   "modified": "2019-11-30",
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTt6hDEx",
+    "type": "resource",
+    "slug": "interieur-au-violon-de-matisse-1918-21-huile-sur-toile"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-aux-feeries-dauteuil-du-912-au-1112/",
+   "wpId": "2956",
+   "wpSlug": "exposition-aux-feeries-dauteuil-du-912-au-1112",
+   "wpType": "post",
+   "title": "exposition aux féeries d'Auteuil du 9/12 au 11/12",
+   "date": "2016-11-26",
+   "modified": "2016-11-26",
+   "target": {
+    "id": "crawl-c7265bfcc84c44901dcab77ea6952789",
+    "type": "exhibition",
+    "slug": "exposition-aux-feeries-dauteuil-du-9-12-au-11-12"
+   }
+  },
+  {
+   "path": "/wordpress/livre-dartiste/",
+   "wpId": "2991",
+   "wpSlug": "livre-dartiste",
+   "wpType": "post",
+   "title": "livre d'artiste",
+   "date": "2016-12-21",
+   "modified": "2016-12-21",
+   "target": {
+    "id": "wp-resource-2991",
+    "type": "resource",
+    "slug": "livre-dartiste"
+   }
+  },
+  {
+   "path": "/wordpress/livreartiste/",
+   "wpId": "2995",
+   "wpSlug": "livreartiste",
+   "wpType": "page",
+   "title": "livreartiste",
+   "date": "2016-12-21",
+   "modified": "2020-09-04",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/danseuses-aux-bougies/",
+   "wpId": "3010",
+   "wpSlug": "danseuses-aux-bougies",
+   "wpType": "post",
+   "title": "danseuses aux bougies",
+   "date": "2017-01-08",
+   "modified": "2019-11-29",
+   "target": null
+  },
+  {
+   "path": "/wordpress/stage-daquarelle-et-dessin-a-venise-24-juin-au-1er-juillet-2017/",
+   "wpId": "3068",
+   "wpSlug": "stage-daquarelle-et-dessin-a-venise-24-juin-au-1er-juillet-2017",
+   "wpType": "page",
+   "title": "Stage d'aquarelle et dessin à Venise. 24 juin au 1er juillet  2017",
+   "date": "2017-02-01",
+   "modified": "2017-02-01",
+   "target": null,
+   "redirect": "/wordpress/stage-venise-2017/",
+   "duplicateOf": "/wordpress/stage-venise-2017/"
+  },
+  {
+   "path": "/wordpress/venise2017/",
+   "wpId": "3070",
+   "wpSlug": "venise2017",
+   "wpType": "post",
+   "title": "venise2017",
+   "date": "2017-02-01",
+   "modified": "2017-02-01",
+   "target": null,
+   "redirect": "/wordpress/stage-venise-2017/",
+   "duplicateOf": "/wordpress/stage-venise-2017/"
+  },
+  {
+   "path": "/wordpress/salon-aac-du-11-au-26-mars/",
+   "wpId": "3095",
+   "wpSlug": "salon-aac-du-11-au-26-mars",
+   "wpType": "post",
+   "title": "salon AAC Du 11 au 26 mars",
+   "date": "2017-03-07",
+   "modified": "2017-03-07",
+   "target": {
+    "id": "crawl-81048bafd57eca72ed01aa01bd6322e9",
+    "type": "exhibition",
+    "slug": "salon-aac-du-11-au-26-mars"
+   }
+  },
+  {
+   "path": "/wordpress/stage-peinture-dessin-crete-27-aout-au-2-septembre-2017/",
+   "wpId": "3104",
+   "wpSlug": "stage-peinture-dessin-crete-27-aout-au-2-septembre-2017",
+   "wpType": "post",
+   "title": "Stage Crète 2017 ",
+   "date": "2017-03-07",
+   "modified": "2017-03-07",
+   "target": null,
+   "redirect": "/wordpress/stage-crete-2017/",
+   "duplicateOf": "/wordpress/stage-crete-2017/"
+  },
+  {
+   "path": "/wordpress/stage-crete-2017/",
+   "wpId": "3108",
+   "wpSlug": "stage-crete-2017",
+   "wpType": "post",
+   "title": "Stage Crète 2017 ",
+   "date": "2017-03-07",
+   "modified": "2017-03-07",
+   "target": {
+    "id": "cH0KO5p7sKjW2U8ZdxE2OV",
+    "type": "resource",
+    "slug": "stage-crete-2017"
+   }
+  },
+  {
+   "path": "/wordpress/stage-venise-2017/",
+   "wpId": "3111",
+   "wpSlug": "stage-venise-2017",
+   "wpType": "post",
+   "title": "stage venise 2017",
+   "date": "2017-03-07",
+   "modified": "2017-03-07",
+   "target": {
+    "id": "76y5EjmeLusgbergfAa7va",
+    "type": "resource",
+    "slug": "stage-venise-2017"
+   }
+  },
+  {
+   "path": "/wordpress/roue-md/",
+   "wpId": "3124",
+   "wpSlug": "roue-md",
+   "wpType": "post",
+   "title": "roue MD",
+   "date": "2017-03-27",
+   "modified": "2017-03-28",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5BqyWr6",
+    "type": "resource",
+    "slug": "roue-md"
+   }
+  },
+  {
+   "path": "/wordpress/salon-huntekunst-a-ulft-du-19-au-21-mai/",
+   "wpId": "3137",
+   "wpSlug": "salon-huntekunst-a-ulft-du-19-au-21-mai",
+   "wpType": "post",
+   "title": "salon Huntekunst à Ulft du 19 au 21 mai",
+   "date": "2017-04-02",
+   "modified": "2017-04-02",
+   "target": {
+    "id": "crawl-e93c014806ac4d9e94b9b99be8c4f26b",
+    "type": "exhibition",
+    "slug": "salon-huntekunst-a-ulft-du-19-au-21-mai"
+   }
+  },
+  {
+   "path": "/wordpress/salon-pages-les-27-et-28-mai/",
+   "wpId": "3139",
+   "wpSlug": "salon-pages-les-27-et-28-mai",
+   "wpType": "post",
+   "title": "salon page(s) les 27 et 28 mai",
+   "date": "2017-04-02",
+   "modified": "2017-04-18",
+   "target": {
+    "id": "6086669b-6f15-4e62-860c-18b47cb2567c",
+    "type": "exhibition",
+    "slug": "le-salon-du-livre-dartiste-bibliophilie-contemporaine"
+   }
+  },
+  {
+   "path": "/wordpress/le-grand-verre/",
+   "wpId": "3196",
+   "wpSlug": "le-grand-verre",
+   "wpType": "post",
+   "title": "Le grand verre ",
+   "date": "2017-04-16",
+   "modified": "2017-04-16",
+   "target": {
+    "id": "7b6d0728-3302-4537-bae0-58d981e6d65c",
+    "type": "resource",
+    "slug": "le-grand-verre"
+   }
+  },
+  {
+   "path": "/wordpress/duchamp-et-lerotisme/",
+   "wpId": "3262",
+   "wpSlug": "duchamp-et-lerotisme",
+   "wpType": "post",
+   "title": "Duchamp et l'érotisme",
+   "date": "2017-04-16",
+   "modified": "2017-04-16",
+   "target": {
+    "id": "16fb07dc-0a10-40de-acb5-4801393c4841",
+    "type": "resource",
+    "slug": "duchamp-et-l-erotisme"
+   }
+  },
+  {
+   "path": "/wordpress/duchamp-et-le-neo-dadaisme/",
+   "wpId": "3266",
+   "wpSlug": "duchamp-et-le-neo-dadaisme",
+   "wpType": "post",
+   "title": "Duchamp et le néo-dadaïsme",
+   "date": "2017-04-16",
+   "modified": "2017-04-16",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GPTzZY",
+    "type": "resource",
+    "slug": "duchamp-et-le-neo-dadaisme"
+   }
+  },
+  {
+   "path": "/wordpress/rodin/",
+   "wpId": "3315",
+   "wpSlug": "rodin",
+   "wpType": "post",
+   "title": "rodin",
+   "date": "2017-04-18",
+   "modified": "2019-10-25",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CALxkt",
+    "type": "resource",
+    "slug": "rodin"
+   }
+  },
+  {
+   "path": "/wordpress/lancement-de-pls7-17-mai/",
+   "wpId": "3337",
+   "wpSlug": "lancement-de-pls7-17-mai",
+   "wpType": "post",
+   "title": "Lancement de PLS7 17 mai",
+   "date": "2017-05-13",
+   "modified": "2017-05-13",
+   "target": {
+    "id": "crawl-37804394213866e1ace883bbc5717fa0",
+    "type": "pressArticle",
+    "slug": "lancement-de-pls7-17-mai"
+   }
+  },
+  {
+   "path": "/wordpress/minimenta-2017-a-la-galerie-point-rouge-du-15-au-25-juin/",
+   "wpId": "3355",
+   "wpSlug": "minimenta-2017-a-la-galerie-point-rouge-du-15-au-25-juin",
+   "wpType": "post",
+   "title": "MINIMENTA 2017 à  la galerie point rouge du 15 au 25 juin",
+   "date": "2017-05-29",
+   "modified": "2017-10-09",
+   "target": {
+    "id": "wp-exhibition-3355",
+    "type": "exhibition",
+    "slug": "minimenta-2017-a-la-galerie-point-rouge-du-15-au-25-juin"
+   }
+  },
+  {
+   "path": "/wordpress/le-monder-comme-atelier/",
+   "wpId": "3372",
+   "wpSlug": "le-monder-comme-atelier",
+   "wpType": "post",
+   "title": "le monde comme atelier",
+   "date": "2017-06-03",
+   "modified": "2017-06-03",
+   "target": null
+  },
+  {
+   "path": "/wordpress/figuration-critique-du-11-au-15-octobre/",
+   "wpId": "3500",
+   "wpSlug": "figuration-critique-du-11-au-15-octobre",
+   "wpType": "post",
+   "title": "figuration critique du 11 au 15 octobre",
+   "date": "2017-10-09",
+   "modified": "2018-02-13",
+   "target": {
+    "id": "crawl-b49c6b2b4befcdbadca0866783f75482",
+    "type": "exhibition",
+    "slug": "figuration-critique-du-11-au-15-octobre"
+   }
+  },
+  {
+   "path": "/wordpress/sauvons-la-haute-ecole-de-musique-de-neuchatel/",
+   "wpId": "3544",
+   "wpSlug": "sauvons-la-haute-ecole-de-musique-de-neuchatel",
+   "wpType": "post",
+   "title": "sauvons la haute école de musique de Neuchâtel",
+   "date": "2017-12-04",
+   "modified": "2017-12-04",
+   "target": {
+    "id": "wp-exhibition-3544",
+    "type": "exhibition",
+    "slug": "sauvons-la-haute-ecole-de-musique-de-neuchatel"
+   }
+  },
+  {
+   "path": "/wordpress/prepa/",
+   "wpId": "3698",
+   "wpSlug": "prepa",
+   "wpType": "page",
+   "title": "prepa",
+   "date": "2018-01-08",
+   "modified": "2018-01-08",
+   "target": {
+    "id": "wp-resource-3698",
+    "type": "resource",
+    "slug": "prepa"
+   }
+  },
+  {
+   "path": "/wordpress/comparaisons-2017-du-14-au-19-fevrier-2017/",
+   "wpId": "3714",
+   "wpSlug": "comparaisons-2017-du-14-au-19-fevrier-2017",
+   "wpType": "post",
+   "title": "COMPARAISONS 2017 du 14 au 19 février 2017",
+   "date": "2018-01-28",
+   "modified": "2018-02-13",
+   "target": {
+    "id": "wp-exhibition-3714",
+    "type": "exhibition",
+    "slug": "comparaisons-2017-du-14-au-19-fevrier-2017"
+   }
+  },
+  {
+   "path": "/wordpress/introduction-au-surrealisme/",
+   "wpId": "3724",
+   "wpSlug": "introduction-au-surrealisme",
+   "wpType": "post",
+   "title": "introduction au surréalisme",
+   "date": "2018-02-02",
+   "modified": "2021-01-22",
+   "target": {
+    "id": "44a9ae7b-a743-404e-93a9-4b15a054ec72",
+    "type": "resource",
+    "slug": "introduction-au-surrealisme"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-du-109-du-20-au-25-mars-2018/",
+   "wpId": "3753",
+   "wpSlug": "biennale-du-109-du-20-au-25-mars-2018",
+   "wpType": "post",
+   "title": "biennale du 109 du 20 au 25 mars 2018",
+   "date": "2018-03-20",
+   "modified": "2018-03-20",
+   "target": {
+    "id": "crawl-10565632fa1899b398dc9abce5105edd",
+    "type": "exhibition",
+    "slug": "biennale-du-109-du-20-au-25-mars-2018"
+   }
+  },
+  {
+   "path": "/wordpress/participation-au-salon-de-maromme-jusquau-21-mai/",
+   "wpId": "3768",
+   "wpSlug": "participation-au-salon-de-maromme-jusquau-21-mai",
+   "wpType": "post",
+   "title": "Participation au salon de Maromme jusqu'au 21 mai",
+   "date": "2018-05-13",
+   "modified": "2018-05-13",
+   "target": {
+    "id": "crawl-ed76783042f4e07cd52a77eb0e8a440d",
+    "type": "exhibition",
+    "slug": "participation-au-salon-de-maromme-jusquau-21-mai"
+   }
+  },
+  {
+   "path": "/wordpress/point-rouge-galerie-jusquau-2-septembre/",
+   "wpId": "3775",
+   "wpSlug": "point-rouge-galerie-jusquau-2-septembre",
+   "wpType": "post",
+   "title": "point rouge galerie jusqu'au 2 septembre",
+   "date": "2018-08-09",
+   "modified": "2018-08-09",
+   "target": {
+    "id": "wp-exhibition-3775",
+    "type": "exhibition",
+    "slug": "point-rouge-galerie-jusquau-2-septembre"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-collective-au-chateau-de-la-chaussee-jusquau-30-aout/",
+   "wpId": "3788",
+   "wpSlug": "exposition-collective-au-chateau-de-la-chaussee-jusquau-30-aout",
+   "wpType": "post",
+   "title": "exposition collective au château de la chaussée jusqu'au 30 août",
+   "date": "2018-08-09",
+   "modified": "2018-08-09",
+   "target": {
+    "id": "crawl-079758bb18b5c0c89f74bc058f065583",
+    "type": "exhibition",
+    "slug": "exposition-collective-au-chateau-de-la-chaussee-jusquau-30-aout"
+   }
+  },
+  {
+   "path": "/wordpress/du-17-octobre-au-6-janvier-tomas-saraceno-au-palais-de-tokyo/",
+   "wpId": "3801",
+   "wpSlug": "du-17-octobre-au-6-janvier-tomas-saraceno-au-palais-de-tokyo",
+   "wpType": "post",
+   "title": "du 17 octobre au 6 janvier, TOMÁS SARACENO au palais de tokyo",
+   "date": "2018-09-27",
+   "modified": "2018-09-27",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GZRzHe",
+    "type": "resource",
+    "slug": "tomas-saraceno-au-palais-de-tokyo"
+   }
+  },
+  {
+   "path": "/wordpress/david-claerbout-avec-dark-optics-vision-de-nuit-au-printemps-de-toulouse-jusquau-3-ocotobre/",
+   "wpId": "3803",
+   "wpSlug": "david-claerbout-avec-dark-optics-vision-de-nuit-au-printemps-de-toulouse-jusquau-3-ocotobre",
+   "wpType": "post",
+   "title": "DAVID CLAERBOUT avec DARK OPTICS (VISION DE NUIT) au printemps de Toulouse jusqu'au 3 février 2019",
+   "date": "2018-09-27",
+   "modified": "2018-09-27",
+   "target": {
+    "id": "bce44919-6ff3-45df-a75c-1dec4736becc",
+    "type": "resource",
+    "slug": "david-claerbout-avec-dark-optics-vision-de-nuit-au-printemps-de-toulouse-jusqu-au-3-fevrier-2019-oeil-expo"
+   }
+  },
+  {
+   "path": "/wordpress/claire-tabouret-a-la-galerie-almine-rech-jusquau-6-octobre/",
+   "wpId": "3815",
+   "wpSlug": "claire-tabouret-a-la-galerie-almine-rech-jusquau-6-octobre",
+   "wpType": "post",
+   "title": "claire tabouret à la galerie Almine Rech jusqu'au 6 octobre",
+   "date": "2018-09-27",
+   "modified": "2018-09-27",
+   "target": {
+    "id": "bf51c39c-ca70-44a2-b1ff-0818c26db99a",
+    "type": "resource",
+    "slug": "claire-tabouret-a-la-galerie-almine-rech-jusqu-au-6-octobre-2018"
+   }
+  },
+  {
+   "path": "/wordpress/it-comes-in-waves-a-la-galerie-ropac-jusquau-6-octobre/",
+   "wpId": "3820",
+   "wpSlug": "it-comes-in-waves-a-la-galerie-ropac-jusquau-6-octobre",
+   "wpType": "post",
+   "title": "« It Comes in Waves » à la galerie Ropac jusqu'au 6 octobre",
+   "date": "2018-09-27",
+   "modified": "2018-09-27",
+   "target": {
+    "id": "6fc4480a-2930-4d18-80b0-6cae85b79200",
+    "type": "resource",
+    "slug": "it-comes-in-waves-a-la-galerie-ropac-jusqu-au-6-octobre-2018"
+   }
+  },
+  {
+   "path": "/wordpress/salon-de-croissy-sur-seine-du-5-au-21-octobre/",
+   "wpId": "3828",
+   "wpSlug": "salon-de-croissy-sur-seine-du-5-au-21-octobre",
+   "wpType": "post",
+   "title": "salon de Croissy-sur-Seine du 5 au 21 octobre ",
+   "date": "2018-09-29",
+   "modified": "2018-09-29",
+   "target": {
+    "id": "crawl-7357261c9d5916026ccffe881a3dd5c3",
+    "type": "exhibition",
+    "slug": "salon-de-croissy-sur-seine-du-5-au-21-octobre"
+   }
+  },
+  {
+   "path": "/wordpress/concours-2019/",
+   "wpId": "3839",
+   "wpSlug": "concours-2019",
+   "wpType": "page",
+   "title": "concours 2020",
+   "date": "2018-12-29",
+   "modified": "2021-02-13",
+   "target": {
+    "id": "wp-resource-3839",
+    "type": "resource",
+    "slug": "concours-2019"
+   }
+  },
+  {
+   "path": "/wordpress/salon-comparaisons-du-12-au-17-fevrier-2017/",
+   "wpId": "3879",
+   "wpSlug": "salon-comparaisons-du-12-au-17-fevrier-2017",
+   "wpType": "post",
+   "title": "salon COMPARAISONS du 12 au 17 février 2017",
+   "date": "2019-02-17",
+   "modified": "2019-02-17",
+   "target": {
+    "id": "wp-exhibition-3879",
+    "type": "exhibition",
+    "slug": "salon-comparaisons-du-12-au-17-fevrier-2017"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-galerie-point-rouge-a-saint-remy-de-provence-du-1007-au-18082019/",
+   "wpId": "3885",
+   "wpSlug": "exposition-galerie-point-rouge-a-saint-remy-de-provence-du-1007-au-18082019",
+   "wpType": "post",
+   "title": "exposition galerie point rouge à Saint Remy de Provence du 10/07 au 18/08/2019",
+   "date": "2019-07-09",
+   "modified": "2019-09-21",
+   "target": {
+    "id": "wp-exhibition-3885",
+    "type": "exhibition",
+    "slug": "exposition-galerie-point-rouge-a-saint-remy-de-provence-du-1007-au-18082019"
+   }
+  },
+  {
+   "path": "/wordpress/baselitz-a-la-galerie-ropac-du-15-septembre-2019-au-15-janvier-2020/",
+   "wpId": "3900",
+   "wpSlug": "baselitz-a-la-galerie-ropac-du-15-septembre-2019-au-15-janvier-2020",
+   "wpType": "post",
+   "title": "Baselitz à la galerie Ropac du 15 septembre 2019 au 15 janvier 2020",
+   "date": "2019-08-30",
+   "modified": "2019-08-30",
+   "target": {
+    "id": "ef54377f-6325-473e-be0d-018e8f40726e",
+    "type": "resource",
+    "slug": "baselitz-a-la-galerie-ropac-du-15-septembre-2019-au-15-janvier-2020"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-de-venise-2019-jusquau-24-novembre/",
+   "wpId": "3906",
+   "wpSlug": "biennale-de-venise-2019-jusquau-24-novembre",
+   "wpType": "post",
+   "title": "biennale de Venise 2019 jusqu’au 24 novembre",
+   "date": "2019-08-30",
+   "modified": "2019-08-30",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CALPd6",
+    "type": "resource",
+    "slug": "biennale-de-venise-2019-jusqu-au-24-novembre-2019"
+   }
+  },
+  {
+   "path": "/wordpress/pavillon-irakien-venise-jusquau-24-novembre/",
+   "wpId": "3922",
+   "wpSlug": "pavillon-irakien-venise-jusquau-24-novembre",
+   "wpType": "post",
+   "title": "pavillon irakien. Venise jusqu'au 24 novembre",
+   "date": "2019-08-30",
+   "modified": "2019-08-30",
+   "target": {
+    "id": "ab5baf55-196d-467a-9c4b-2ada621a039f",
+    "type": "resource",
+    "slug": "pavillon-irakien-venise-10-avril-jusqu-au-24-novembre-2024"
+   }
+  },
+  {
+   "path": "/wordpress/heartbreak-venise-jusquau-24-novembre/",
+   "wpId": "3928",
+   "wpSlug": "heartbreak-venise-jusquau-24-novembre",
+   "wpType": "post",
+   "title": "\"Heartbreak\" Venise jusqu'au 24 novembre",
+   "date": "2019-08-30",
+   "modified": "2019-08-30",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CALj1g",
+    "type": "resource",
+    "slug": "heartbreak-venise-jusqu-au-24-novembre"
+   }
+  },
+  {
+   "path": "/wordpress/rothko-in-lampedusa-jusquau-24-novembre-venise-palazzo-querini-fondazione-ugo-e-olga-levi-onlus-calle-lunga-san-barnaba-2691/",
+   "wpId": "3935",
+   "wpSlug": "rothko-in-lampedusa-jusquau-24-novembre-venise-palazzo-querini-fondazione-ugo-e-olga-levi-onlus-calle-lunga-san-barnaba-2691",
+   "wpType": "post",
+   "title": "Rothko in Lampedusa jusqu'au 24 Novembre (Venise /Palazzo Querini / Fondazione Ugo e Olga Levi onlus, Calle Lunga San Barnaba 2691)",
+   "date": "2019-08-30",
+   "modified": "2019-09-07",
+   "target": {
+    "id": "b4042069-313e-4dfb-8854-f4cee5e87083",
+    "type": "resource",
+    "slug": "rothko-in-lampedusa-jusqu-au-24-novembre-2019-venise-palazzo-querini-fondazione-ugo-e-olga-levi-onlus-calle-lunga-san-barnaba-2691"
+   }
+  },
+  {
+   "path": "/wordpress/ninfa-dolorosa/",
+   "wpId": "3954",
+   "wpSlug": "ninfa-dolorosa",
+   "wpType": "post",
+   "title": "ninfa dolorosa",
+   "date": "2019-08-30",
+   "modified": "2019-08-30",
+   "target": {
+    "id": "76y5EjmeLusgbergfAisWi",
+    "type": "resource",
+    "slug": "ninfa-dolorosa"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-la-scene-au-chateau-de-la-chaussee-du-7-septembre-au-6-octobre-2019/",
+   "wpId": "3989",
+   "wpSlug": "exposition-la-scene-au-chateau-de-la-chaussee-du-7-septembre-au-6-octobre-2019",
+   "wpType": "post",
+   "title": "exposition \"La Scène\" au Château de la Chaussée du 7 septembre au 6 octobre 2019",
+   "date": "2019-09-12",
+   "modified": "2019-09-12",
+   "target": {
+    "id": "crawl-ae94f618535f43f47d1210e6b0a6fce5",
+    "type": "exhibition",
+    "slug": "exposition-la-scene-au-chateau-de-la-chaussee-du-7-septembre-au-6-octobre-2019-2019"
+   }
+  },
+  {
+   "path": "/wordpress/salon-de-croissy-du-28-septembre-au-13-octobre/",
+   "wpId": "4012",
+   "wpSlug": "salon-de-croissy-du-28-septembre-au-13-octobre",
+   "wpType": "post",
+   "title": "Salon de Croissy du 28 septembre au 13 octobre",
+   "date": "2019-09-26",
+   "modified": "2019-09-28",
+   "target": {
+    "id": "crawl-069d8c604ec0b87221f5efdf3a0ff2e8",
+    "type": "exhibition",
+    "slug": "salon-de-croissy-du-28-septembre-au-13-octobre"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-de-lyon/",
+   "wpId": "4028",
+   "wpSlug": "biennale-de-lyon",
+   "wpType": "post",
+   "title": "biennale de Lyon",
+   "date": "2019-10-04",
+   "modified": "2019-10-10",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CAM2fI",
+    "type": "resource",
+    "slug": "biennale-de-lyon"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-bacon-au-centre-pompidou-jusquau-20-janvier/",
+   "wpId": "4040",
+   "wpSlug": "exposition-bacon-au-centre-pompidou-jusquau-20-janvier",
+   "wpType": "post",
+   "title": "exposition Bacon",
+   "date": "2019-10-10",
+   "modified": "2019-10-17",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GZSRHO",
+    "type": "resource",
+    "slug": "francis-bacon-en-toutes-lettres"
+   }
+  },
+  {
+   "path": "/wordpress/you-oeuvres-de-la-collection-lafayette-anticipations-jusquau-16-fevrier-2020-au-mamvp/",
+   "wpId": "4102",
+   "wpSlug": "you-oeuvres-de-la-collection-lafayette-anticipations-jusquau-16-fevrier-2020-au-mamvp",
+   "wpType": "post",
+   "title": "You. oeuvres de la collection Lafayette Anticipations jusqu'au 16 février 2020 au MAMVP",
+   "date": "2019-10-12",
+   "modified": "2019-10-13",
+   "target": {
+    "id": "c6daa8c6-7a8e-4024-a5c1-b3705bf13a4e",
+    "type": "resource",
+    "slug": "you-oeuvres-de-la-collection-lafayette-anticipations-jusqu-au-16-fevrier-2020-au-mamvp"
+   }
+  },
+  {
+   "path": "/wordpress/les-livres-pauvres-a-la-chapelle-sainte-anne-tours/",
+   "wpId": "4145",
+   "wpSlug": "les-livres-pauvres-a-la-chapelle-sainte-anne-tours",
+   "wpType": "post",
+   "title": "les livres pauvres à la chapelle Sainte Anne (tours)",
+   "date": "2019-10-14",
+   "modified": "2019-10-14",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CAMBSD",
+    "type": "resource",
+    "slug": "les-livres-pauvres-a-la-chapelle-sainte-anne-tours"
+   }
+  },
+  {
+   "path": "/wordpress/mondrian-figuratif/",
+   "wpId": "4183",
+   "wpSlug": "mondrian-figuratif",
+   "wpType": "post",
+   "title": "Mondrian figuratif",
+   "date": "2019-10-15",
+   "modified": "2019-11-05",
+   "target": {
+    "id": "8915473b-d8fc-411c-8b40-73d2bb315802",
+    "type": "resource",
+    "slug": "mondrian-figuratif"
+   }
+  },
+  {
+   "path": "/wordpress/exposition-bacon/",
+   "wpId": "4234",
+   "wpSlug": "exposition-bacon",
+   "wpType": "post",
+   "title": "Francis Bacon en toutes lettres",
+   "date": "2019-10-17",
+   "modified": "2020-01-12",
+   "target": null,
+   "redirect": "/wordpress/exposition-bacon-au-centre-pompidou-jusquau-20-janvier/",
+   "duplicateOf": "/wordpress/exposition-bacon-au-centre-pompidou-jusquau-20-janvier/"
+  },
+  {
+   "path": "/wordpress/nous-les-arbres/",
+   "wpId": "4246",
+   "wpSlug": "nous-les-arbres",
+   "wpType": "post",
+   "title": "Nous les arbres ",
+   "date": "2019-10-19",
+   "modified": "2019-10-20",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CAMPZq",
+    "type": "resource",
+    "slug": "nous-les-arbres-a-la-fondation-cartier-pour-l-art-contemporain-a-paris-du-12-juillet-au-10-novembre-2019"
+   }
+  },
+  {
+   "path": "/wordpress/stage-grenade/",
+   "wpId": "4290",
+   "wpSlug": "stage-grenade",
+   "wpType": "post",
+   "title": "stage grenade",
+   "date": "2019-10-27",
+   "modified": "2020-01-02",
+   "target": null
+  },
+  {
+   "path": "/wordpress/portes-closes/",
+   "wpId": "4300",
+   "wpSlug": "portes-closes",
+   "wpType": "post",
+   "title": "portes closes",
+   "date": "2019-10-30",
+   "modified": "2019-11-02",
+   "target": null
+  },
+  {
+   "path": "/wordpress/minimalisme/",
+   "wpId": "4346",
+   "wpSlug": "minimalisme",
+   "wpType": "post",
+   "title": "minimalisme",
+   "date": "2019-11-02",
+   "modified": "2019-11-02",
+   "target": {
+    "id": "wp-resource-4346",
+    "type": "resource",
+    "slug": "minimalisme"
+   }
+  },
+  {
+   "path": "/wordpress/homo-faber/",
+   "wpId": "4361",
+   "wpSlug": "homo-faber",
+   "wpType": "post",
+   "title": "homo faber",
+   "date": "2019-11-04",
+   "modified": "2019-11-05",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyD2JzB",
+    "type": "resource",
+    "slug": "homo-faber"
+   }
+  },
+  {
+   "path": "/wordpress/mondrian-figuratif-et-lautoportrait/",
+   "wpId": "4389",
+   "wpSlug": "mondrian-figuratif-et-lautoportrait",
+   "wpType": "post",
+   "title": "Mondrian figuratif et l'autoportrait",
+   "date": "2019-11-05",
+   "modified": "2019-11-05",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyD2DaX",
+    "type": "resource",
+    "slug": "mondrian-figuratif-et-l-autoportrait"
+   }
+  },
+  {
+   "path": "/wordpress/de-stijl/",
+   "wpId": "4441",
+   "wpSlug": "de-stijl",
+   "wpType": "post",
+   "title": "de stijl",
+   "date": "2019-11-07",
+   "modified": "2025-08-07",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyD1e2X",
+    "type": "resource",
+    "slug": "de-stijl"
+   }
+  },
+  {
+   "path": "/wordpress/woods-galerie-terasieve-jusquau-30-novembre/",
+   "wpId": "4483",
+   "wpSlug": "woods-galerie-terasieve-jusquau-30-novembre",
+   "wpType": "post",
+   "title": "\"Woods\". Galerie Terasiève jusqu'au 30 novembre",
+   "date": "2019-11-17",
+   "modified": "2019-11-17",
+   "target": {
+    "id": "wp-resource-4483",
+    "type": "resource",
+    "slug": "woods-galerie-terasieve-jusquau-30-novembre"
+   }
+  },
+  {
+   "path": "/wordpress/cours-photo/",
+   "wpId": "4519",
+   "wpSlug": "cours-photo",
+   "wpType": "post",
+   "title": "cours photo",
+   "date": "2019-11-22",
+   "modified": "2019-11-22",
+   "target": {
+    "id": "YvGTsghZNR8kZIgOxQnxKz",
+    "type": "resource",
+    "slug": "cours-photo"
+   }
+  },
+  {
+   "path": "/wordpress/la-photographie-et-la-peinture/",
+   "wpId": "4549",
+   "wpSlug": "la-photographie-et-la-peinture",
+   "wpType": "post",
+   "title": "la photographie et la peinture",
+   "date": "2019-11-22",
+   "modified": "2019-11-22",
+   "target": {
+    "id": "wp-resource-4549",
+    "type": "resource",
+    "slug": "la-photographie-et-la-peinture"
+   }
+  },
+  {
+   "path": "/wordpress/la-mesure-de-lexces/",
+   "wpId": "4557",
+   "wpSlug": "la-mesure-de-lexces",
+   "wpType": "post",
+   "title": "la mesure de l'excès",
+   "date": "2019-11-22",
+   "modified": "2019-11-24",
+   "target": {
+    "id": "wp-resource-4557",
+    "type": "resource",
+    "slug": "la-mesure-de-lexces"
+   }
+  },
+  {
+   "path": "/wordpress/figurer-la-creation-du-monde/",
+   "wpId": "4565",
+   "wpSlug": "figurer-la-creation-du-monde",
+   "wpType": "post",
+   "title": "figurer la création du monde",
+   "date": "2019-11-23",
+   "modified": "2019-11-24",
+   "target": {
+    "id": "wp-resource-4565",
+    "type": "resource",
+    "slug": "figurer-la-creation-du-monde"
+   }
+  },
+  {
+   "path": "/wordpress/le-corbusiermusee/",
+   "wpId": "4579",
+   "wpSlug": "le-corbusiermusee",
+   "wpType": "post",
+   "title": "le corbusier penseur du musée",
+   "date": "2019-11-24",
+   "modified": "2019-11-24",
+   "target": null
+  },
+  {
+   "path": "/wordpress/adel-abdessemed/",
+   "wpId": "4592",
+   "wpSlug": "adel-abdessemed",
+   "wpType": "post",
+   "title": "Adel Abdessemed",
+   "date": "2019-11-25",
+   "modified": "2019-11-25",
+   "target": {
+    "id": "YvGTsghZNR8kZIgOxQnyBU",
+    "type": "resource",
+    "slug": "adel-abdessemed"
+   }
+  },
+  {
+   "path": "/wordpress/leonarddevinci-le-geniedudessin/",
+   "wpId": "4602",
+   "wpSlug": "leonarddevinci-le-geniedudessin",
+   "wpType": "post",
+   "title": "léonarddevinci.le géniedudessin",
+   "date": "2019-11-28",
+   "modified": "2019-11-28",
+   "target": {
+    "id": "cfdg8XzVwL7lHxnMYFoH61",
+    "type": "resource",
+    "slug": "leonard-de-vinci-le-genie-du-dessin"
+   }
+  },
+  {
+   "path": "/wordpress/vinci/",
+   "wpId": "4605",
+   "wpSlug": "vinci",
+   "wpType": "post",
+   "title": "vinci",
+   "date": "2019-11-28",
+   "modified": "2019-11-28",
+   "target": null,
+   "redirect": "/wordpress/leonarddevinci-le-geniedudessin/",
+   "duplicateOf": "/wordpress/leonarddevinci-le-geniedudessin/"
+  },
+  {
+   "path": "/wordpress/greco/",
+   "wpId": "4609",
+   "wpSlug": "greco",
+   "wpType": "post",
+   "title": "greco",
+   "date": "2019-11-28",
+   "modified": "2019-11-28",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5Bx6QaM",
+    "type": "resource",
+    "slug": "greco"
+   }
+  },
+  {
+   "path": "/wordpress/greco-2/",
+   "wpId": "4616",
+   "wpSlug": "greco-2",
+   "wpType": "post",
+   "title": "greco ",
+   "date": "2019-11-28",
+   "modified": "2019-11-28",
+   "target": null
+  },
+  {
+   "path": "/wordpress/salon-comparaisons-2020/",
+   "wpId": "4718",
+   "wpSlug": "salon-comparaisons-2020",
+   "wpType": "post",
+   "title": "salon comparaisons du 11 au 16 février 2020",
+   "date": "2020-02-08",
+   "modified": "2020-02-08",
+   "target": {
+    "id": "crawl-ce906c7916e97b22c4dfec3d9921146e",
+    "type": "exhibition",
+    "slug": "salon-comparaisons-du-11-au-16-fevrier-2020"
+   }
+  },
+  {
+   "path": "/wordpress/journees-portes-ouvertes-7-et-8-mars/",
+   "wpId": "4721",
+   "wpSlug": "journees-portes-ouvertes-7-et-8-mars",
+   "wpType": "post",
+   "title": "journées portes ouvertes 7 et 8 mars 2020",
+   "date": "2020-02-08",
+   "modified": "2020-02-08",
+   "target": {
+    "id": "crawl-d5cb27febc05fb81d9caed4f2477df6c",
+    "type": "exhibition",
+    "slug": "journees-portes-ouvertes-7-et-8-mars-2020"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-du-109/",
+   "wpId": "4746",
+   "wpSlug": "biennale-du-109",
+   "wpType": "post",
+   "title": "Biennale du 109 ",
+   "date": "2020-03-09",
+   "modified": "2021-01-22",
+   "target": {
+    "id": "wp-exhibition-4746",
+    "type": "exhibition",
+    "slug": "biennale-du-109"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-humide/",
+   "wpId": "4793",
+   "wpSlug": "aquarelle-humide",
+   "wpType": "page",
+   "title": "aquarelle humide",
+   "date": "2020-03-18",
+   "modified": "2020-04-06",
+   "target": {
+    "id": "wp-resource-4793",
+    "type": "resource",
+    "slug": "aquarelle-humide"
+   }
+  },
+  {
+   "path": "/wordpress/degrade-de-valeur/",
+   "wpId": "4889",
+   "wpSlug": "degrade-de-valeur",
+   "wpType": "page",
+   "title": "dégradé de valeur",
+   "date": "2020-03-18",
+   "modified": "2020-04-06",
+   "target": {
+    "id": "wp-resource-4889",
+    "type": "resource",
+    "slug": "degrade-de-valeur"
+   }
+  },
+  {
+   "path": "/wordpress/technique-des-deux-crayons/",
+   "wpId": "5149",
+   "wpSlug": "technique-des-deux-crayons",
+   "wpType": "page",
+   "title": "Technique des deux et trois crayons",
+   "date": "2020-03-25",
+   "modified": "2020-04-28",
+   "target": {
+    "id": "8f57c7c9-53eb-4fe3-94da-1bdad4368760",
+    "type": "resource",
+    "slug": "les-trois-crayons-dessin-dessin"
+   }
+  },
+  {
+   "path": "/wordpress/les-women-de-de-kooning/",
+   "wpId": "5382",
+   "wpSlug": "les-women-de-de-kooning",
+   "wpType": "page",
+   "title": "les \"women\" de de Kooning",
+   "date": "2020-03-30",
+   "modified": "2020-03-30",
+   "target": {
+    "id": "wp-resource-5382",
+    "type": "resource",
+    "slug": "les-women-de-de-kooning"
+   }
+  },
+  {
+   "path": "/wordpress/le-portrait/",
+   "wpId": "5576",
+   "wpSlug": "le-portrait",
+   "wpType": "page",
+   "title": "le portrait",
+   "date": "2020-04-06",
+   "modified": "2020-04-23",
+   "target": {
+    "id": "wp-resource-5576",
+    "type": "resource",
+    "slug": "le-portrait"
+   }
+  },
+  {
+   "path": "/wordpress/les-expressions/",
+   "wpId": "5723",
+   "wpSlug": "les-expressions",
+   "wpType": "page",
+   "title": "les expressions",
+   "date": "2020-04-09",
+   "modified": "2020-04-28",
+   "target": {
+    "id": "wp-resource-5723",
+    "type": "resource",
+    "slug": "les-expressions"
+   }
+  },
+  {
+   "path": "/wordpress/6141-2/",
+   "wpId": "6141",
+   "wpSlug": "6141-2",
+   "wpType": "page",
+   "title": "déchaîner la peinture",
+   "date": "2020-04-26",
+   "modified": "2020-04-27",
+   "target": {
+    "id": "wp-resource-6141",
+    "type": "resource",
+    "slug": "6141-2"
+   }
+  },
+  {
+   "path": "/wordpress/supermarche-des-images/",
+   "wpId": "6151",
+   "wpSlug": "supermarche-des-images",
+   "wpType": "page",
+   "title": "supermarché des images",
+   "date": "2020-04-26",
+   "modified": "2020-04-26",
+   "target": {
+    "id": "wp-resource-6151",
+    "type": "resource",
+    "slug": "supermarche-des-images"
+   }
+  },
+  {
+   "path": "/wordpress/contrastes-de-couleurs-de-j-itten/",
+   "wpId": "6198",
+   "wpSlug": "contrastes-de-couleurs-de-j-itten",
+   "wpType": "page",
+   "title": "les contrastes",
+   "date": "2020-04-29",
+   "modified": "2020-05-02",
+   "target": {
+    "id": "wp-resource-6198",
+    "type": "resource",
+    "slug": "contrastes-de-couleurs-de-j-itten"
+   }
+  },
+  {
+   "path": "/wordpress/itten/",
+   "wpId": "6317",
+   "wpSlug": "itten",
+   "wpType": "page",
+   "title": "Itten",
+   "date": "2020-05-02",
+   "modified": "2020-05-17",
+   "target": {
+    "id": "wp-resource-6317",
+    "type": "resource",
+    "slug": "itten"
+   }
+  },
+  {
+   "path": "/wordpress/correction/",
+   "wpId": "6325",
+   "wpSlug": "correction",
+   "wpType": "page",
+   "title": "correction",
+   "date": "2020-05-02",
+   "modified": "2020-05-31",
+   "target": {
+    "id": "wp-resource-6325",
+    "type": "resource",
+    "slug": "correction"
+   }
+  },
+  {
+   "path": "/wordpress/complementaires/",
+   "wpId": "6632",
+   "wpSlug": "complementaires",
+   "wpType": "page",
+   "title": "complémentaires",
+   "date": "2020-05-21",
+   "modified": "2020-06-01",
+   "target": {
+    "id": "wp-resource-6632",
+    "type": "resource",
+    "slug": "complementaires"
+   }
+  },
+  {
+   "path": "/wordpress/liste-des-expositions/",
+   "wpId": "6859",
+   "wpSlug": "liste-des-expositions",
+   "wpType": "page",
+   "title": "liste des expositions",
+   "date": "2020-06-14",
+   "modified": "2024-10-24",
+   "target": {
+    "id": "wp-resource-6859",
+    "type": "resource",
+    "slug": "liste-des-expositions"
+   }
+  },
+  {
+   "path": "/wordpress/marc-petit-a-la-galerie-schwab-jusquau-20-juin/",
+   "wpId": "6874",
+   "wpSlug": "marc-petit-a-la-galerie-schwab-jusquau-20-juin",
+   "wpType": "post",
+   "title": "Marc Petit à la galerie Schwab jusqu'au 20 juin",
+   "date": "2020-06-17",
+   "modified": "2020-06-17",
+   "target": {
+    "id": "fd5772ff-0636-4847-b6c6-908ea7ea22e7",
+    "type": "resource",
+    "slug": "marc-petit-a-la-galerie-schwab-jusqu-au-20-juin-2020"
+   }
+  },
+  {
+   "path": "/wordpress/ceramique/",
+   "wpId": "6907",
+   "wpSlug": "ceramique",
+   "wpType": "page",
+   "title": "céramique",
+   "date": "2020-06-29",
+   "modified": "2025-02-27",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/covid19/",
+   "wpId": "6922",
+   "wpSlug": "covid19",
+   "wpType": "post",
+   "title": "COVID19",
+   "date": "2020-07-07",
+   "modified": "2020-07-07",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCocRG91",
+    "type": "resource",
+    "slug": "covid19"
+   }
+  },
+  {
+   "path": "/wordpress/turner-peintures-et-aquarelles-collection-de-la-tate-musee-jacquemart-andre-jusquau-20-juillet/",
+   "wpId": "6925",
+   "wpSlug": "turner-peintures-et-aquarelles-collection-de-la-tate-musee-jacquemart-andre-jusquau-20-juillet",
+   "wpType": "post",
+   "title": "Turner. Peintures et aquarelles. Collection de la Tate. Musée Jacquemart André. jusqu’au 11 janvier 2021",
+   "date": "2020-07-08",
+   "modified": "2020-07-08",
+   "target": {
+    "id": "247ae956-dc4d-4c40-8d04-5075022c2a72",
+    "type": "resource",
+    "slug": "turner-peintures-et-aquarelles-collection-de-la-tate-musee-jacquemart-andre"
+   }
+  },
+  {
+   "path": "/wordpress/dessin-cubiste/",
+   "wpId": "7058",
+   "wpSlug": "dessin-cubiste",
+   "wpType": "page",
+   "title": "dessin cubiste",
+   "date": "2020-11-03",
+   "modified": "2020-11-19",
+   "target": {
+    "id": "wp-resource-7058",
+    "type": "resource",
+    "slug": "dessin-cubiste"
+   }
+  },
+  {
+   "path": "/wordpress/peinture-cubiste/",
+   "wpId": "7151",
+   "wpSlug": "peinture-cubiste",
+   "wpType": "page",
+   "title": "peinture cubiste",
+   "date": "2020-11-11",
+   "modified": "2020-11-22",
+   "target": {
+    "id": "wp-resource-7151",
+    "type": "resource",
+    "slug": "peinture-cubiste"
+   }
+  },
+  {
+   "path": "/wordpress/contrastes-de-forme/",
+   "wpId": "7287",
+   "wpSlug": "contrastes-de-forme",
+   "wpType": "page",
+   "title": "contrastes de forme",
+   "date": "2020-11-16",
+   "modified": "2020-12-08",
+   "target": {
+    "id": "wp-resource-7287",
+    "type": "resource",
+    "slug": "contrastes-de-forme"
+   }
+  },
+  {
+   "path": "/wordpress/les-cubistes/",
+   "wpId": "7295",
+   "wpSlug": "les-cubistes",
+   "wpType": "page",
+   "title": "les cubistes",
+   "date": "2020-11-16",
+   "modified": "2025-10-06",
+   "target": {
+    "id": "e47788fa-55cb-475b-84d8-1cb04107c615",
+    "type": "resource",
+    "slug": "les-cubistes"
+   }
+  },
+  {
+   "path": "/wordpress/cubisme-synthetique/",
+   "wpId": "7362",
+   "wpSlug": "cubisme-synthetique",
+   "wpType": "page",
+   "title": "cubisme synthétique",
+   "date": "2020-11-19",
+   "modified": "2020-11-23",
+   "target": {
+    "id": "wp-resource-7362",
+    "type": "resource",
+    "slug": "cubisme-synthetique"
+   }
+  },
+  {
+   "path": "/wordpress/sur-un-nuage/",
+   "wpId": "7440",
+   "wpSlug": "sur-un-nuage",
+   "wpType": "page",
+   "title": "Sur un nuage",
+   "date": "2020-11-23",
+   "modified": "2020-11-23",
+   "target": {
+    "id": "wp-resource-7440",
+    "type": "resource",
+    "slug": "sur-un-nuage"
+   }
+  },
+  {
+   "path": "/wordpress/desirer-desobeir/",
+   "wpId": "7450",
+   "wpSlug": "desirer-desobeir",
+   "wpType": "page",
+   "title": "Désirer désobéir",
+   "date": "2020-11-23",
+   "modified": "2020-11-23",
+   "target": {
+    "id": "wp-resource-7450",
+    "type": "resource",
+    "slug": "desirer-desobeir"
+   }
+  },
+  {
+   "path": "/wordpress/giorgio-de-chirico/",
+   "wpId": "7470",
+   "wpSlug": "giorgio-de-chirico",
+   "wpType": "page",
+   "title": "Giorgio de Chirico",
+   "date": "2020-11-23",
+   "modified": "2020-11-23",
+   "target": {
+    "id": "657f99e9-805b-4574-87ad-a8398f205129",
+    "type": "resource",
+    "slug": "giorgio-de-chirico-la-peinture-metaphisique-ed-hazan"
+   }
+  },
+  {
+   "path": "/wordpress/giorgio-de-chirico-la-peinture-metaphysique-au-musee-de-lorangerie-jusquau-14-decembre-2020/",
+   "wpId": "7480",
+   "wpSlug": "giorgio-de-chirico-la-peinture-metaphysique-au-musee-de-lorangerie-jusquau-14-decembre-2020",
+   "wpType": "post",
+   "title": "Giorgio de Chirico. La peinture métaphysique. au musée de l'Orangerie jusqu'au 14 décembre 2020",
+   "date": "2020-11-23",
+   "modified": "2020-11-23",
+   "target": {
+    "id": "5cbe7e74-17ac-4e07-8eea-5e6f2a27ee5b",
+    "type": "resource",
+    "slug": "giorgio-de-chirico-la-peinture-metaphysique-musee-de-l-orangerie-exposition-du-16-septembre-au-14-decembre-2020"
+   }
+  },
+  {
+   "path": "/wordpress/le-realisme-pictural/",
+   "wpId": "7555",
+   "wpSlug": "le-realisme-pictural",
+   "wpType": "page",
+   "title": "le réalisme pictural",
+   "date": "2020-12-01",
+   "modified": "2025-10-06",
+   "target": null
+  },
+  {
+   "path": "/wordpress/formica-jean-pierre/",
+   "wpId": "7617",
+   "wpSlug": "formica-jean-pierre",
+   "wpType": "post",
+   "title": "Formica Jean-Pierre",
+   "date": "2020-12-02",
+   "modified": "2020-12-02",
+   "target": null
+  },
+  {
+   "path": "/wordpress/valadon-et-ses-contemporaines/",
+   "wpId": "7621",
+   "wpSlug": "valadon-et-ses-contemporaines",
+   "wpType": "post",
+   "title": "Valadon et ses contemporaines",
+   "date": "2020-12-02",
+   "modified": "2020-12-02",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5Bx6XnZ",
+    "type": "resource",
+    "slug": "valadon-et-ses-contemporaines"
+   }
+  },
+  {
+   "path": "/wordpress/eloge-de-laplomb/",
+   "wpId": "7626",
+   "wpSlug": "eloge-de-laplomb",
+   "wpType": "post",
+   "title": "éloge de l’aplomb. ",
+   "date": "2020-12-02",
+   "modified": "2020-12-02",
+   "target": {
+    "id": "wp-resource-7626",
+    "type": "resource",
+    "slug": "eloge-de-laplomb"
+   }
+  },
+  {
+   "path": "/wordpress/tobey-or-not-to-be/",
+   "wpId": "7630",
+   "wpSlug": "tobey-or-not-to-be",
+   "wpType": "post",
+   "title": "Tobey or not to be",
+   "date": "2020-12-02",
+   "modified": "2020-12-02",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyKd16D",
+    "type": "resource",
+    "slug": "tobey-or-not-to-be"
+   }
+  },
+  {
+   "path": "/wordpress/martin-barre/",
+   "wpId": "7639",
+   "wpSlug": "martin-barre",
+   "wpType": "post",
+   "title": "Martin Barré",
+   "date": "2020-12-02",
+   "modified": "2020-12-02",
+   "target": {
+    "id": "dc274af7-9a64-4d02-856c-defdba76f2fe",
+    "type": "resource",
+    "slug": "martin-barre-jusqu-au-4-janvier-2021"
+   }
+  },
+  {
+   "path": "/wordpress/cezanne/",
+   "wpId": "7732",
+   "wpSlug": "cezanne",
+   "wpType": "page",
+   "title": "Cézanne",
+   "date": "2020-12-15",
+   "modified": "2020-12-15",
+   "target": {
+    "id": "bee7fb4d-331c-4d7e-a53f-229363b4deff",
+    "type": "resource",
+    "slug": "cezanne"
+   }
+  },
+  {
+   "path": "/wordpress/lumiere-delaunay/",
+   "wpId": "7768",
+   "wpSlug": "lumiere-delaunay",
+   "wpType": "page",
+   "title": "Lumière Delaunay",
+   "date": "2021-01-05",
+   "modified": "2021-01-12",
+   "target": {
+    "id": "cfe66ca9-bc60-4c6a-b4a9-d846310e8985",
+    "type": "resource",
+    "slug": "la-lumiere-avec-delaunay-en-1912"
+   }
+  },
+  {
+   "path": "/wordpress/simultaneite/",
+   "wpId": "7774",
+   "wpSlug": "simultaneite",
+   "wpType": "page",
+   "title": "simultanéité",
+   "date": "2021-01-05",
+   "modified": "2021-01-20",
+   "target": {
+    "id": "wp-resource-7774",
+    "type": "resource",
+    "slug": "simultaneite"
+   }
+  },
+  {
+   "path": "/wordpress/dante-a-la-galerie-point-rouge/",
+   "wpId": "8007",
+   "wpSlug": "dante-a-la-galerie-point-rouge",
+   "wpType": "post",
+   "title": "Dante à la galerie POINT ROUGE jusqu'au 4 juillet",
+   "date": "2021-01-22",
+   "modified": "2021-05-18",
+   "target": {
+    "id": "wp-exhibition-8007",
+    "type": "exhibition",
+    "slug": "dante-a-la-galerie-point-rouge"
+   }
+  },
+  {
+   "path": "/wordpress/de-dada-au-surrealisme-max-ernst-et-le-collage/",
+   "wpId": "8017",
+   "wpSlug": "de-dada-au-surrealisme-max-ernst-et-le-collage",
+   "wpType": "post",
+   "title": "Max Ernst collage",
+   "date": "2021-01-22",
+   "modified": "2021-02-27",
+   "target": {
+    "id": "5d8994e8-8ba2-494c-811d-6768b123bdd8",
+    "type": "resource",
+    "slug": "de-dada-au-surrealisme-max-ernst-et-le-collage"
+   }
+  },
+  {
+   "path": "/wordpress/collage-max-ernst/",
+   "wpId": "8021",
+   "wpSlug": "collage-max-ernst",
+   "wpType": "post",
+   "title": "collage max Ernst",
+   "date": "2021-01-22",
+   "modified": "2021-03-30",
+   "target": null,
+   "redirect": "/wordpress/de-dada-au-surrealisme-max-ernst-et-le-collage/",
+   "duplicateOf": "/wordpress/de-dada-au-surrealisme-max-ernst-et-le-collage/"
+  },
+  {
+   "path": "/wordpress/ecriture-automatique/",
+   "wpId": "8026",
+   "wpSlug": "ecriture-automatique",
+   "wpType": "post",
+   "title": "écriture automatique",
+   "date": "2021-01-22",
+   "modified": "2021-01-22",
+   "target": null,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/klee-et-la-couleur/",
+   "wpId": "8037",
+   "wpSlug": "klee-et-la-couleur",
+   "wpType": "post",
+   "title": "Klee et la couleur",
+   "date": "2021-01-26",
+   "modified": "2021-02-02",
+   "target": {
+    "id": "wp-resource-8037",
+    "type": "resource",
+    "slug": "klee-et-la-couleur"
+   }
+  },
+  {
+   "path": "/wordpress/paire-de-couleur/",
+   "wpId": "8100",
+   "wpSlug": "paire-de-couleur",
+   "wpType": "post",
+   "title": "les paires de couleurs",
+   "date": "2021-02-02",
+   "modified": "2021-02-10",
+   "target": {
+    "id": "3fVk255H0aipQzY5mWJ18u",
+    "type": "resource",
+    "slug": "les-paires-de-couleurs"
+   }
+  },
+  {
+   "path": "/wordpress/polyphonies-de-klee/",
+   "wpId": "8239",
+   "wpSlug": "polyphonies-de-klee",
+   "wpType": "post",
+   "title": "polyphonies de Klee",
+   "date": "2021-02-16",
+   "modified": "2021-03-02",
+   "target": {
+    "id": "wp-resource-8239",
+    "type": "resource",
+    "slug": "polyphonies-de-klee"
+   }
+  },
+  {
+   "path": "/wordpress/collage-gravure/",
+   "wpId": "8427",
+   "wpSlug": "collage-gravure",
+   "wpType": "post",
+   "title": "collage gravure",
+   "date": "2021-03-30",
+   "modified": "2021-03-30",
+   "target": {
+    "id": "wp-resource-8427",
+    "type": "resource",
+    "slug": "collage-gravure"
+   }
+  },
+  {
+   "path": "/wordpress/frottage/",
+   "wpId": "8438",
+   "wpSlug": "frottage",
+   "wpType": "post",
+   "title": "frottage",
+   "date": "2021-04-06",
+   "modified": "2021-04-06",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCocRPCJ",
+    "type": "resource",
+    "slug": "frottage"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-seche/",
+   "wpId": "8460",
+   "wpSlug": "aquarelle-seche",
+   "wpType": "post",
+   "title": "aquarelle sèche",
+   "date": "2021-04-27",
+   "modified": "2021-05-11",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyKg7ZF",
+    "type": "resource",
+    "slug": "aquarelle-seche"
+   }
+  },
+  {
+   "path": "/wordpress/correction-aquarelleseche/",
+   "wpId": "8494",
+   "wpSlug": "correction-aquarelleseche",
+   "wpType": "post",
+   "title": "correction aquarellesèche",
+   "date": "2021-05-04",
+   "modified": "2021-05-11",
+   "target": {
+    "id": "wp-resource-8494",
+    "type": "resource",
+    "slug": "correction-aquarelleseche"
+   }
+  },
+  {
+   "path": "/wordpress/marine-aquarelle-seche/",
+   "wpId": "8537",
+   "wpSlug": "marine-aquarelle-seche",
+   "wpType": "post",
+   "title": "marine aquarelle sèche",
+   "date": "2021-05-11",
+   "modified": "2021-05-24",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyKg9yv",
+    "type": "resource",
+    "slug": "marine-aquarelle-seche"
+   }
+  },
+  {
+   "path": "/wordpress/correction-marines/",
+   "wpId": "8606",
+   "wpSlug": "correction-marines",
+   "wpType": "post",
+   "title": "correction marines",
+   "date": "2021-05-18",
+   "modified": "2021-05-18",
+   "target": {
+    "id": "wp-resource-8606",
+    "type": "resource",
+    "slug": "correction-marines"
+   }
+  },
+  {
+   "path": "/wordpress/les-ateliers-de-la-boucle-5-6-juin-2021/",
+   "wpId": "8656",
+   "wpSlug": "les-ateliers-de-la-boucle-5-6-juin-2021",
+   "wpType": "post",
+   "title": "Les Ateliers de la Boucle. 5-6 juin 2021",
+   "date": "2021-05-18",
+   "modified": "2021-05-18",
+   "target": {
+    "id": "crawl-d063365b03026f0dd7e6b5bded007d7c",
+    "type": "resource",
+    "slug": "les-ateliers-de-la-boucle-5-6-juin-2021"
+   }
+  },
+  {
+   "path": "/wordpress/correction-marine-phare/",
+   "wpId": "8672",
+   "wpSlug": "correction-marine-phare",
+   "wpType": "post",
+   "title": "correction marine-phare",
+   "date": "2021-05-24",
+   "modified": "2021-05-24",
+   "target": {
+    "id": "wp-resource-8672",
+    "type": "resource",
+    "slug": "correction-marine-phare"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-divisionniste/",
+   "wpId": "8694",
+   "wpSlug": "aquarelle-divisionniste",
+   "wpType": "post",
+   "title": "aquarelle divisionniste",
+   "date": "2021-05-24",
+   "modified": "2021-06-08",
+   "target": {
+    "id": "cH0KO5p7sKjW2U8Zdwx5kQ",
+    "type": "resource",
+    "slug": "aquarelle-divisionniste"
+   }
+  },
+  {
+   "path": "/wordpress/divisionniste-1/",
+   "wpId": "8770",
+   "wpSlug": "divisionniste-1",
+   "wpType": "post",
+   "title": "divisionniste.1",
+   "date": "2021-05-30",
+   "modified": "2021-05-30",
+   "target": {
+    "id": "wp-resource-8770",
+    "type": "resource",
+    "slug": "divisionniste-1"
+   }
+  },
+  {
+   "path": "/wordpress/divisionniste-2/",
+   "wpId": "8803",
+   "wpSlug": "divisionniste-2",
+   "wpType": "post",
+   "title": "divisionniste.2",
+   "date": "2021-06-08",
+   "modified": "2021-06-08",
+   "target": {
+    "id": "wp-resource-8803",
+    "type": "resource",
+    "slug": "divisionniste-2"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-fauve/",
+   "wpId": "8828",
+   "wpSlug": "aquarelle-fauve",
+   "wpType": "post",
+   "title": "aquarelle fauve",
+   "date": "2021-06-08",
+   "modified": "2021-06-13",
+   "target": {
+    "id": "EiL0uGXRw6rhIfqfq7o87B",
+    "type": "resource",
+    "slug": "aquarelle-fauve-technique-picturale-technique-picturale"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-fauve-2/",
+   "wpId": "8852",
+   "wpSlug": "aquarelle-fauve-2",
+   "wpType": "post",
+   "title": "aquarelle fauve",
+   "date": "2021-06-10",
+   "modified": "2021-06-13",
+   "target": {
+    "id": "wp-resource-8852",
+    "type": "resource",
+    "slug": "aquarelle-fauve-2"
+   }
+  },
+  {
+   "path": "/wordpress/le-pastel/",
+   "wpId": "8876",
+   "wpSlug": "le-pastel",
+   "wpType": "post",
+   "title": "le pastel",
+   "date": "2021-06-13",
+   "modified": "2021-06-21",
+   "target": {
+    "id": "wp-resource-8876",
+    "type": "resource",
+    "slug": "le-pastel"
+   }
+  },
+  {
+   "path": "/wordpress/pastel-de-ciel/",
+   "wpId": "8904",
+   "wpSlug": "pastel-de-ciel",
+   "wpType": "post",
+   "title": "pastel de ciel",
+   "date": "2021-06-21",
+   "modified": "2021-06-21",
+   "target": {
+    "id": "wp-resource-8904",
+    "type": "resource",
+    "slug": "pastel-de-ciel"
+   }
+  },
+  {
+   "path": "/wordpress/pastels-de-odilon-redon/",
+   "wpId": "8928",
+   "wpSlug": "pastels-de-odilon-redon",
+   "wpType": "post",
+   "title": "pastels de Odilon Redon",
+   "date": "2021-06-21",
+   "modified": "2021-06-24",
+   "target": {
+    "id": "76y5EjmeLusgbergezd7qw",
+    "type": "resource",
+    "slug": "pastels-de-odilon-redon"
+   }
+  },
+  {
+   "path": "/wordpress/commentaires-des-fleurs/",
+   "wpId": "8974",
+   "wpSlug": "commentaires-des-fleurs",
+   "wpType": "post",
+   "title": "commentaires des fleurs ",
+   "date": "2021-06-24",
+   "modified": "2021-06-24",
+   "target": null,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/decalque-a-lhuile/",
+   "wpId": "9017",
+   "wpSlug": "decalque-a-lhuile",
+   "wpType": "page",
+   "title": "décalque à l'huile",
+   "date": "2021-09-09",
+   "modified": "2021-09-20",
+   "target": {
+    "id": "wp-resource-9017",
+    "type": "resource",
+    "slug": "decalque-a-lhuile"
+   }
+  },
+  {
+   "path": "/wordpress/philodendrons/",
+   "wpId": "9090",
+   "wpSlug": "philodendrons",
+   "wpType": "post",
+   "title": "philodendrons",
+   "date": "2021-09-14",
+   "modified": "2021-09-14",
+   "target": {
+    "id": "wp-resource-9090",
+    "type": "resource",
+    "slug": "philodendrons"
+   }
+  },
+  {
+   "path": "/wordpress/journee-de-lestampe-27-et-28-septembre-2021/",
+   "wpId": "9118",
+   "wpSlug": "journee-de-lestampe-27-et-28-septembre-2021",
+   "wpType": "post",
+   "title": "journée de l'estampe 27 et 28 septembre 2021 ",
+   "date": "2021-09-25",
+   "modified": "2021-09-25",
+   "target": {
+    "id": "crawl-55dd84c941e069f9bcb464d413809f25",
+    "type": "exhibition",
+    "slug": "journee-de-lestampe-27-et-28-septembre-2021"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-du-109-du-9-au-14-novembre-2021/",
+   "wpId": "9140",
+   "wpSlug": "biennale-du-109-du-9-au-14-novembre-2021",
+   "wpType": "post",
+   "title": "biennale du 109 du 9 au 14 novembre 2021",
+   "date": "2021-11-07",
+   "modified": "2021-11-07",
+   "target": {
+    "id": "crawl-74eb9fa4069259edfd655c4dafb85a43",
+    "type": "exhibition",
+    "slug": "biennale-du-109-du-9-au-14-novembre-2021"
+   }
+  },
+  {
+   "path": "/wordpress/valeur-des-couleurs/",
+   "wpId": "9146",
+   "wpSlug": "valeur-des-couleurs",
+   "wpType": "post",
+   "title": "valeur des couleurs",
+   "date": "2021-11-30",
+   "modified": "2021-12-07",
+   "target": {
+    "id": "wp-resource-9146",
+    "type": "resource",
+    "slug": "valeur-des-couleurs"
+   }
+  },
+  {
+   "path": "/wordpress/contraste-de-chaleur/",
+   "wpId": "9178",
+   "wpSlug": "contraste-de-chaleur",
+   "wpType": "post",
+   "title": "contraste de chaleur",
+   "date": "2021-12-05",
+   "modified": "2021-12-13",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyKgDfB",
+    "type": "resource",
+    "slug": "contraste-de-chaleur"
+   }
+  },
+  {
+   "path": "/wordpress/peinture-de-paysage-2022/",
+   "wpId": "9277",
+   "wpSlug": "peinture-de-paysage-2022",
+   "wpType": "post",
+   "title": "peinture de paysage (2022)",
+   "date": "2022-01-03",
+   "modified": "2022-01-11",
+   "target": {
+    "id": "wp-resource-9277",
+    "type": "resource",
+    "slug": "peinture-de-paysage-2022"
+   }
+  },
+  {
+   "path": "/wordpress/dessin-de-bonnard/",
+   "wpId": "9314",
+   "wpSlug": "dessin-de-bonnard",
+   "wpType": "post",
+   "title": "dessin de bonnard",
+   "date": "2022-01-11",
+   "modified": "2022-03-09",
+   "target": {
+    "id": "lek5pD4Cx4PZ9zxCocRTxT",
+    "type": "resource",
+    "slug": "dessin-de-bonnard"
+   }
+  },
+  {
+   "path": "/wordpress/salon-comparaisons-du-15-au-20-fevrier-2022/",
+   "wpId": "9339",
+   "wpSlug": "salon-comparaisons-du-15-au-20-fevrier-2022",
+   "wpType": "post",
+   "title": "salon Comparaisons du 15 au 20 février 2022",
+   "date": "2022-02-25",
+   "modified": "2022-02-25",
+   "target": {
+    "id": "wp-exhibition-9339",
+    "type": "exhibition",
+    "slug": "salon-comparaisons-du-15-au-20-fevrier-2022"
+   }
+  },
+  {
+   "path": "/wordpress/gouaches-de-gericault/",
+   "wpId": "9365",
+   "wpSlug": "gouaches-de-gericault",
+   "wpType": "page",
+   "title": "gouaches de Géricault",
+   "date": "2022-03-15",
+   "modified": "2022-03-15",
+   "target": {
+    "id": "337c9fe5-25be-40df-bfea-0aac089a435e",
+    "type": "resource",
+    "slug": "le-preromantisme-des-gouaches-de-gericault"
+   }
+  },
+  {
+   "path": "/wordpress/les-gouaches-de-gericault/",
+   "wpId": "9369",
+   "wpSlug": "les-gouaches-de-gericault",
+   "wpType": "page",
+   "title": "les gouaches de Géricault",
+   "date": "2022-03-15",
+   "modified": "2022-03-15",
+   "target": null,
+   "redirect": "/wordpress/gouaches-de-gericault/",
+   "duplicateOf": "/wordpress/gouaches-de-gericault/"
+  },
+  {
+   "path": "/wordpress/gouaches-aquarellees/",
+   "wpId": "9412",
+   "wpSlug": "gouaches-aquarellees",
+   "wpType": "page",
+   "title": "gouaches aquarellées",
+   "date": "2022-03-15",
+   "modified": "2022-03-15",
+   "target": {
+    "id": "wp-resource-9412",
+    "type": "resource",
+    "slug": "gouaches-aquarellees"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-gouachee-de-turner/",
+   "wpId": "9436",
+   "wpSlug": "aquarelle-gouachee-de-turner",
+   "wpType": "page",
+   "title": "aquarelle gouachée de Turner",
+   "date": "2022-03-21",
+   "modified": "2022-03-30",
+   "target": {
+    "id": "wp-resource-9436",
+    "type": "resource",
+    "slug": "aquarelle-gouachee-de-turner"
+   }
+  },
+  {
+   "path": "/wordpress/le-theatre-des-emotions/",
+   "wpId": "9495",
+   "wpSlug": "le-theatre-des-emotions",
+   "wpType": "post",
+   "title": "Le théâtre des émotions .",
+   "date": "2022-06-19",
+   "modified": "2022-06-19",
+   "target": {
+    "id": "yKxAAijikfVsMLeVyKgJW9",
+    "type": "resource",
+    "slug": "le-theatre-des-emotions"
+   }
+  },
+  {
+   "path": "/wordpress/maillol-la-quete-de-lharmonie/",
+   "wpId": "9498",
+   "wpSlug": "maillol-la-quete-de-lharmonie",
+   "wpType": "post",
+   "title": "Maillol. La quête de l’harmonie.",
+   "date": "2022-06-19",
+   "modified": "2023-02-07",
+   "target": {
+    "id": "YvGTsghZNR8kZIgOxQo1ZU",
+    "type": "resource",
+    "slug": "maillol-la-quete-de-l-harmonie"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-de-venise-jusquau-27-novembre/",
+   "wpId": "9501",
+   "wpSlug": "biennale-de-venise-jusquau-27-novembre",
+   "wpType": "post",
+   "title": "biennale de Venise jusqu’au 27 novembre. ",
+   "date": "2022-06-19",
+   "modified": "2022-06-21",
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GZSa9Q",
+    "type": "resource",
+    "slug": "biennale-de-venise-jusqu-au-27-novembre"
+   }
+  },
+  {
+   "path": "/wordpress/le-contour/",
+   "wpId": "9539",
+   "wpSlug": "le-contour",
+   "wpType": "page",
+   "title": "le contour",
+   "date": "2022-09-06",
+   "modified": "2022-10-18",
+   "target": null
+  },
+  {
+   "path": "/wordpress/99-ans-apres-le-surrealisme/",
+   "wpId": "9576",
+   "wpSlug": "99-ans-apres-le-surrealisme",
+   "wpType": "post",
+   "title": "rencontres fortuites : 99 ans après le surréalisme",
+   "date": "2022-09-07",
+   "modified": "2023-03-09",
+   "target": null
+  },
+  {
+   "path": "/wordpress/hachure/",
+   "wpId": "9753",
+   "wpSlug": "hachure",
+   "wpType": "post",
+   "title": "hachure",
+   "date": "2022-10-25",
+   "modified": "2022-10-25",
+   "target": {
+    "id": "3fVk255H0aipQzY5mXxyvs",
+    "type": "resource",
+    "slug": "hachure"
+   }
+  },
+  {
+   "path": "/wordpress/les-degrades/",
+   "wpId": "9773",
+   "wpSlug": "les-degrades",
+   "wpType": "post",
+   "title": "les dégradés",
+   "date": "2022-11-08",
+   "modified": "2022-11-15",
+   "target": null
+  },
+  {
+   "path": "/wordpress/taille-epargne/",
+   "wpId": "9835",
+   "wpSlug": "taille-epargne",
+   "wpType": "post",
+   "title": "taille épargne",
+   "date": "2022-11-22",
+   "modified": "2022-11-29",
+   "target": {
+    "id": "wp-resource-9835",
+    "type": "resource",
+    "slug": "taille-epargne"
+   }
+  },
+  {
+   "path": "/wordpress/taille-depargne-en-couleur/",
+   "wpId": "9885",
+   "wpSlug": "taille-depargne-en-couleur",
+   "wpType": "post",
+   "title": "taille d'épargne en couleur",
+   "date": "2023-01-02",
+   "modified": "2023-01-06",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CAMpDV",
+    "type": "resource",
+    "slug": "taille-d-epargne-en-couleur"
+   }
+  },
+  {
+   "path": "/wordpress/9937/",
+   "wpId": "9937",
+   "wpSlug": "9937",
+   "wpType": "post",
+   "title": "les fleurs de nolde",
+   "date": "2023-03-07",
+   "modified": "2023-03-07",
+   "target": {
+    "id": "wp-resource-9937",
+    "type": "resource",
+    "slug": "9937"
+   }
+  },
+  {
+   "path": "/wordpress/les-fleurs-de-nolde/",
+   "wpId": "9945",
+   "wpSlug": "les-fleurs-de-nolde",
+   "wpType": "post",
+   "title": "les fleurs de nolde",
+   "date": "2023-03-07",
+   "modified": "2023-03-15",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5CAMu0O",
+    "type": "resource",
+    "slug": "les-fleurs-de-nolde"
+   }
+  },
+  {
+   "path": "/wordpress/les-natures-mortes-de-jawlensky/",
+   "wpId": "9990",
+   "wpSlug": "les-natures-mortes-de-jawlensky",
+   "wpType": "post",
+   "title": "les natures mortes de Jawlensky",
+   "date": "2023-03-09",
+   "modified": "2026-01-22",
+   "target": {
+    "id": "b1525f1f-9bde-4f3b-9bbb-27137b966baf",
+    "type": "resource",
+    "slug": "les-natures-mortes-de-jawlensky"
+   }
+  },
+  {
+   "path": "/wordpress/warhol-basquiat/",
+   "wpId": "10019",
+   "wpSlug": "warhol-basquiat",
+   "wpType": "post",
+   "title": "Warhol basquiat",
+   "date": "2023-04-14",
+   "modified": "2023-04-14",
+   "target": {
+    "id": "wp-resource-10019",
+    "type": "resource",
+    "slug": "warhol-basquiat"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-de-cachan/",
+   "wpId": "10023",
+   "wpSlug": "biennale-de-cachan",
+   "wpType": "post",
+   "title": "biennale de cachan",
+   "date": "2023-06-06",
+   "modified": "2023-07-21",
+   "target": {
+    "id": "crawl-75b928936695d0098c31cd21f831e38c",
+    "type": "exhibition",
+    "slug": "biennale-de-cachan"
+   }
+  },
+  {
+   "path": "/wordpress/journee-de-lestampe-12-et-13-juin-2023/",
+   "wpId": "10033",
+   "wpSlug": "journee-de-lestampe-12-et-13-juin-2023",
+   "wpType": "post",
+   "title": "journée de l'estampe, 12 et 13 juin 2023",
+   "date": "2023-06-07",
+   "modified": "2023-06-07",
+   "target": {
+    "id": "crawl-d143a26aab84b9b76a0ae3292c52a0f8",
+    "type": "resource",
+    "slug": "journee-de-l-estampe-12-et-13-juin-2023"
+   }
+  },
+  {
+   "path": "/wordpress/stage-destampe-juin-juillet-2023/",
+   "wpId": "10038",
+   "wpSlug": "stage-destampe-juin-juillet-2023",
+   "wpType": "post",
+   "title": "stage d'estampe. juin-juillet 2023",
+   "date": "2023-06-09",
+   "modified": "2023-06-09",
+   "target": {
+    "id": "76y5EjmeLusgbergezksHE",
+    "type": "resource",
+    "slug": "stage-d-estampe-juin-juillet-2023-1774250498951"
+   }
+  },
+  {
+   "path": "/wordpress/stage-estampe-juin-2023/",
+   "wpId": "10044",
+   "wpSlug": "stage-estampe-juin-2023",
+   "wpType": "post",
+   "title": "stage estampe juin 2023",
+   "date": "2023-06-10",
+   "modified": "2023-06-10",
+   "target": {
+    "id": "cH0KO5p7sKjW2U8ZdwwypV",
+    "type": "resource",
+    "slug": "stage-estampe-juin-2023"
+   }
+  },
+  {
+   "path": "/wordpress/manet-degas/",
+   "wpId": "10049",
+   "wpSlug": "manet-degas",
+   "wpType": "post",
+   "title": "manet-degas",
+   "date": "2023-07-02",
+   "modified": "2023-07-02",
+   "target": {
+    "id": "47644a54-09d4-49c6-ac7d-ace2b2d32f47",
+    "type": "resource",
+    "slug": "manet-degas-musee-d-0rsay-jusqu-au-23-juil-2023"
+   }
+  },
+  {
+   "path": "/wordpress/voir-en-peinture/",
+   "wpId": "10051",
+   "wpSlug": "voir-en-peinture",
+   "wpType": "post",
+   "title": "Voir en peinture. jusqu’au 17 septembre à st Rémy de Provence",
+   "date": "2023-07-02",
+   "modified": "2023-08-02",
+   "target": {
+    "id": "6382b2c6-0c70-4d7b-8f60-b5709368dfcb",
+    "type": "resource",
+    "slug": "voir-en-peinture-jusqu-au-17-septembre-2023-a-st-remy-de-provence"
+   }
+  },
+  {
+   "path": "/wordpress/figurations-a-yerre-jusquau-22-octobre-2023/",
+   "wpId": "10053",
+   "wpSlug": "figurations-a-yerre-jusquau-22-octobre-2023",
+   "wpType": "post",
+   "title": "Figurations à Yerre jusqu’au 22 octobre 2023",
+   "date": "2023-07-02",
+   "modified": "2023-07-02",
+   "target": null
+  },
+  {
+   "path": "/wordpress/graver-la-lumiere/",
+   "wpId": "10115",
+   "wpSlug": "graver-la-lumiere",
+   "wpType": "post",
+   "title": "graver la lumière ",
+   "date": "2023-07-30",
+   "modified": "2023-08-02",
+   "target": {
+    "id": "49fa43f9-3017-43b0-a262-8cdae7b696b8",
+    "type": "resource",
+    "slug": "graver-la-lumiere-l-estampe-en-100-chefs-d-oeuvre-de-duerer-a-picasso-jusqu-au-17-septembre-2024"
+   }
+  },
+  {
+   "path": "/wordpress/nature-morte-a-point-rouge-gallery-du-16-au-15-octobre/",
+   "wpId": "10170",
+   "wpSlug": "nature-morte-a-point-rouge-gallery-du-16-au-15-octobre",
+   "wpType": "post",
+   "title": "\"NATURE MORTE\" à Point Rouge Gallery du 16 au 15 octobre",
+   "date": "2023-09-13",
+   "modified": "2023-09-13",
+   "target": {
+    "id": "crawl-afc4c95eb9a02b6dd6f69c198de2e6e4",
+    "type": "exhibition",
+    "slug": "nature-morte-a-point-rouge-gallery"
+   }
+  },
+  {
+   "path": "/wordpress/nature/",
+   "wpId": "10184",
+   "wpSlug": "nature",
+   "wpType": "page",
+   "title": "nature",
+   "date": "2023-12-23",
+   "modified": "2023-12-23",
+   "target": null,
+   "redirect": "/#gallery"
+  },
+  {
+   "path": "/wordpress/biennale-de-venise-2024/",
+   "wpId": "10205",
+   "wpSlug": "biennale-de-venise-2024",
+   "wpType": "post",
+   "title": "biennale de venise 2024",
+   "date": "2024-06-24",
+   "modified": "2024-06-24",
+   "target": {
+    "id": "349164f6-13b1-48c7-95ed-8e680d0d29c2",
+    "type": "resource",
+    "slug": "biennale-de-venise-2024-jusqu-au-24-novembre-2024"
+   }
+  },
+  {
+   "path": "/wordpress/lenfance-de-lart-a-point-rouge-gallery-jusquau-25-aout/",
+   "wpId": "10223",
+   "wpSlug": "lenfance-de-lart-a-point-rouge-gallery-jusquau-25-aout",
+   "wpType": "post",
+   "title": " \"L'enfance de l'art\" à point rouge gallery jusqu'au 25 août",
+   "date": "2024-06-24",
+   "modified": "2024-06-26",
+   "target": {
+    "id": "crawl-7440324111211a44869e58aa6f656989",
+    "type": "exhibition",
+    "slug": "lenfance-de-lart-a-point-rouge-gallery-jusquau-25-aout"
+   }
+  },
+  {
+   "path": "/wordpress/gameroe-berthe-edgar-jusquau-7-juillet/",
+   "wpId": "10268",
+   "wpSlug": "gameroe-berthe-edgar-jusquau-7-juillet",
+   "wpType": "post",
+   "title": "galerie Berthe & Edgar jusqu'au 7 juillet",
+   "date": "2024-06-27",
+   "modified": "2024-06-27",
+   "target": null
+  },
+  {
+   "path": "/wordpress/pascal-convert-p-dagen-n-laneyrie-dagen-et-georges-didi-huberman-ed-flammarion/",
+   "wpId": "10288",
+   "wpSlug": "pascal-convert-p-dagen-n-laneyrie-dagen-et-georges-didi-huberman-ed-flammarion",
+   "wpType": "post",
+   "title": "Pascal Convert. P. Dagen. N.Laneyrie-Dagen et Georges Didi-Huberman. Ed. Flammarion",
+   "date": "2024-10-17",
+   "modified": "2024-10-17",
+   "target": {
+    "id": "wp-resource-10288",
+    "type": "resource",
+    "slug": "pascal-convert-p-dagen-n-laneyrie-dagen-et-georges-didi-huberman-ed-flammarion"
+   }
+  },
+  {
+   "path": "/wordpress/surrealisme-au-centre-pompidou-et-dans-les-galeries-parisiennes-jusqua-fin-2024/",
+   "wpId": "10297",
+   "wpSlug": "surrealisme-au-centre-pompidou-et-dans-les-galeries-parisiennes-jusqua-fin-2024",
+   "wpType": "post",
+   "title": "surréalisme au centre pompidou et dans les galeries parisiennes jusqu'à fin 2024",
+   "date": "2024-10-17",
+   "modified": "2024-10-17",
+   "target": {
+    "id": "58d32fe5-548b-416d-b723-bc346a9dfeef",
+    "type": "resource",
+    "slug": "surrealisme-au-centre-surrealisme-centre-pompidou-jusqu-au-13-janvier-2025"
+   }
+  },
+  {
+   "path": "/wordpress/projet-enfance-en-2026/",
+   "wpId": "10307",
+   "wpSlug": "projet-enfance-en-2026",
+   "wpType": "post",
+   "title": "projet \"enfance\" en 2026",
+   "date": "2024-11-04",
+   "modified": "2024-11-05",
+   "target": null
+  },
+  {
+   "path": "/wordpress/taille-douce/",
+   "wpId": "10321",
+   "wpSlug": "taille-douce",
+   "wpType": "post",
+   "title": "taille douce",
+   "date": "2024-11-28",
+   "modified": "2024-11-28",
+   "target": {
+    "id": "3fVk255H0aipQzY5mepc5w",
+    "type": "resource",
+    "slug": "taille-douce"
+   }
+  },
+  {
+   "path": "/wordpress/eugene-boudin-le-pere-de-limpressionnisme-une-collection-particuliere-musee-marmottan-monet-jusquau-31-aout/",
+   "wpId": "10349",
+   "wpSlug": "eugene-boudin-le-pere-de-limpressionnisme-une-collection-particuliere-musee-marmottan-monet-jusquau-31-aout",
+   "wpType": "post",
+   "title": "\"Eugène Boudin. Le père de l’impressionnisme. Une collection particulière\". musée Marmottan Monet jusqu’au 31 août",
+   "date": "2025-05-12",
+   "modified": "2025-05-12",
+   "target": {
+    "id": "wp-resource-10349",
+    "type": "resource",
+    "slug": "eugene-boudin-le-pere-de-limpressionnisme-une-collection-particuliere-musee-marmottan-monet-jusquau-31-aout"
+   }
+  },
+  {
+   "path": "/wordpress/la-vie-est-une-plaie-dont-je-ne-me-defais-pas-fondation-frances-clichy-jusquau-19-juillet/",
+   "wpId": "10381",
+   "wpSlug": "la-vie-est-une-plaie-dont-je-ne-me-defais-pas-fondation-frances-clichy-jusquau-19-juillet",
+   "wpType": "post",
+   "title": "\"La vie est une plaie dont je ne me défais pas.\" fondation Francès  (Clichy) jusqu'au 19 juillet",
+   "date": "2025-05-12",
+   "modified": "2025-06-11",
+   "target": {
+    "id": "tTK2D0IWNDYy37c5Bwv32U",
+    "type": "resource",
+    "slug": "la-vie-est-une-plaie-dont-je-ne-me-defais-pas"
+   }
+  },
+  {
+   "path": "/wordpress/journees-de-lestampe-place-st-sulpice-a-paris-9-et-10-juin-2025/",
+   "wpId": "10393",
+   "wpSlug": "journees-de-lestampe-place-st-sulpice-a-paris-9-et-10-juin-2025",
+   "wpType": "post",
+   "title": "journées de l'estampe place st sulpice à Paris 9 et 10 juin 2025",
+   "date": "2025-06-08",
+   "modified": "2025-06-10",
+   "target": {
+    "id": "wp-exhibition-10393",
+    "type": "exhibition",
+    "slug": "journees-de-lestampe-place-st-sulpice-a-paris-9-et-10-juin-2025"
+   }
+  },
+  {
+   "path": "/wordpress/stage-estampe-vesinet-juillet-2025/",
+   "wpId": "10400",
+   "wpSlug": "stage-estampe-vesinet-juillet-2025",
+   "wpType": "post",
+   "title": "stage estampe Vésinet juillet 2025",
+   "date": "2025-06-11",
+   "modified": "2025-06-11",
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTtAlGwr",
+    "type": "resource",
+    "slug": "stage-estampe-vesinet-juillet-2025"
+   }
+  },
+  {
+   "path": "/wordpress/stage-estampe-juillet-2025/",
+   "wpId": "10408",
+   "wpSlug": "stage-estampe-juillet-2025",
+   "wpType": "post",
+   "title": "stage estampe juillet 2025",
+   "date": "2025-06-11",
+   "modified": "2025-07-10",
+   "target": {
+    "id": "3fVk255H0aipQzY5mepayi",
+    "type": "resource",
+    "slug": "stage-estampe-juillet-2025"
+   }
+  },
+  {
+   "path": "/wordpress/aquarelle-sienne-ete-2025/",
+   "wpId": "10423",
+   "wpSlug": "aquarelle-sienne-ete-2025",
+   "wpType": "post",
+   "title": "aquarelle Sienne été 2025",
+   "date": "2025-06-11",
+   "modified": "2025-08-07",
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTtAlTwl",
+    "type": "resource",
+    "slug": "aquarelle-sienne-ete-2025"
+   }
+  },
+  {
+   "path": "/wordpress/10427/",
+   "wpId": "10427",
+   "wpSlug": "10427",
+   "wpType": "post",
+   "title": "aquarelle venise 2026",
+   "date": "2025-06-11",
+   "modified": "2025-06-11",
+   "target": {
+    "id": "b58be936-eaf3-48a2-af7f-067455819d24",
+    "type": "resource",
+    "slug": "stage-dessin-peinture-aquarelle-venise-et-sa-biennale"
+   }
+  },
+  {
+   "path": "/wordpress/10527/",
+   "wpId": "10527",
+   "wpSlug": "10527",
+   "wpType": "post",
+   "title": "expositions de la rentrée 2025",
+   "date": "2025-08-29",
+   "modified": "2025-08-29",
+   "target": {
+    "id": "wp-resource-10527",
+    "type": "resource",
+    "slug": "10527"
+   }
+  },
+  {
+   "path": "/wordpress/1888-nabis/",
+   "wpId": "10547",
+   "wpSlug": "1888-nabis",
+   "wpType": "page",
+   "title": "1888.nabis",
+   "date": "2025-10-16",
+   "modified": "2025-10-16",
+   "target": {
+    "id": "wp-resource-10547",
+    "type": "resource",
+    "slug": "1888-nabis"
+   }
+  },
+  {
+   "path": "/wordpress/biennale-du-109-2/",
+   "wpId": "10555",
+   "wpSlug": "biennale-du-109-2",
+   "wpType": "post",
+   "title": "biennale du 109.4-9 nov 2025",
+   "date": "2025-10-16",
+   "modified": "2025-10-16",
+   "target": {
+    "id": "crawl-1cc8d53de7f31553b42254b726804a2d",
+    "type": "exhibition",
+    "slug": "biennale-du-109-4-9-nov-2025"
+   }
+  },
+  {
+   "path": "/wordpress/impressions-nabies-jusquau-11-janvier-2026/",
+   "wpId": "10570",
+   "wpSlug": "impressions-nabies-jusquau-11-janvier-2026",
+   "wpType": "post",
+   "title": "impressions nabies jusqu'au 11 janvier 2026",
+   "date": "2025-10-26",
+   "modified": "2025-10-27",
+   "target": {
+    "id": "1dfb0073-f52b-4980-a9b0-02a997295d52",
+    "type": "resource",
+    "slug": "impressions-nabies-oeil-expo"
+   }
+  },
+  {
+   "path": "/wordpress/esthetique-jazz-27-et-28-novembre-au-theatre-de-lathenee/",
+   "wpId": "10614",
+   "wpSlug": "esthetique-jazz-27-et-28-novembre-au-theatre-de-lathenee",
+   "wpType": "post",
+   "title": "esthétique jazz, 27 et 28 novembre au théâtre de l'Athénée",
+   "date": "2025-12-05",
+   "modified": "2025-12-05",
+   "target": {
+    "id": "crawl-a0a2d7b8eb02502a6fdd5496e15a30e0",
+    "type": "exhibition",
+    "slug": "esthetique-jazz-2025"
+   }
+  },
+  {
+   "path": "/wordpress/kandinsky-musique/",
+   "wpId": "10628",
+   "wpSlug": "kandinsky-musique",
+   "wpType": "post",
+   "title": "Kandinsky musique",
+   "date": "2026-01-20",
+   "modified": "2026-01-22",
+   "target": null
+  },
+  {
+   "path": "/wordpress/noir-et-blanc-du-01-avril-au-17-mai-2026-a-point-rouge-gallery-st-remy-de-provence/",
+   "wpId": "10688",
+   "wpSlug": "noir-et-blanc-du-01-avril-au-17-mai-2026-a-point-rouge-gallery-st-remy-de-provence",
+   "wpType": "post",
+   "title": "Noir et Blanc  du 01 avril au 17 mai 2026 à point rouge gallery (st Rémy-de-Provence)",
+   "date": "2026-02-27",
+   "modified": "2026-02-27",
+   "target": null
+  },
+  {
+   "path": "/wordpress/exposition-hommage-a-eric-blanche-du1er-au-10-mai-2026-a-vouvant/",
+   "wpId": "10707",
+   "wpSlug": "exposition-hommage-a-eric-blanche-du1er-au-10-mai-2026-a-vouvant",
+   "wpType": "post",
+   "title": "exposition   d'art actuel du1er au 10 mai 2026 à Vouvant",
+   "date": "2026-02-27",
+   "modified": "2026-04-25",
+   "target": {
+    "id": "wp-exhibition-10707",
+    "type": "exhibition",
+    "slug": "exposition-hommage-a-eric-blanche-du1er-au-10-mai-2026-a-vouvant"
+   }
+  },
+  {
+   "path": "/wordpress/les-anges-de-lhistoire-images-des-temps-inquiets-georges-didi-huberman-ed-de-minuit/",
+   "wpId": "10716",
+   "wpSlug": "les-anges-de-lhistoire-images-des-temps-inquiets-georges-didi-huberman-ed-de-minuit",
+   "wpType": "post",
+   "title": "Les Anges de l'Histoire",
+   "date": "2026-03-03",
+   "modified": "2026-03-03",
+   "target": {
+    "id": "45f8d9a6-78d9-4b90-868e-d3ddede8bae5",
+    "type": "resource",
+    "slug": "les-anges-de-l-histoire-images-des-temps-inquiets-georges-didi-huberman-ed-de-minuit"
+   }
+  },
+  {
+   "path": "/wordpress/les-anges-de-lhistoire/",
+   "wpId": "10719",
+   "wpSlug": "les-anges-de-lhistoire",
+   "wpType": "post",
+   "title": "Les Anges de l'Histoire",
+   "date": "2026-03-03",
+   "modified": "2026-03-04",
+   "target": null,
+   "redirect": "/wordpress/les-anges-de-lhistoire-images-des-temps-inquiets-georges-didi-huberman-ed-de-minuit/",
+   "duplicateOf": "/wordpress/les-anges-de-lhistoire-images-des-temps-inquiets-georges-didi-huberman-ed-de-minuit/"
+  },
+  {
+   "path": "/wordpress/stage-venise-2026/",
+   "wpId": "10736",
+   "wpSlug": "stage-venise-2026",
+   "wpType": "post",
+   "title": "stage venise 2026",
+   "date": "2026-03-16",
+   "modified": "2026-03-16",
+   "target": null,
+   "redirect": "/wordpress/10427/",
+   "duplicateOf": "/wordpress/10427/"
+  },
+  {
+   "path": "/wordpress/les-journees-de-lestmape-contemporaine-8-et-9-juin-2026/",
+   "wpId": "10763",
+   "wpSlug": "les-journees-de-lestmape-contemporaine-8-et-9-juin-2026",
+   "wpType": "post",
+   "title": "les journées de l'estmape contemporaine 8 et 9 juin 2026",
+   "date": "2026-04-25",
+   "modified": "2026-04-25",
+   "target": {
+    "id": "wp-exhibition-10763",
+    "type": "exhibition",
+    "slug": "les-journees-de-lestmape-contemporaine-8-et-9-juin-2026"
+   }
+  },
+  {
+   "path": "/wordpress/journees-portes-ouvertes-des-ateliers-de-la-boucle-30-et-31-mai-2026/",
+   "wpId": "10773",
+   "wpSlug": "journees-portes-ouvertes-des-ateliers-de-la-boucle-30-et-31-mai-2026",
+   "wpType": "post",
+   "title": "journées portes ouvertes des ateliers de la boucle 30 et 31 mai 2026",
+   "date": "2026-04-28",
+   "modified": "2026-04-28",
+   "target": {
+    "id": "wp-exhibition-10773",
+    "type": "exhibition",
+    "slug": "journees-portes-ouvertes-des-ateliers-de-la-boucle-30-et-31-mai-2026"
+   }
+  }
+ ],
+ "archives": [
+  {
+   "path": "/wordpress/category/non-classe/",
+   "tax": "category",
+   "name": "Non classé",
+   "count": 71,
+   "pages": 8,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/category/hist/",
+   "tax": "category",
+   "name": "Histoire de l'art",
+   "count": 6,
+   "pages": 1,
+   "redirect": "/enseignement/histoire-art"
+  },
+  {
+   "path": "/wordpress/category/cours/",
+   "tax": "category",
+   "name": "Cours",
+   "count": 17,
+   "pages": 2,
+   "redirect": "/enseignement/technique-picturale"
+  },
+  {
+   "path": "/wordpress/category/expos/",
+   "tax": "category",
+   "name": "Expositions en ce moment",
+   "count": 100,
+   "pages": 10,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/category/expoperso/",
+   "tax": "category",
+   "name": "Expositions personnelles",
+   "count": 73,
+   "pages": 8,
+   "redirect": "/#exhibitions"
+  },
+  {
+   "path": "/wordpress/category/maintenance/",
+   "tax": "category",
+   "name": "Maintenance",
+   "count": 3,
+   "pages": 1,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/category/travaux/",
+   "tax": "category",
+   "name": "Travaux",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/category/tech/",
+   "tax": "category",
+   "name": "Technique",
+   "count": 3,
+   "pages": 1,
+   "redirect": "/enseignement/technique-picturale"
+  },
+  {
+   "path": "/wordpress/category/a-lire/",
+   "tax": "category",
+   "name": "À lire",
+   "count": 26,
+   "pages": 3,
+   "redirect": "/critiques/critiques-livres-d-art"
+  },
+  {
+   "path": "/wordpress/category/mis-en-avant/",
+   "tax": "category",
+   "name": "Mis en avant",
+   "count": 2,
+   "pages": 1,
+   "redirect": "/"
+  },
+  {
+   "path": "/wordpress/category/analyse-doeuvres/",
+   "tax": "category",
+   "name": "- analyse d'oeuvres",
+   "count": 7,
+   "pages": 1,
+   "redirect": "/enseignement/histoire-art"
+  }
+ ]
+}

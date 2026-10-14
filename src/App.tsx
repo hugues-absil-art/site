@@ -22,6 +22,7 @@ import ResourceCategoryPage from "@/pages/ResourceCategoryPage";
 import ResourcePage from "@/pages/ResourcePage";
 import StudioPage from "@/pages/StudioPage";
 import NotFoundPage from "@/pages/NotFoundPage";
+import LegacyRoute from "@/pages/LegacyRoute";
 import PreviewEnablePage from "@/pages/PreviewEnablePage";
 import SanityVisualEditing from "@/components/SanityVisualEditing";
 
@@ -123,6 +124,10 @@ const router = createBrowserRouter(
         { path: `${LEGACY_CRITIQUES_URL_PREFIX}/:category/:slug`, element: <RedirectEcritsToCritiques /> },
         { path: "enseignement/:category", element: <ResourceCategoryPage /> },
         { path: "enseignement/:category/:slug", element: <ResourcePage /> },
+        // Anciennes adresses WordPress : servies telles quelles (référencement conservé)
+        { path: "wordpress", element: <Navigate to="/" replace /> },
+        { path: "wordpress/:slug", element: <LegacyRoute /> },
+        { path: "wordpress/:parent/:slug", element: <LegacyRoute /> },
         { path: "*", element: <NotFoundPage /> },
       ],
     },

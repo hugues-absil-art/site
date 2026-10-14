@@ -30,6 +30,7 @@ import {
   getPerformances,
   getAdvicePosts,
 } from "@/lib/sanity/data";
+import { useSeo, DEFAULT_TITLE, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 /** Même contrat que dans App.tsx (clic logo → accueil). */
 type LogoHomeLocationState = { scrollHomeHero?: boolean };
@@ -38,6 +39,21 @@ export default function HomePage() {
   const location = useLocation();
   const navigate = useNavigate();
   const siteSettings = useSiteSettings();
+  useSeo({
+    title: DEFAULT_TITLE,
+    description: DEFAULT_DESCRIPTION,
+    path: "/",
+    jsonLd: [
+      { "@context": "https://schema.org", "@type": "WebSite", name: SITE_NAME, url: `${SITE_URL}/`, inLanguage: "fr" },
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: SITE_NAME,
+        url: `${SITE_URL}/`,
+        jobTitle: "Artiste peintre, graveur et dessinateur",
+      },
+    ],
+  });
   const [paintings, setPaintings] = useState<Awaited<ReturnType<typeof getPaintings>>>([]);
   const [exhibitions, setExhibitions] = useState<Awaited<ReturnType<typeof getExhibitions>>>([]);
   const [biography, setBiography] = useState<Awaited<ReturnType<typeof getBiography>>>(null);

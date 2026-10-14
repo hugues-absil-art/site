@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft, Calendar, ExternalLink } from "lucide-react";
 import Image from "@/components/ui/Image";
 import { getAdvicePostBySlug, getAdvicePosts } from "@/lib/sanity/data";
+import { useSeo, legacyPathFor, plainFromPortable, SITE_URL, SITE_NAME } from "@/lib/seo";
 import { hasMeaningfulPortableContent } from "@/lib/utils";
 import PortableText from "@/lib/sanity/portableText";
 import Button from "@/components/ui/Button";
@@ -19,8 +20,9 @@ function formatDate(dateString: string) {
   return date.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
 }
 
-export default function JournalPostPage() {
-  const { slug } = useParams<{ slug: string }>();
+export default function JournalPostPage(props: { slug?: string }) {
+  const params = useParams<{ slug: string }>();
+  const slug = props.slug ?? params.slug;
   const [post, setPost] = useState<Awaited<ReturnType<typeof getAdvicePostBySlug>>>(null);
   const [relatedPosts, setRelatedPosts] = useState<Awaited<ReturnType<typeof getAdvicePosts>>>([]);
   const [loading, setLoading] = useState(true);
@@ -47,6 +49,29 @@ export default function JournalPostPage() {
       setLoading(false);
     });
   }, [slug]);
+
+  const seoPath = legacyPathFor("advice", slug) ?? `/journal/${slug}`;
+  const seoDescription = post ? post.excerpt?.trim() || plainFromPortable(post.content) : undefined;
+  useSeo({
+    enabled: !!post,
+    title: post?.title ?? "",
+    description: seoDescription,
+    path: seoPath,
+    image: post?.imageUrl || null,
+    type: "article",
+    jsonLd: post
+      ? {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          headline: post.title,
+          description: seoDescription,
+          image: post.imageUrl ? [post.imageUrl] : undefined,
+          datePublished: post.date || undefined,
+          author: { "@type": "Person", name: SITE_NAME },
+          mainEntityOfPage: `${SITE_URL}${seoPath}`,
+        }
+      : null,
+  });
 
   if (loading) {
     return (
