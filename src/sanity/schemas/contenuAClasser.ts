@@ -1,5 +1,6 @@
 import { defineType, defineField } from "sanity";
 import { blockContent } from "./blockContent";
+import { standardOrderings } from "./commonOrderings";
 
 export const contenuAClasser = defineType({
   name: "contenuAClasser",
@@ -51,6 +52,7 @@ export const contenuAClasser = defineType({
       hidden: ({ value }) => !value,
     }),
   ],
+  orderings: standardOrderings("extractedAt", "Date d'extraction"),
   preview: {
     select: {
       title: "title",

@@ -1,4 +1,5 @@
 import { defineType, defineField } from "sanity";
+import { standardOrderings } from "./commonOrderings";
 
 export const performance = defineType({
   name: "performance",
@@ -43,6 +44,7 @@ export const performance = defineType({
       name: "orderAsc",
       by: [{ field: "order", direction: "asc" }],
     },
+    ...standardOrderings(),
   ],
   preview: {
     select: { title: "title", url: "url", description: "description" },

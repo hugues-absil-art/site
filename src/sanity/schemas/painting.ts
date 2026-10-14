@@ -5,6 +5,7 @@ import { technique } from "./technique";
 import { theme } from "./theme";
 import { paintingStatus } from "./paintingStatus";
 import { ReferenceFieldInput } from "../components/ReferenceFieldInput";
+import { standardOrderings } from "./commonOrderings";
 
 export const painting = defineType({
   name: "painting",
@@ -110,4 +111,5 @@ export const painting = defineType({
         "Texte, images ou vidéos en lien avec l'œuvre (explications, œuvres ayant inspiré, etc.). Même éditeur que le contenu des articles de presse.",
     }),
   ],
+  orderings: standardOrderings("year", "Année"),
 });

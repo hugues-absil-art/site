@@ -13,6 +13,7 @@ import { BulkUploadPaintings } from "./sanity/tools/BulkUploadPaintings";
 import { UnpublishAction } from "./sanity/actions/UnpublishAction";
 import { PublishAction } from "./sanity/actions/PublishAction";
 import { PreviewAction } from "./sanity/actions/PreviewAction";
+import { ViewLiveAction } from "./sanity/actions/ViewLiveAction";
 import { UnpublishedChangesBadge } from "./sanity/actions/UnpublishedChangesBadge";
 import { ChangeResourceSectionAction } from "./sanity/actions/ChangeResourceSectionAction";
 import { MigrateExhibitionToSectionAction } from "./sanity/actions/MigrateExhibitionToSectionAction";
@@ -147,7 +148,7 @@ export default defineConfig({
     // Publier avant Dépublier → action primaire du footer quand un brouillon existe.
     // Dépublier reste disponible dès qu'une version publiée existe (même avec brouillon).
     actions: (prev, { schemaType }) => {
-      const genericActions = [PublishAction, PreviewAction, UnpublishAction];
+      const genericActions = [PublishAction, PreviewAction, ViewLiveAction, UnpublishAction];
       const extra =
         schemaType === "resource"
           ? [ChangeResourceSectionAction]

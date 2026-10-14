@@ -1,10 +1,12 @@
 import { defineType, defineField } from "sanity";
 import { blockContent } from "./blockContent";
+import { standardOrderings } from "./commonOrderings";
 
 export const exhibition = defineType({
   name: "exhibition",
   type: "document",
   title: "Exposition",
+  orderings: standardOrderings("dateStart", "Date de début"),
   preview: {
     select: { title: "title", media: "image" },
     prepare({ title, media }) {

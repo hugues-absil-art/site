@@ -126,16 +126,25 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       try {
         const ref = await uploadImage(full, alt);
         if (ref) {
+          // Le champ Contenu n'accepte plus l'image native (voir blockContent.ts) : imageWithLayout.
           blocks.push({
-            _type: "image",
+            _type: "imageWithLayout",
             _key: blockKey(),
-            asset: { _type: "reference", _ref: ref },
-            ...(alt ? { alt } : {}),
+            image: { _type: "image", asset: { _type: "reference", _ref: ref } },
+            layout: "centered",
+            size: "medium",
           });
         }
       } catch {
         /* image inaccessible */
       }
+    }
+  }
+
+  /** Images dans un paragraphe ou un item de liste (souvent enveloppées dans un lien) : inlineSpans les ignore. */
+  async function emitNestedImages(el) {
+    for (const img of $(el).find("img").toArray()) {
+      await emitImage(img);
     }
   }
 
@@ -159,7 +168,10 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       const markDefs = [];
       const children = inlineSpans($, el, pageUrl, markDefs);
       const plain = $(el).text().replace(/\s+/g, " ").trim();
-      if (!plain && children.length === 0) return;
+      if (!plain && children.length === 0) {
+        await emitNestedImages(el);
+        return;
+      }
       let style = "normal";
       if (tag === "blockquote") style = "blockquote";
       else if (tag === "h1") style = "h1";
@@ -175,19 +187,34 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
             ? children
             : [{ _type: "span", _key: blockKey(), text: plain, marks: [] }],
       });
+      await emitNestedImages(el);
       return;
     }
 
     if (tag === "ul" || tag === "ol") {
-      $(el)
-        .children("li")
-        .each((_, liNode) => {
+      // Liste invalide (texte libre ou div/p hors <li>) : on parcourt tous les nœuds.
+      const hasStray =
+        $(el).children().toArray().some((c) => tagName(c) !== "li") ||
+        $(el).contents().toArray().some((n) => n.type === "text" && (n.data ?? "").trim() !== "");
+      if (hasStray) {
+        await walkContainer(el);
+        return;
+      }
+      for (const liNode of $(el).children().toArray()) {
           const li = liNode;
-          if (!li || li.type !== "tag") return;
+          if (!li || li.type !== "tag") continue;
+          // HTML invalide fréquent sur WordPress : div/p directement dans une liste.
+          if (tagName(li) !== "li") {
+            await walk(li);
+            continue;
+          }
           const markDefs = [];
           const children = inlineSpans($, li, pageUrl, markDefs);
           const text = $(li).text().replace(/\s+/g, " ").trim();
-          if (!text && children.length === 0) return;
+          if (!text && children.length === 0) {
+            await emitNestedImages(li);
+            continue;
+          }
           blocks.push({
             _type: "block",
             _key: blockKey(),
@@ -200,7 +227,8 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
                 ? children
                 : [{ _type: "span", _key: blockKey(), text, marks: [] }],
           });
-        });
+          await emitNestedImages(li);
+      }
       return;
     }
 
@@ -224,9 +252,80 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       return;
     }
 
-    for (const child of childElements) {
-      await walk(child);
+    await walkContainer(el);
+  }
+
+  const INLINE_TAGS = new Set([
+    "a", "strong", "b", "em", "i", "u", "span", "font", "sup", "sub", "small", "abbr", "cite", "code", "mark",
+  ]);
+
+  /** Un nœud inline « pur » : pas d'image ni de bloc dedans (sinon il passe par walk). */
+  function isPureInline(node) {
+    if (node.type !== "tag") return false;
+    if (!INLINE_TAGS.has(tagName(node))) return false;
+    return $(node).find("img, p, div, ul, ol, li, h1, h2, h3, h4, h5, h6, figure, blockquote, table").length === 0;
+  }
+
+  /** Transforme une suite de nœuds inline (texte libre, <br>, liens, gras…) en paragraphes. */
+  function flushInline(buffer) {
+    // Coupe aux doubles <br> (= changement de paragraphe sur WordPress).
+    const parts = [];
+    let cur = [];
+    let brRun = [];
+    for (const node of buffer) {
+      if (node.type === "tag" && tagName(node) === "br") {
+        brRun.push(node);
+        continue;
+      }
+      if (brRun.length >= 2) {
+        parts.push(cur);
+        cur = [];
+      } else if (brRun.length === 1) {
+        cur.push(brRun[0]);
+      }
+      brRun = [];
+      cur.push(node);
     }
+    parts.push(cur);
+    for (const part of parts) {
+      const wrapper = $("<p></p>");
+      for (const n of part) wrapper.append($(n).clone());
+      const markDefs = [];
+      const spans = inlineSpans($, wrapper.get(0), pageUrl, markDefs);
+      // Retire les retours à la ligne et espaces en bord de paragraphe.
+      while (spans.length && /^\s*$/.test(spans[0].text)) spans.shift();
+      while (spans.length && /^\s*$/.test(spans[spans.length - 1].text)) spans.pop();
+      if (spans.length === 0) continue;
+      spans[0].text = spans[0].text.replace(/^\s+/, "");
+      spans[spans.length - 1].text = spans[spans.length - 1].text.replace(/\s+$/, "");
+      blocks.push({ _type: "block", _key: blockKey(), style: "normal", markDefs, children: spans });
+    }
+  }
+
+  /**
+   * Parcourt TOUS les nœuds enfants (pas seulement les éléments) : le texte posé
+   * directement dans un conteneur, entre des <br>, était ignoré (pages WordPress
+   * sans <p>, souvent plusieurs milliers de mots perdus).
+   */
+  async function walkContainer(el) {
+    let buffer = [];
+    const flush = () => {
+      if (buffer.length) flushInline(buffer);
+      buffer = [];
+    };
+    for (const node of $(el).contents().toArray()) {
+      if (node.type === "text") {
+        if ((node.data ?? "").trim() !== "" || buffer.length) buffer.push(node);
+      } else if (node.type === "tag" && tagName(node) === "br") {
+        if (buffer.length) buffer.push(node);
+      } else if (isPureInline(node)) {
+        buffer.push(node);
+      } else if (node.type === "tag") {
+        flush();
+        await walk(node);
+      }
+    }
+    flush();
   }
 
   const top = $root.children().toArray();
@@ -242,9 +341,7 @@ export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
       });
     }
   } else {
-    for (const child of top) {
-      await walk(child);
-    }
+    await walkContainer($root.get(0));
   }
 
   return blocks;
