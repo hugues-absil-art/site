@@ -527,8 +527,9 @@ export async function getSiteSettings(): Promise<SiteSettings> {
     footerSubtitle: "Artiste contemporain.",
     footerNavTitle: "Navigation",
     footerSocialTitle: "Réseaux Sociaux",
-    instagramUrl: "https://instagram.com",
-    linkedinUrl: "https://linkedin.com",
+    // Adresses de profil à renseigner dans Sanity (Paramètres du site) : pas d'adresse générique par défaut.
+    instagramUrl: null,
+    linkedinUrl: null,
     contactEmail: "contact@huguesabsil.com",
     contactTitle: "Contact",
     contactIntro: "Pour toute question, demande d'information ou intérêt pour une œuvre",

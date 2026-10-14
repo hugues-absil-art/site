@@ -59,7 +59,7 @@ const [acDocs, cats, resources, existingSlugs] = await Promise.all([
   client.fetch(
     `*[_type=="contenuAClasser" && !(_id in path("drafts.**")) && sourceUrl match "*hugues-absil.com/wordpress/*"]{_id,title,sourceUrl,content,extractedContent}`
   ),
-  client.fetch(`*[_type=="resourceCategory"]{_id,"slug":slug.current,"parent":parent->slug.current,editorProfile}`),
+  client.fetch(`*[_type=="resourceCategory" && !(_id in path("drafts.**"))]{_id,"slug":slug.current,"parent":parent->slug.current,editorProfile}`),
   client.fetch(`*[_type=="resource" && defined(categoryRef)]{"cat":categoryRef->slug.current,editorProfile}`),
   client.fetch(
     `*[_type in ["resource","exhibition"] && defined(slug.current)]{_id,_type,"slug":slug.current,"hasContent":count(coalesce(content,body,[]))>0,"hasExcerpt":defined(excerpt) || defined(description)}`

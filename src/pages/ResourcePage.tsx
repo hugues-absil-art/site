@@ -9,6 +9,7 @@ import Button from "@/components/ui/Button";
 import { getVideoEmbedUrl } from "@/lib/videoEmbed";
 import { RESOURCE_CATEGORY_LABELS, RESOURCE_CATEGORY_SECTION } from "@/sanity/constants/resourceCategories";
 import { sectionHomePath, sectionUrlPrefix } from "@/lib/resourceSection";
+import { useSeo, legacyPathFor, plainFromPortable, SITE_URL, SITE_NAME } from "@/lib/seo";
 
 const categoryLabels: Record<string, string> = RESOURCE_CATEGORY_LABELS as Record<string, string>;
 const categorySection: Record<string, "ecrits" | "enseignement"> =
@@ -32,8 +33,10 @@ function shuffleAndTake<T>(array: T[], count: number): T[] {
   return copy.slice(0, count);
 }
 
-export default function ResourcePage() {
-  const { category, slug } = useParams<{ category: string; slug: string }>();
+export default function ResourcePage(props: { slug?: string; category?: string }) {
+  const params = useParams<{ category: string; slug: string }>();
+  const slug = props.slug ?? params.slug;
+  const category = props.category ?? params.category;
   const [resource, setResource] = useState<Awaited<ReturnType<typeof getResourceBySlug>>>(null);
   const [relatedResources, setRelatedResources] = useState<Awaited<ReturnType<typeof getResourcesByCategory>>>([]);
   const [categoryResourceList, setCategoryResourceList] = useState<Awaited<ReturnType<typeof getResourcesByCategory>>>([]);
@@ -64,6 +67,32 @@ export default function ResourcePage() {
       setLoading(false);
     });
   }, [slug, category]);
+
+  const seoPath = resource
+    ? legacyPathFor("resource", resource.slug) ??
+      `/${sectionUrlPrefix(resource.categoryRef?.section ?? categorySection[resource.category])}/${resource.category}/${resource.slug}`
+    : "/";
+  const seoDescription = resource ? resource.excerpt?.trim() || plainFromPortable(resource.content) : undefined;
+  useSeo({
+    enabled: !!resource,
+    title: resource?.title ?? "",
+    description: seoDescription,
+    path: seoPath,
+    image: resource?.imageUrl || null,
+    type: "article",
+    jsonLd: resource
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: resource.title,
+          description: seoDescription,
+          image: resource.imageUrl ? [resource.imageUrl] : undefined,
+          datePublished: resource.date || undefined,
+          author: { "@type": "Person", name: SITE_NAME },
+          mainEntityOfPage: `${SITE_URL}${seoPath}`,
+        }
+      : null,
+  });
 
   if (loading) {
     return (

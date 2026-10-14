@@ -18,6 +18,7 @@ import ExpandableText from "@/components/ui/ExpandableText";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { RESOURCE_CATEGORY_INFO } from "@/sanity/constants/resourceCategories";
 import { sectionBackLabel, sectionHomePath, sectionUrlPrefix } from "@/lib/resourceSection";
+import { useSeo } from "@/lib/seo";
 
 type CategoryInfo = { title: string; description: string; section: "ecrits" | "enseignement" };
 const categoryLabelsDefault: Record<string, CategoryInfo> =
@@ -419,6 +420,14 @@ export default function ResourceCategoryPage() {
       </div>
     );
   }
+
+  const seoInfo = category ? categoryLabels[category] : undefined;
+  useSeo({
+    enabled: !!seoInfo,
+    title: seoInfo?.title ?? "",
+    description: seoInfo?.description || undefined,
+    path: `/${sectionUrlPrefix(seoInfo?.section)}/${category ?? ""}`,
+  });
 
   if (!categoryLabels[category]) {
     return (

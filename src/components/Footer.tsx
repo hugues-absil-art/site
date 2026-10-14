@@ -2,6 +2,7 @@ import { Instagram, Linkedin } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import type { SiteSettings } from "@/lib/sanity/data";
 import { navigateToSection } from "@/lib/sectionHash";
+import { realProfileUrl } from "@/lib/seo";
 
 interface FooterProps {
   siteSettings?: SiteSettings | null;
@@ -33,8 +34,8 @@ export default function Footer({ siteSettings, showFilmsLink = false, showJourna
   const footerSubtitle = normalizeFooterSubtitle(siteSettings?.footerSubtitle);
   const footerNavTitle = siteSettings?.footerNavTitle ?? "Navigation";
   const footerSocialTitle = siteSettings?.footerSocialTitle ?? "Réseaux Sociaux";
-  const instagramUrl = siteSettings?.instagramUrl ?? "https://instagram.com";
-  const linkedinUrl = siteSettings?.linkedinUrl ?? "https://linkedin.com";
+  const instagramUrl = realProfileUrl(siteSettings?.instagramUrl);
+  const linkedinUrl = realProfileUrl(siteSettings?.linkedinUrl);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -80,29 +81,35 @@ export default function Footer({ siteSettings, showFilmsLink = false, showJourna
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-serif text-lg font-semibold mb-4">{footerSocialTitle}</h3>
-            <div className="flex space-x-4">
-              <a
-                href={instagramUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-medium hover:text-foreground transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href={linkedinUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-medium hover:text-foreground transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
+          {(instagramUrl || linkedinUrl) && (
+            <div>
+              <h3 className="font-serif text-lg font-semibold mb-4">{footerSocialTitle}</h3>
+              <div className="flex space-x-4">
+                {instagramUrl && (
+                  <a
+                    href={instagramUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-medium hover:text-foreground transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <Instagram className="w-5 h-5" />
+                  </a>
+                )}
+                {linkedinUrl && (
+                  <a
+                    href={linkedinUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-medium hover:text-foreground transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin className="w-5 h-5" />
+                  </a>
+                )}
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-medium">

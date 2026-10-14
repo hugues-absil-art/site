@@ -6,6 +6,7 @@ import Input from "@/components/ui/Input";
 import Textarea from "@/components/ui/Textarea";
 import Button from "@/components/ui/Button";
 import type { SiteSettings } from "@/lib/sanity/data";
+import { realProfileUrl } from "@/lib/seo";
 
 interface ContactProps {
   siteSettings?: SiteSettings | null;
@@ -16,8 +17,8 @@ export default function Contact({ siteSettings }: ContactProps) {
   const contactIntro = siteSettings?.contactIntro ?? "Pour toute question, demande d'information ou intérêt pour une œuvre";
   const contactInfoTitle = siteSettings?.contactInfoTitle ?? "Informations";
   const contactInfoText = siteSettings?.contactInfoText ?? "N'hésitez pas à me contacter pour toute demande concernant mes œuvres, les expositions à venir ou pour organiser une visite de l'atelier.";
-  const instagramUrl = siteSettings?.instagramUrl ?? "https://instagram.com";
-  const linkedinUrl = siteSettings?.linkedinUrl ?? "https://linkedin.com";
+  const instagramUrl = realProfileUrl(siteSettings?.instagramUrl);
+  const linkedinUrl = realProfileUrl(siteSettings?.linkedinUrl);
   const contactSuccessMessage = siteSettings?.contactSuccessMessage ?? "Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.";
   const contactErrorMessage = siteSettings?.contactErrorMessage ?? "Une erreur est survenue. Veuillez réessayer.";
 
@@ -95,17 +96,23 @@ export default function Contact({ siteSettings }: ContactProps) {
                 {contactInfoText}
               </p>
             </div>
-            <div>
-              <h4 className="font-semibold mb-3">Réseaux Sociaux</h4>
-              <div className="flex space-x-4">
-                <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="text-gray-medium hover:text-foreground transition-colors" aria-label="Instagram">
-                  <Instagram className="w-6 h-6" />
-                </a>
-                <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-gray-medium hover:text-foreground transition-colors" aria-label="LinkedIn">
-                  <Linkedin className="w-6 h-6" />
-                </a>
+            {(instagramUrl || linkedinUrl) && (
+              <div>
+                <h4 className="font-semibold mb-3">Réseaux Sociaux</h4>
+                <div className="flex space-x-4">
+                  {instagramUrl && (
+                    <a href={instagramUrl} target="_blank" rel="noopener noreferrer" className="text-gray-medium hover:text-foreground transition-colors" aria-label="Instagram">
+                      <Instagram className="w-6 h-6" />
+                    </a>
+                  )}
+                  {linkedinUrl && (
+                    <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-gray-medium hover:text-foreground transition-colors" aria-label="LinkedIn">
+                      <Linkedin className="w-6 h-6" />
+                    </a>
+                  )}
+                </div>
               </div>
-            </div>
+            )}
           </motion.div>
 
           <motion.div
