@@ -4,13 +4,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  # Reconstruction quotidienne : les contenus publiés dans Sanity reçoivent leur page pré-générée et entrent dans le sitemap.
+  # Contrôle toutes les 4 h : le site n'est reconstruit QUE si le contenu publié dans Sanity a changé
+  # (voir le job « check »). Les pages publiées reçoivent ainsi leur page pré-générée et entrent dans le sitemap.
   schedule:
-    - cron: '17 3 * * *'
+    - cron: '7 */4 * * *'
 
+# Une seule exécution à la fois, sans annuler un déploiement en cours (le contrôle planifié ne doit jamais en interrompre un).
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
@@ -18,7 +20,48 @@ permissions:
   id-token: write
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.decide.outputs.build }}
+    steps:
+      - name: Le contenu a-t-il changé ?
+        id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+          PROJECT: ${{ secrets.VITE_SANITY_PROJECT_ID }}
+          DATASET: ${{ secrets.VITE_SANITY_DATASET }}
+          PAGES_URL: https://${{ github.repository_owner }}.github.io/site
+        run: |
+          # Push sur main ou lancement manuel : on reconstruit toujours.
+          if [ "$EVENT" != "schedule" ]; then
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            echo "Déclenchement par $EVENT : reconstruction."
+            exit 0
+          fi
+          TYPES='["resource","exhibition","pressArticle","advice","resourceCategory"]'
+          QUERY="string(count(*[_type in $TYPES])) + \"|\" + (*[_type in $TYPES] | order(_updatedAt desc)[0]._updatedAt)"
+          CURRENT=$(curl -sf --get "https://${PROJECT}.api.sanity.io/v2024-01-01/data/query/${DATASET:-production}" \
+            --data-urlencode "query=${QUERY}" | jq -r '.result // empty' || true)
+          # Version publiée du site : domaine personnalisé s'il répond, sinon l'adresse GitHub Pages.
+          DEPLOYED=""
+          for URL in "https://hugues-absil.com" "$PAGES_URL"; do
+            V=$(curl -sf "${URL}/build-info.json" | jq -r '.contentVersion // empty' 2>/dev/null || true)
+            if [ -n "$V" ]; then DEPLOYED="$V"; break; fi
+          done
+          echo "Contenu Sanity : ${CURRENT:-?}"
+          echo "Contenu déployé : ${DEPLOYED:-?}"
+          if [ -n "$CURRENT" ] && [ "$CURRENT" = "$DEPLOYED" ]; then
+            echo "build=false" >> "$GITHUB_OUTPUT"
+            echo "Aucun changement : pas de reconstruction."
+          else
+            echo "build=true" >> "$GITHUB_OUTPUT"
+            echo "Changement détecté (ou version inconnue) : reconstruction."
+          fi
+
   build:
+    needs: check
+    if: needs.check.outputs.build == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

@@ -43,9 +43,9 @@
    "date": "2012-09-01",
    "modified": "2012-09-03",
    "target": {
-    "id": "1b2eb918-e764-406d-b0ce-a8ccba30eab6",
+    "id": "8da6ec0a-fbce-45f6-bf70-acb94a4e3f74",
     "type": "resource",
-    "slug": "le-mythe-de-la-couleur-fondation-gianadda-van-gogh-picasso-kandinsky-collection-merzbacher-le-mythe-de-la-couleur-jusqu-au-25-novembre-2012"
+    "slug": "gianada2012"
    }
   },
   {
@@ -877,7 +877,11 @@
    "title": "dossier de spécialité au Bac L",
    "date": "2013-03-01",
    "modified": "2019-10-17",
-   "target": null
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTtAfQyj",
+    "type": "resource",
+    "slug": "dossier-de-specialite-au-bac-l"
+   }
   },
   {
    "path": "/wordpress/disaster-the-end-of-days-a-la-galerie-ropac-a-pantin-jusqtuau-1er-juin/",
@@ -925,7 +929,11 @@
    "title": "déroulement des épreuves du bac arts plastiques",
    "date": "2013-03-12",
    "modified": "2013-03-13",
-   "target": null
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTtAf62B",
+    "type": "resource",
+    "slug": "deroulement-des-epreuves-du-bac-arts-plastiques"
+   }
   },
   {
    "path": "/wordpress/lautobiographie-et-la-fiction/",
@@ -1358,7 +1366,11 @@
    "title": "force de l'expressionnisme?",
    "date": "2013-10-08",
    "modified": "2026-01-22",
-   "target": null
+   "target": {
+    "id": "n7ew8lrmWKoXvNVTt6Wonp",
+    "type": "resource",
+    "slug": "force-de-lexpression"
+   }
   },
   {
    "path": "/wordpress/esquisses-peintes-de-lepoque-romantique/",
@@ -1368,7 +1380,11 @@
    "title": "Esquisses peintes de l’époque romantique",
    "date": "2013-10-22",
    "modified": "2013-10-22",
-   "target": null
+   "target": {
+    "id": "tYr3o53R5j3Jdk95GPMVL4",
+    "type": "resource",
+    "slug": "esquisses-peintes-de-lepoque-romantique"
+   }
   },
   {
    "path": "/wordpress/1917-duchamp-quelques-citations/",
@@ -1626,9 +1642,9 @@
    "date": "2014-03-30",
    "modified": "2014-03-30",
    "target": {
-    "id": "7e13de27-b5ac-4ecc-b763-77b7e337a59d",
+    "id": "tYr3o53R5j3Jdk95GPOAbW",
     "type": "resource",
-    "slug": "bill-viola-au-grand-palais-jusqu-au-21-juillet-2014"
+    "slug": "bill-viola-au-grand-palais-jusquau-21-juillet"
    }
   },
   {
@@ -1752,9 +1768,9 @@
    "date": "2014-07-28",
    "modified": "2014-07-28",
    "target": {
-    "id": "a8553e80-4987-413d-8705-71663a681cb0",
+    "id": "tYr3o53R5j3Jdk95GPOs6O",
     "type": "resource",
-    "slug": "el-lissitzky-l-experience-de-la-totalite-au-musee-picasso-a-malaga-jusqu-au-24-septembre-2014"
+    "slug": "el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre"
    }
   },
   {
@@ -1766,9 +1782,9 @@
    "date": "2014-07-28",
    "modified": "2014-07-28",
    "target": {
-    "id": "5d7cae78-d318-444c-96b1-e9857d7f2f48",
+    "id": "tYr3o53R5j3Jdk95GPQSr4",
     "type": "resource",
-    "slug": "philippe-cognee-collectif-ed-somogy"
+    "slug": "philippe-cognee-au-domaine-national-de-chambord-jusquau-12-octobre"
    }
   },
   {
@@ -1780,9 +1796,9 @@
    "date": "2014-07-28",
    "modified": "2014-07-28",
    "target": {
-    "id": "59a2717c-4d27-48be-866c-655bfef0f76c",
+    "id": "tYr3o53R5j3Jdk95GPQelW",
     "type": "resource",
-    "slug": "la-disparition-des-lucioles-ouvrage-collectif-ed-actes-sud"
+    "slug": "la-disparition-des-lucioles-prison-sainte-anne-avignon-jsuquau-25-nov-2014"
    }
   },
   {
@@ -1808,9 +1824,9 @@
    "date": "2014-07-28",
    "modified": "2014-07-28",
    "target": {
-    "id": "178d578e-1bd7-410a-8c51-166c04834355",
+    "id": "tTK2D0IWNDYy37c5Bqu2wN",
     "type": "resource",
-    "slug": "nicolas-de-stael"
+    "slug": "de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre"
    }
   },
   {
@@ -1846,9 +1862,9 @@
    "date": "2014-09-08",
    "modified": "2014-09-09",
    "target": {
-    "id": "b176e291-e9c2-4bdb-91cb-abe2ed1222e6",
+    "id": "n7ew8lrmWKoXvNVTt6eaWR",
     "type": "resource",
-    "slug": "man-ray-picabia-et-la-revue-litterature-1922-1924-exposition-au-centre-pompidou-jusqu-au-08-septembre-2014"
+    "slug": "litterature-revue-de-breton-soupault-et-aragon"
    }
   },
   {
@@ -2102,9 +2118,9 @@
    "date": "2015-03-10",
    "modified": "2015-03-14",
    "target": {
-    "id": "347dfdfd-67e2-4780-a96f-8a76c0fe670b",
+    "id": "tTK2D0IWNDYy37c5Bqub4A",
     "type": "resource",
-    "slug": "contact-exposition-de-olafur-oliasson-jusqu-au-23-fevrier-2015-a-la-fondation-l-vuitton-a-paris"
+    "slug": "contact-exposition-de-olafur-oliasson-jusquau-23-fevrier-a-la-fondation-l-vuitton-a-paris"
    }
   },
   {
@@ -2130,9 +2146,9 @@
    "date": "2015-03-10",
    "modified": "2015-03-10",
    "target": {
-    "id": "e6c926cc-ba66-4d1b-92b8-6664e1655671",
+    "id": "n7ew8lrmWKoXvNVTt6eiIN",
     "type": "resource",
-    "slug": "collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusqu-au-18-janvier-2014"
+    "slug": "collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusquau-18-janvier"
    }
   },
   {
@@ -2158,9 +2174,9 @@
    "date": "2015-03-14",
    "modified": "2015-03-14",
    "target": {
-    "id": "7055b9d0-332c-421d-9ae1-ad303156addd",
+    "id": "n7ew8lrmWKoXvNVTt6gTA9",
     "type": "resource",
-    "slug": "fatum-de-jerome-zonder-a-la-maison-rouge-jusqu-au-10-mai-2015"
+    "slug": "fatum-de-jerome-zonder-a-la-maison-rouge-jusquau-10-mai"
    }
   },
   {
@@ -2312,9 +2328,9 @@
    "date": "2015-08-01",
    "modified": "2015-08-01",
    "target": {
-    "id": "tTK2D0IWNDYy37c5BqxNzv",
+    "id": "tYr3o53R5j3Jdk95GPT68K",
     "type": "resource",
-    "slug": "formes-biographiques-1773499039969"
+    "slug": "formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre"
    }
   },
   {
@@ -2339,9 +2355,11 @@
    "title": "Formes Biographiques",
    "date": "2015-08-01",
    "modified": "2015-08-01",
-   "target": null,
-   "redirect": "/wordpress/formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre/",
-   "duplicateOf": "/wordpress/formes-biographiques-au-carre-dart-a-nimes-jusquau-20-septembre/"
+   "target": {
+    "id": "tTK2D0IWNDYy37c5BqxNzv",
+    "type": "resource",
+    "slug": "formes-biographiques-1773499039969"
+   }
   },
   {
    "path": "/wordpress/valerie-jouve/",
@@ -3095,9 +3113,9 @@
    "date": "2018-09-27",
    "modified": "2018-09-27",
    "target": {
-    "id": "bce44919-6ff3-45df-a75c-1dec4736becc",
+    "id": "tYr3o53R5j3Jdk95GZRtsg",
     "type": "resource",
-    "slug": "david-claerbout-avec-dark-optics-vision-de-nuit-au-printemps-de-toulouse-jusqu-au-3-fevrier-2019-oeil-expo"
+    "slug": "david-claerbout-avec-dark-optics-vision-de-nuit-au-printemps-de-toulouse-jusquau-3-ocotobre"
    }
   },
   {
@@ -4903,7 +4921,11 @@
    "title": "Figurations à Yerre jusqu’au 22 octobre 2023",
    "date": "2023-07-02",
    "modified": "2023-07-02",
-   "target": null
+   "target": {
+    "id": "tTK2D0IWNDYy37c5Bx6kaW",
+    "type": "resource",
+    "slug": "figurations-a-yerre-jusquau-22-octobre-2023"
+   }
   },
   {
    "path": "/wordpress/graver-la-lumiere/",

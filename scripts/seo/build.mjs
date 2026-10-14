@@ -54,7 +54,7 @@ if (template.includes('id="seo-static"')) {
   process.exit(1);
 }
 const legacy = JSON.parse(fs.readFileSync(path.join(ROOT, "seo/legacy-map.json"), "utf-8"));
-const sanity = createClient({ projectId, dataset, apiVersion: "2024-01-01", useCdn: true });
+const sanity = createClient({ projectId, dataset, apiVersion: "2024-01-01", useCdn: false }); // données à jour (pas le cache du CDN)
 
 // ---------- utilitaires ----------
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -364,6 +364,13 @@ for (const a of legacy.archives || []) {
 }
 write("/wordpress/", redirectPage("/", "l'accueil"));
 stats.redirects++;
+
+// ---------- version du contenu (le workflow ne reconstruit que si elle change) ----------
+const contentVersion = await sanity.fetch(
+  `string(count(*[_type in $t])) + "|" + (*[_type in $t] | order(_updatedAt desc)[0]._updatedAt)`,
+  { t: ["resource", "exhibition", "pressArticle", "advice", "resourceCategory"] }
+);
+fs.writeFileSync(path.join(DIST, "build-info.json"), JSON.stringify({ contentVersion, builtAt: new Date().toISOString() }));
 
 // ---------- sitemap, robots.txt, 404 ----------
 const sm = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
