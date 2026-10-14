@@ -79,7 +79,9 @@ jobs:
       - name: Build for GitHub Pages
         run: npm run build
         env:
-          GITHUB_PAGES: 'true'
+          # BASCULE DU DOMAINE : site servi à la racine de https://hugues-absil.com (et non plus sous /site/)
+          GITHUB_PAGES: 'false'
+          VITE_SITE_URL: 'https://hugues-absil.com'
           SEO_STRICT: 'true' # bloque le déploiement si une adresse protégée (seo/protected-urls.json) cesse de répondre
           VITE_SANITY_PROJECT_ID: ${{ secrets.VITE_SANITY_PROJECT_ID }}
           VITE_SANITY_DATASET: ${{ secrets.VITE_SANITY_DATASET }}
