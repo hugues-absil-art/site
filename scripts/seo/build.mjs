@@ -365,6 +365,10 @@ ${biography?.text ? `<h2>Biographie</h2>\n${ptToHtml(biography.text, SITE_NAME)}
 ${galleryHtml}
 ${exhibitionsHtml ? `<h2>Expositions</h2><ul>${exhibitionsHtml}</ul>` : ""}
 <h2>Critiques d'art, cours et ressources</h2><ul>${homeLinks}</ul>`;
+// profils : adresses réelles saisies dans Sanity (Paramètres du site) + références publiques vérifiées
+const settings = await sanity.fetch(`*[_type=="siteSettings"][0]{instagramUrl,linkedinUrl}`).catch(() => null);
+const realProfile = (u) => { try { const p = new URL(String(u || "").trim()); return p.pathname.replace(/\/+$/, "").length > 0 ? p.toString() : null; } catch { return null; } };
+const sameAs = ["https://en.wikipedia.org/wiki/Hugues_Absil", "https://www.wikidata.org/wiki/Q3142506", realProfile(settings?.instagramUrl), realProfile(settings?.linkedinUrl)].filter(Boolean);
 const worksLd = paintings.slice(0, 40).map((w) => {
   const img = imageUrl(w.ref, 1200);
   return { "@type": "VisualArtwork", name: w.title, dateCreated: w.year ? String(w.year) : undefined, artMedium: w.technique || undefined, image: img?.url, artist: { "@type": "Person", name: SITE_NAME } };
@@ -375,7 +379,7 @@ fs.writeFileSync(
     title: DEFAULT_TITLE, description: DEFAULT_DESC, canonicalPath: "/", body: homeBody,
     jsonLd: [
       { "@context": "https://schema.org", "@type": "WebSite", name: SITE_NAME, url: `${SITE_URL}/`, inLanguage: "fr" },
-      { "@context": "https://schema.org", "@type": "Person", name: SITE_NAME, url: `${SITE_URL}/`, jobTitle: "Artiste peintre, graveur et dessinateur", workExample: worksLd },
+      { "@context": "https://schema.org", "@type": "Person", name: SITE_NAME, url: `${SITE_URL}/`, jobTitle: "Artiste peintre, graveur et dessinateur", sameAs, workExample: worksLd },
     ],
   })
 );
@@ -396,6 +400,26 @@ for (const a of legacy.archives || []) {
 }
 write("/wordpress/", redirectPage("/", "l'accueil"));
 stats.redirects++;
+
+// ---------- redirections manuelles (seo/extra-redirects.json : { "/ancienne/adresse/": "/nouvelle/adresse/" }) ----------
+const extra = JSON.parse(fs.readFileSync(path.join(ROOT, "seo/extra-redirects.json"), "utf-8"));
+for (const [from, to] of Object.entries(extra)) {
+  write(from, redirectPage(to));
+  stats.redirects++;
+}
+
+// ---------- garde-fou : adresses que Google ou Wikipédia connaissent doivent toujours répondre ----------
+const protectedUrls = JSON.parse(fs.readFileSync(path.join(ROOT, "seo/protected-urls.json"), "utf-8"));
+const responds = (p) => {
+  const f = path.join(DIST, p.replace(/^\//, ""));
+  return p === "/" || (fs.existsSync(f) && (fs.statSync(f).isFile() || fs.existsSync(path.join(f, "index.html"))));
+};
+const dead = protectedUrls.filter((u) => !responds(u.path));
+if (dead.length) {
+  for (const u of dead) console.error(`::error::Adresse protégée sans réponse : ${u.path} (${u.why}). Rétablir la page, ou ajouter une redirection dans seo/extra-redirects.json, ou retirer l'adresse de seo/protected-urls.json.`);
+  if (process.env.SEO_STRICT === "true") process.exit(1);
+}
+console.log(`SEO : ${protectedUrls.length - dead.length}/${protectedUrls.length} adresses protégées répondent${dead.length ? " — ATTENTION : " + dead.length + " sans réponse" : ""}.`);
 
 // ---------- version du contenu (le workflow ne reconstruit que si elle change) ----------
 const contentVersion = await sanity.fetch(

@@ -41,6 +41,21 @@ export function isRetiredImageLink(href: string | null | undefined): boolean {
   );
 }
 
+/**
+ * Profil de réseau social « réel » : une adresse qui désigne un compte (avec un chemin), pas la page d'accueil
+ * générique du réseau (https://instagram.com). Sinon on n'affiche pas l'icône.
+ */
+export function realProfileUrl(url: string | null | undefined): string | null {
+  const u = (url || "").trim();
+  if (!u) return null;
+  try {
+    const p = new URL(u);
+    return p.pathname.replace(/\/+$/, "").length > 0 ? p.toString() : null;
+  } catch {
+    return null;
+  }
+}
+
 /** Texte brut d'un contenu Portable Text, tronqué proprement. */
 export function plainFromPortable(blocks: unknown, max = 160): string {
   if (!Array.isArray(blocks)) return "";

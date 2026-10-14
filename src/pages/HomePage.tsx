@@ -30,7 +30,7 @@ import {
   getPerformances,
   getAdvicePosts,
 } from "@/lib/sanity/data";
-import { useSeo, DEFAULT_TITLE, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { useSeo, realProfileUrl, DEFAULT_TITLE, DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 /** Même contrat que dans App.tsx (clic logo → accueil). */
 type LogoHomeLocationState = { scrollHomeHero?: boolean };
@@ -51,6 +51,12 @@ export default function HomePage() {
         name: SITE_NAME,
         url: `${SITE_URL}/`,
         jobTitle: "Artiste peintre, graveur et dessinateur",
+        sameAs: [
+          "https://en.wikipedia.org/wiki/Hugues_Absil",
+          "https://www.wikidata.org/wiki/Q3142506",
+          realProfileUrl(siteSettings?.instagramUrl),
+          realProfileUrl(siteSettings?.linkedinUrl),
+        ].filter(Boolean),
       },
     ],
   });

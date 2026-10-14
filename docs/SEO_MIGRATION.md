@@ -106,6 +106,29 @@ La page `/wordpress/tag/morgenthau-plan/` (624 affichages) renvoie vers l'articl
 
 Le Studio (5 Mo) est chargé à la demande (`React.lazy`) : le fichier principal du site public passe de 6,5 Mo à 1,4 Mo.
 
+
+### Garde-fou : ne jamais casser une adresse connue
+
+`seo/protected-urls.json` liste les adresses que Google ou Wikipédia connaissent (21 : accueil, documents, pages les plus vues,
+adresses citées par Wikipédia en/fr/ca). À chaque build, `scripts/seo/build.mjs` vérifie qu'elles répondent. Dans le workflow
+(`SEO_STRICT=true`), si l'une disparaît (page dépubliée, adresse changée…), **le déploiement est bloqué** : le site en ligne
+reste intact et l'erreur GitHub Actions indique quoi faire : rétablir la page, ajouter une redirection dans
+`seo/extra-redirects.json` (`{ "/ancienne/": "/nouvelle/" }`), ou retirer l'adresse de la liste.
+
+### Liens depuis Wikipédia
+
+Recherche faite le 15/10/2026 (en, fr, ca, es, de, it, nl, pt, ru, ja ; Commons ; Wikidata) : 6 adresses de hugues-absil.com
+sont citées (accueil, `Ingénieur-constructeur-n°476.pdf`, `/wordpress/1913-14-lequipe-de-cardiff-de-r-delaunay/`,
+`/wordpress/exposition-bacon-au-centre-pompidou-jusquau-20-janvier/`, `/wordpress/histoire-de-lart2/1950-la-sculpture-…/`,
+`/wordpress/technique/le-monotype/`). Toutes sont servies à leur adresse exacte (aucune redirection nécessaire) et protégées.
+Pour retrouver les liens : API `list=exturlusage` (`euquery=hugues-absil.com`) sur chaque wiki.
+
+### Profils et données structurées
+
+L'accueil déclare `Person` avec `sameAs` : Wikipedia (en), Wikidata (Q3142506) et, **si renseignées**, les adresses Instagram et
+LinkedIn de Sanity (Paramètres du site). Les icônes du pied de page et du contact ne s'affichent que pour une adresse de
+profil réelle (plus de liens génériques `https://instagram.com`).
+
 ## Limites connues et améliorations possibles
 
 - Pas de vrai 301 (limite de GitHub Pages). Pour en obtenir, héberger le site sur un service qui les permet
