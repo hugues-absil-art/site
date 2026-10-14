@@ -367,6 +367,7 @@ export function buildDeskStructure(S: StructureBuilder, context: StructureResolv
       buildSectionGroup(S, context, "enseignement", "Enseignement"),
       S.documentTypeListItem("advice").title("Journal"),
       S.documentTypeListItem("contenuAClasser").title("À classer"),
+      // Studio 5 : les listes interrogent la perspective « drafts » (ids publiés) ; l'état brouillon se lit dans _originalId.
       S.listItem()
         .id("brouillons")
         .title("Brouillons et modifications non publiées")
@@ -375,7 +376,7 @@ export function buildDeskStructure(S: StructureBuilder, context: StructureResolv
             .title("Brouillons et modifications non publiées")
             .apiVersion(API)
             .filter(
-              `_id in path("drafts.**") && _type in ["resource","exhibition","pressArticle","advice","biography","film","performance"]`
+              `defined(_originalId) && _originalId in path("drafts.**") && _type in ["resource","exhibition","pressArticle","advice","biography","film","performance"]`
             )
             .defaultOrdering([{ field: "_updatedAt", direction: "desc" }])
         ),
