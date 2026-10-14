@@ -8,6 +8,7 @@ import {
   shouldShowConditionalField,
   type EditorProfile,
 } from "../lib/resourceEditorProfile";
+import { standardOrderings } from "./commonOrderings";
 
 function profileOf(document: Record<string, unknown> | undefined): EditorProfile | undefined {
   const p = document?.editorProfile;
@@ -161,6 +162,7 @@ export const resource = defineType({
         !shouldShowConditionalField("sourceUrl", profileOf(document as Record<string, unknown>), value),
     }),
   ],
+  orderings: standardOrderings("date", "Date"),
   preview: {
     select: {
       title: "title",

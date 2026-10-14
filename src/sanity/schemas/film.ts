@@ -1,5 +1,6 @@
 import { defineType, defineField } from "sanity";
 import { blockContent } from "./blockContent";
+import { standardOrderings } from "./commonOrderings";
 
 export const film = defineType({
   name: "film",
@@ -88,6 +89,7 @@ export const film = defineType({
   orderings: [
     { title: "Ordre (numéro)", name: "orderAsc", by: [{ field: "order", direction: "asc" }] },
     { title: "Année (récente)", name: "yearDesc", by: [{ field: "year", direction: "desc" }] },
+    ...standardOrderings(),
   ],
   preview: {
     select: { title: "title", director: "director", year: "year" },

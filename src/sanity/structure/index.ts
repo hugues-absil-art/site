@@ -120,7 +120,8 @@ function resourceListForCategory(
     .title(title)
     .schemaType("resource")
     .apiVersion(API)
-    .defaultOrdering(RESOURCE_ORDERING);
+    .defaultOrdering(RESOURCE_ORDERING)
+    .menuItems(S.orderingMenuItemsForType("resource"));
 
   if (mode === "direct") {
     return list
@@ -316,6 +317,7 @@ function buildSectionGroup(
                     .filter(buildResourceInRootCategorySubtreeFilter())
                     .params({ rootSlug: c.value })
                     .defaultOrdering(RESOURCE_ORDERING)
+                    .menuItems(S.orderingMenuItemsForType("resource"))
                 )
             );
 
@@ -333,6 +335,7 @@ function buildSectionGroup(
                 .apiVersion(API)
                 .filter(RESOURCE_UNCATEGORIZED_FILTER)
                 .defaultOrdering([{ field: "date", direction: "desc" }])
+                .menuItems(S.orderingMenuItemsForType("resource"))
             ),
           S.divider(),
           buildCategoriesTree(S, context, section, "Catégories"),
@@ -364,6 +367,18 @@ export function buildDeskStructure(S: StructureBuilder, context: StructureResolv
       buildSectionGroup(S, context, "enseignement", "Enseignement"),
       S.documentTypeListItem("advice").title("Journal"),
       S.documentTypeListItem("contenuAClasser").title("À classer"),
+      S.listItem()
+        .id("brouillons")
+        .title("Brouillons et modifications non publiées")
+        .child(
+          S.documentList()
+            .title("Brouillons et modifications non publiées")
+            .apiVersion(API)
+            .filter(
+              `_id in path("drafts.**") && _type in ["resource","exhibition","pressArticle","advice","biography","film","performance"]`
+            )
+            .defaultOrdering([{ field: "_updatedAt", direction: "desc" }])
+        ),
       S.documentTypeListItem("series").title("Série (tableau)"),
       S.documentTypeListItem("technique").title("Technique (tableau)"),
       S.documentTypeListItem("theme").title("Thème (tableau)"),

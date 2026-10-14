@@ -1,5 +1,6 @@
 import { defineType, defineField } from "sanity";
 import { blockContent } from "./blockContent";
+import { standardOrderings } from "./commonOrderings";
 
 export const pressArticle = defineType({
   name: "pressArticle",
@@ -55,4 +56,5 @@ export const pressArticle = defineType({
       title: "Contenu",
     }),
   ],
+  orderings: standardOrderings("date", "Date"),
 });

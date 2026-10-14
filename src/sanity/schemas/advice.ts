@@ -1,5 +1,6 @@
 import { defineType, defineField } from "sanity";
 import { blockContent } from "./blockContent";
+import { standardOrderings } from "./commonOrderings";
 
 export const advice = defineType({
   name: "advice",
@@ -57,4 +58,5 @@ export const advice = defineType({
       of: [{ type: "string" }],
     }),
   ],
+  orderings: standardOrderings("date", "Date"),
 });
