@@ -92,6 +92,20 @@ Décisions qui en découlent :
   (`/wp-content/uploads/*.jpg`) sont retirés (le texte reste) ; les images affichées viennent du CDN Sanity.
 - **Galeries WordPress** : sans trafic mesurable ; elles redirigent vers l'accueil, qui contient maintenant la galerie en HTML.
 
+
+### Vérification sur les adresses que Google connaît déjà (export Search Console)
+
+Sur les 172 adresses du rapport « Pages » : l'accueil, les 16 documents et toutes les pages d'articles sont servis ;
+18 anciennes adresses d'archives (étiquettes, mois, pagination du blog) redirigent vers l'article ou la liste la plus
+pertinente ; seules les 136 images (1 clic) et 1 étiquette (36 affichages) n'ont pas de destination.
+Règle pour les étiquettes WordPress : une étiquette qui ne contient qu'un article redirige vers cet article ; les autres ne
+sont pas redirigées (sauf `PRIORITY_TAGS` dans `seo/tools/build_legacy_map.py`, qui regroupe celles que Google affiche).
+La page `/wordpress/tag/morgenthau-plan/` (624 affichages) renvoie vers l'article sur l'exposition de Kiefer.
+
+### Performance
+
+Le Studio (5 Mo) est chargé à la demande (`React.lazy`) : le fichier principal du site public passe de 6,5 Mo à 1,4 Mo.
+
 ## Limites connues et améliorations possibles
 
 - Pas de vrai 301 (limite de GitHub Pages). Pour en obtenir, héberger le site sur un service qui les permet

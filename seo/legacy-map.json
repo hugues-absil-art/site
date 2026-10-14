@@ -5413,6 +5413,2350 @@
    "count": 7,
    "pages": 1,
    "redirect": "/enseignement/histoire-art"
+  },
+  {
+   "path": "/wordpress/tag/richter/",
+   "tax": "post_tag",
+   "name": "richter",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/gerhard-richter-panorama/"
+  },
+  {
+   "path": "/wordpress/tag/betty/",
+   "tax": "post_tag",
+   "name": "betty",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/gerhard-richter-panorama/"
+  },
+  {
+   "path": "/wordpress/tag/hubris/",
+   "tax": "post_tag",
+   "name": "hubris",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/hubris-la-fabrique-du-monstre-dans-lart-moderne-jean-clair-ed-gallimard/"
+  },
+  {
+   "path": "/wordpress/tag/fauchereau/",
+   "tax": "post_tag",
+   "name": "fauchereau",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/le-cubisme-une-revolution-esthetique-sa-naissance-et-son-rayonnement-serge-fauchereau-ed-flammarion/"
+  },
+  {
+   "path": "/wordpress/tag/pane/",
+   "tax": "post_tag",
+   "name": "pane",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/gina-pane-terre-artiste-ciel-sophie-duplaix-ed-actes-sud/"
+  },
+  {
+   "path": "/wordpress/tag/body-art/",
+   "tax": "post_tag",
+   "name": "body art",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/gina-pane-terre-artiste-ciel-sophie-duplaix-ed-actes-sud/"
+  },
+  {
+   "path": "/wordpress/tag/braque/",
+   "tax": "post_tag",
+   "name": "braque",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1908-cubisme-de-picasso-et-braque-2/"
+  },
+  {
+   "path": "/wordpress/tag/analytique/",
+   "tax": "post_tag",
+   "name": "analytique",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1908-cubisme-de-picasso-et-braque-2/"
+  },
+  {
+   "path": "/wordpress/tag/collage/",
+   "tax": "post_tag",
+   "name": "collage",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1908-cubisme-de-picasso-et-braque-2/"
+  },
+  {
+   "path": "/wordpress/tag/synthetique/",
+   "tax": "post_tag",
+   "name": "synthétique",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1908-cubisme-de-picasso-et-braque-2/"
+  },
+  {
+   "path": "/wordpress/tag/cercle-dart-moderne/",
+   "tax": "post_tag",
+   "name": "cercle d'art moderne",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/le-cercle-dart-moderne/"
+  },
+  {
+   "path": "/wordpress/tag/moderne/",
+   "tax": "post_tag",
+   "name": "moderne",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/le-cercle-dart-moderne/"
+  },
+  {
+   "path": "/wordpress/tag/art/",
+   "tax": "post_tag",
+   "name": "art",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/le-cercle-dart-moderne/"
+  },
+  {
+   "path": "/wordpress/tag/havre/",
+   "tax": "post_tag",
+   "name": "havre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/le-cercle-dart-moderne/"
+  },
+  {
+   "path": "/wordpress/tag/musee-rodin/",
+   "tax": "post_tag",
+   "name": "musée Rodin",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/338/"
+  },
+  {
+   "path": "/wordpress/tag/rodin/",
+   "tax": "post_tag",
+   "name": "RODIN",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/338/"
+  },
+  {
+   "path": "/wordpress/tag/rodin-la-chair/",
+   "tax": "post_tag",
+   "name": "Rodin. La chair",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/338/"
+  },
+  {
+   "path": "/wordpress/tag/le-marbre/",
+   "tax": "post_tag",
+   "name": "le marbre.",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/338/"
+  },
+  {
+   "path": "/wordpress/tag/sculpture/",
+   "tax": "post_tag",
+   "name": "SCULPTURE",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/338/"
+  },
+  {
+   "path": "/wordpress/tag/rouvre/",
+   "tax": "post_tag",
+   "name": "rouvre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/denis-rouvre/",
+   "tax": "post_tag",
+   "name": "denis rouvre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/hokusai/",
+   "tax": "post_tag",
+   "name": "hokusai",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/hiroshige/",
+   "tax": "post_tag",
+   "name": "hiroshige",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/van-gogh/",
+   "tax": "post_tag",
+   "name": "van gogh",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/pinacotheque/",
+   "tax": "post_tag",
+   "name": "pinacothèque",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/estampe-japonaise/",
+   "tax": "post_tag",
+   "name": "estampe japonaise",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/van-gogh-reves-de-japon-et-hiroshige-lart-du-voyage-a-la-pinacotheque-de-paris-kroller-muller-dotterlo-jusquau-17-mars/"
+  },
+  {
+   "path": "/wordpress/tag/hopper/",
+   "tax": "post_tag",
+   "name": "hopper",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/edward-hopper-au-grand-palais-jusquau-28-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/ash-can-school/",
+   "tax": "post_tag",
+   "name": "ash can school",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/edward-hopper-au-grand-palais-jusquau-28-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/didier-ottinger/",
+   "tax": "post_tag",
+   "name": "didier ottinger",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/edward-hopper-au-grand-palais-jusquau-28-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/bohemes/",
+   "tax": "post_tag",
+   "name": "bohèmes",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/bohemes-au-grand-palais-jusquau-14-janvier-2/"
+  },
+  {
+   "path": "/wordpress/tag/bohemiens/",
+   "tax": "post_tag",
+   "name": "bohèmiens",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/bohemes-au-grand-palais-jusquau-14-janvier-2/"
+  },
+  {
+   "path": "/wordpress/tag/roms/",
+   "tax": "post_tag",
+   "name": "roms",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/bohemes-au-grand-palais-jusquau-14-janvier-2/"
+  },
+  {
+   "path": "/wordpress/tag/gypsie/",
+   "tax": "post_tag",
+   "name": "gypsie",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/bohemes-au-grand-palais-jusquau-14-janvier-2/"
+  },
+  {
+   "path": "/wordpress/tag/alice-springs/",
+   "tax": "post_tag",
+   "name": "alice springs",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/alice-springs-les-stenopes-de-choi-et-claude-nori-a-la-mep-jusquau-4-novembre/"
+  },
+  {
+   "path": "/wordpress/tag/helmut-newton/",
+   "tax": "post_tag",
+   "name": "helmut newton",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/alice-springs-les-stenopes-de-choi-et-claude-nori-a-la-mep-jusquau-4-novembre/"
+  },
+  {
+   "path": "/wordpress/tag/beuys/",
+   "tax": "post_tag",
+   "name": "beuys",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/kiefer-ouverture-des-galeries-ropac-et-gagosian-en-seine-saint-denis/"
+  },
+  {
+   "path": "/wordpress/tag/soutine/",
+   "tax": "post_tag",
+   "name": "soutine",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/soutine-au-musee-de-lorangerie-jusquau-21-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/orangerie/",
+   "tax": "post_tag",
+   "name": "orangerie",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/soutine-au-musee-de-lorangerie-jusquau-21-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/chaim/",
+   "tax": "post_tag",
+   "name": "chaïm",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/soutine-au-musee-de-lorangerie-jusquau-21-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/chaim-soutine/",
+   "tax": "post_tag",
+   "name": "Chaïm soutine",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/soutine-au-musee-de-lorangerie-jusquau-21-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/musee-de-lorangerie/",
+   "tax": "post_tag",
+   "name": "musée de l'orangerie",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/soutine-au-musee-de-lorangerie-jusquau-21-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/morgenthau/",
+   "tax": "post_tag",
+   "name": "morgenthau",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/464/"
+  },
+  {
+   "path": "/wordpress/tag/morgenthau-plan/",
+   "tax": "post_tag",
+   "name": "morgenthau plan",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/464/"
+  },
+  {
+   "path": "/wordpress/tag/olivier-de-sagazan/",
+   "tax": "post_tag",
+   "name": "olivier de sagazan",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/olivier-de-sagazan-a-la-galerie-marie-vitoux-jusquau-8-decembre/"
+  },
+  {
+   "path": "/wordpress/tag/sagazan/",
+   "tax": "post_tag",
+   "name": "sagazan",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/olivier-de-sagazan-a-la-galerie-marie-vitoux-jusquau-8-decembre/"
+  },
+  {
+   "path": "/wordpress/tag/gray/",
+   "tax": "post_tag",
+   "name": "gray",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/negre/",
+   "tax": "post_tag",
+   "name": "nègre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/delaunay/",
+   "tax": "post_tag",
+   "name": "delaunay",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/petit-palais/",
+   "tax": "post_tag",
+   "name": "petit palais",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/modernisme-et-modernite/",
+   "tax": "post_tag",
+   "name": "modernisme et modernité",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/greene/",
+   "tax": "post_tag",
+   "name": "greene",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/le-seqc/",
+   "tax": "post_tag",
+   "name": "le seqc",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/nadar/",
+   "tax": "post_tag",
+   "name": "nadar",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/tournachon/",
+   "tax": "post_tag",
+   "name": "tournachon",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/modernisme-ou-modernite-les-photographies-du-cercle-de-gustave-le-gray-jusquau-6-janvier-au-petit-palais/"
+  },
+  {
+   "path": "/wordpress/tag/abdessemed/",
+   "tax": "post_tag",
+   "name": "abdessemed",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/489/"
+  },
+  {
+   "path": "/wordpress/tag/adel-abdessemed/",
+   "tax": "post_tag",
+   "name": "adel abdessemed",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/489/"
+  },
+  {
+   "path": "/wordpress/tag/je-suis-innocent/",
+   "tax": "post_tag",
+   "name": "je suis innocent",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/489/"
+  },
+  {
+   "path": "/wordpress/tag/messager/",
+   "tax": "post_tag",
+   "name": "messager",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/continents-noirs-au-mamcs-musee-dart-moderne-de-strasbourg-jusquau-3-fevrier-2013/"
+  },
+  {
+   "path": "/wordpress/tag/continent/",
+   "tax": "post_tag",
+   "name": "continent",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/continents-noirs-au-mamcs-musee-dart-moderne-de-strasbourg-jusquau-3-fevrier-2013/"
+  },
+  {
+   "path": "/wordpress/tag/noir/",
+   "tax": "post_tag",
+   "name": "noir",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/continents-noirs-au-mamcs-musee-dart-moderne-de-strasbourg-jusquau-3-fevrier-2013/"
+  },
+  {
+   "path": "/wordpress/tag/mamcs/",
+   "tax": "post_tag",
+   "name": "mamcs",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/continents-noirs-au-mamcs-musee-dart-moderne-de-strasbourg-jusquau-3-fevrier-2013/"
+  },
+  {
+   "path": "/wordpress/tag/catherine-grenier/",
+   "tax": "post_tag",
+   "name": "catherine grenier",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/annette-messager-catherine-grenier-editions-flammarion-cndp/"
+  },
+  {
+   "path": "/wordpress/tag/stage/",
+   "tax": "post_tag",
+   "name": "stage",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/stage-de-peinture-a-venise-du-24-au-2-juillet-2013/"
+  },
+  {
+   "path": "/wordpress/tag/peinture/",
+   "tax": "post_tag",
+   "name": "peinture",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/stage-de-peinture-a-venise-du-24-au-2-juillet-2013/"
+  },
+  {
+   "path": "/wordpress/tag/aquarelle/",
+   "tax": "post_tag",
+   "name": "aquarelle",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/stage-de-peinture-a-venise-du-24-au-2-juillet-2013/"
+  },
+  {
+   "path": "/wordpress/tag/cours-2/",
+   "tax": "post_tag",
+   "name": "cours",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/stage-de-peinture-a-venise-du-24-au-2-juillet-2013/"
+  },
+  {
+   "path": "/wordpress/tag/amtm/",
+   "tax": "post_tag",
+   "name": "AMTM",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/pour-feter-ses-20-ans-amtm-invite-20-artistes/"
+  },
+  {
+   "path": "/wordpress/tag/dada/",
+   "tax": "post_tag",
+   "name": "dada",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1918-dada-a-berlin/"
+  },
+  {
+   "path": "/wordpress/tag/berlin/",
+   "tax": "post_tag",
+   "name": "berlin",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1918-dada-a-berlin/"
+  },
+  {
+   "path": "/wordpress/tag/hausmann/",
+   "tax": "post_tag",
+   "name": "hausmann",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/1918-dada-a-berlin/"
+  },
+  {
+   "path": "/wordpress/tag/ristelhueber/",
+   "tax": "post_tag",
+   "name": "ristelhueber",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/putman/",
+   "tax": "post_tag",
+   "name": "putman",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/sophie-ristelhueber/",
+   "tax": "post_tag",
+   "name": "sophie ristelhueber",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/track/",
+   "tax": "post_tag",
+   "name": "track",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/beyrouth/",
+   "tax": "post_tag",
+   "name": "beyrouth",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/faits/",
+   "tax": "post_tag",
+   "name": "faits",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/track-sophie-ristelhueber-a-la-galerie-putman-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/tourelles/",
+   "tax": "post_tag",
+   "name": "tourelles",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/exposition-de-paysages-au-chateau-des-tourelles-a-plessis-trevise-du-04-avril-au-30-avril-2013/"
+  },
+  {
+   "path": "/wordpress/tag/plessis-trevise/",
+   "tax": "post_tag",
+   "name": "plessis-trévise",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/exposition-de-paysages-au-chateau-des-tourelles-a-plessis-trevise-du-04-avril-au-30-avril-2013/"
+  },
+  {
+   "path": "/wordpress/tag/julio-le-parc/",
+   "tax": "post_tag",
+   "name": "julio le parc",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/julio-le-parc-au-palais-de-tokyo-jusquau-13-mai/"
+  },
+  {
+   "path": "/wordpress/tag/dynmo/",
+   "tax": "post_tag",
+   "name": "dynmo",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/julio-le-parc-au-palais-de-tokyo-jusquau-13-mai/"
+  },
+  {
+   "path": "/wordpress/tag/dynamo/",
+   "tax": "post_tag",
+   "name": "dynamo",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/julio-le-parc-au-palais-de-tokyo-jusquau-13-mai/"
+  },
+  {
+   "path": "/wordpress/tag/art-cinetique/",
+   "tax": "post_tag",
+   "name": "art cinétique",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/julio-le-parc-au-palais-de-tokyo-jusquau-13-mai/"
+  },
+  {
+   "path": "/wordpress/tag/op-art/",
+   "tax": "post_tag",
+   "name": "op art",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/julio-le-parc-au-palais-de-tokyo-jusquau-13-mai/"
+  },
+  {
+   "path": "/wordpress/tag/puolsart/",
+   "tax": "post_tag",
+   "name": "puols'art",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-pulsart-du-8-au-12-mai/"
+  },
+  {
+   "path": "/wordpress/tag/le-mans/",
+   "tax": "post_tag",
+   "name": "le mans",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-pulsart-du-8-au-12-mai/"
+  },
+  {
+   "path": "/wordpress/tag/orphique/",
+   "tax": "post_tag",
+   "name": "orphique",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/exposition-personnelle-galerie-duvivier-jusquau-26-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/paysage-orphique/",
+   "tax": "post_tag",
+   "name": "paysage orphique",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/exposition-personnelle-galerie-duvivier-jusquau-26-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/galerie-duvivier/",
+   "tax": "post_tag",
+   "name": "galerie duvivier",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/exposition-personnelle-galerie-duvivier-jusquau-26-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/sala/",
+   "tax": "post_tag",
+   "name": "sala",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/biennale-de-venise-jusquau-24-novembre/"
+  },
+  {
+   "path": "/wordpress/tag/expressions/",
+   "tax": "post_tag",
+   "name": "expressions",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/expressions/"
+  },
+  {
+   "path": "/wordpress/tag/baselitz/",
+   "tax": "post_tag",
+   "name": "baselitz",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/le-cote-sombre-georg-baselitz/"
+  },
+  {
+   "path": "/wordpress/tag/old-sarum/",
+   "tax": "post_tag",
+   "name": "old sarum",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/force-de-lexpression/"
+  },
+  {
+   "path": "/wordpress/tag/constable/",
+   "tax": "post_tag",
+   "name": "constable",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/force-de-lexpression/"
+  },
+  {
+   "path": "/wordpress/tag/gombrich/",
+   "tax": "post_tag",
+   "name": "gombrich",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/force-de-lexpression/"
+  },
+  {
+   "path": "/wordpress/tag/meditations-sur-un-cheval-de-bois/",
+   "tax": "post_tag",
+   "name": "méditations sur un cheval de bois",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/force-de-lexpression/"
+  },
+  {
+   "path": "/wordpress/tag/avant-gardes-du-xxeme-siecle/",
+   "tax": "post_tag",
+   "name": "Avant-Gardes du XXème siècle",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/force-de-lexpression/"
+  },
+  {
+   "path": "/wordpress/tag/la-responsabilite-de-lartiste/",
+   "tax": "post_tag",
+   "name": "la responsabilité de l'artiste",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/force-de-lexpression/"
+  },
+  {
+   "path": "/wordpress/tag/esquisse/",
+   "tax": "post_tag",
+   "name": "esquisse",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/esquisses-peintes-de-lepoque-romantique/"
+  },
+  {
+   "path": "/wordpress/tag/woolworth/",
+   "tax": "post_tag",
+   "name": "woolworth",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/carte-blanche-a-latelier-michael-woolwort/"
+  },
+  {
+   "path": "/wordpress/tag/fournier/",
+   "tax": "post_tag",
+   "name": "fournier",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/carte-blanche-a-latelier-michael-woolwort/"
+  },
+  {
+   "path": "/wordpress/tag/galerie-fournier/",
+   "tax": "post_tag",
+   "name": "galerie fournier",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/carte-blanche-a-latelier-michael-woolwort/"
+  },
+  {
+   "path": "/wordpress/tag/compraisions/",
+   "tax": "post_tag",
+   "name": "compraisions",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-comparaisons-du-25112014-au-30112014/"
+  },
+  {
+   "path": "/wordpress/tag/comparaisons/",
+   "tax": "post_tag",
+   "name": "comparaisons",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-comparaisons-du-25112014-au-30112014/"
+  },
+  {
+   "path": "/wordpress/tag/salon-paraisons/",
+   "tax": "post_tag",
+   "name": "salon paraisons",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-comparaisons-du-25112014-au-30112014/"
+  },
+  {
+   "path": "/wordpress/tag/salon-comparaisons/",
+   "tax": "post_tag",
+   "name": "salon comparaisons",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-comparaisons-du-25112014-au-30112014/"
+  },
+  {
+   "path": "/wordpress/tag/jorg-hermle/",
+   "tax": "post_tag",
+   "name": "Jörg Hermle",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-comparaisons-du-25112014-au-30112014/"
+  },
+  {
+   "path": "/wordpress/tag/groupe-expressionniste/",
+   "tax": "post_tag",
+   "name": "groupe expressionniste",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-comparaisons-du-25112014-au-30112014/"
+  },
+  {
+   "path": "/wordpress/tag/figuration-critique/",
+   "tax": "post_tag",
+   "name": "figuration critique",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-figuration-critique-du-16-au-20-septembre-2014-au-bastille-design-center/"
+  },
+  {
+   "path": "/wordpress/tag/roche-doetre/",
+   "tax": "post_tag",
+   "name": "Roche d'Oëtre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h/"
+  },
+  {
+   "path": "/wordpress/tag/oetre/",
+   "tax": "post_tag",
+   "name": "Oëtre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h/"
+  },
+  {
+   "path": "/wordpress/tag/chatou/",
+   "tax": "post_tag",
+   "name": "chatou",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h/"
+  },
+  {
+   "path": "/wordpress/tag/journees-portes-ouvertes/",
+   "tax": "post_tag",
+   "name": "journées portes ouvertes",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h/"
+  },
+  {
+   "path": "/wordpress/tag/ateliers-portes-ouvertes/",
+   "tax": "post_tag",
+   "name": "ateliers portes ouvertes",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/journees-ateliers-portes-ouvertes-a-chatou-le-27-et-28-septembre-de-14-a-19h/"
+  },
+  {
+   "path": "/wordpress/tag/mantegna/",
+   "tax": "post_tag",
+   "name": "Mantegna",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/mantegna-de-mauro-lucco-ed-actes-sud/"
+  },
+  {
+   "path": "/wordpress/tag/mauro-lucco/",
+   "tax": "post_tag",
+   "name": "Mauro Lucco",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/mantegna-de-mauro-lucco-ed-actes-sud/"
+  },
+  {
+   "path": "/wordpress/tag/mantegna-actes-sud/",
+   "tax": "post_tag",
+   "name": "Mantegna actes Sud",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/mantegna-de-mauro-lucco-ed-actes-sud/"
+  },
+  {
+   "path": "/wordpress/tag/lissitsky/",
+   "tax": "post_tag",
+   "name": "lissitsky",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/el-lissitsky/",
+   "tax": "post_tag",
+   "name": "el lissitsky",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/musee-picasso/",
+   "tax": "post_tag",
+   "name": "musée picasso",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/malaga/",
+   "tax": "post_tag",
+   "name": "malaga",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/el-lissitzky-lexperience-de-la-totalite-au-musee-picasso-a-malaga-jusquau-24-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/philippe-cognee/",
+   "tax": "post_tag",
+   "name": "philippe cognée",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/philippe-cognee-au-domaine-national-de-chambord-jusquau-12-octobre/"
+  },
+  {
+   "path": "/wordpress/tag/cognee/",
+   "tax": "post_tag",
+   "name": "cognée",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/philippe-cognee-au-domaine-national-de-chambord-jusquau-12-octobre/"
+  },
+  {
+   "path": "/wordpress/tag/la-disparition-des-lucioles/",
+   "tax": "post_tag",
+   "name": "la disparition des lucioles",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/la-disparition-des-lucioles-prison-sainte-anne-avignon-jsuquau-25-nov-2014/"
+  },
+  {
+   "path": "/wordpress/tag/didi-huberman/",
+   "tax": "post_tag",
+   "name": "didi-huberman",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/la-disparition-des-lucioles-prison-sainte-anne-avignon-jsuquau-25-nov-2014/"
+  },
+  {
+   "path": "/wordpress/tag/carrier-belleuse/",
+   "tax": "post_tag",
+   "name": "carrier-belleuse",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/carrier-belleuse-le-maitre-de-rodin-22-mai-27-octobre-2014-musees-et-domaine-nationaux-du-palais-de-compiegne-place-du-general-de-gaulle-60200-compiegne/"
+  },
+  {
+   "path": "/wordpress/tag/compiegnes/",
+   "tax": "post_tag",
+   "name": "compiègnes",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/carrier-belleuse-le-maitre-de-rodin-22-mai-27-octobre-2014-musees-et-domaine-nationaux-du-palais-de-compiegne-place-du-general-de-gaulle-60200-compiegne/"
+  },
+  {
+   "path": "/wordpress/tag/stael/",
+   "tax": "post_tag",
+   "name": "staël",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre/"
+  },
+  {
+   "path": "/wordpress/tag/stael-la-figure-a-nu/",
+   "tax": "post_tag",
+   "name": "staël. la figure à nu",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre/"
+  },
+  {
+   "path": "/wordpress/tag/la-figure-a-nu/",
+   "tax": "post_tag",
+   "name": "la figure à nu",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre/"
+  },
+  {
+   "path": "/wordpress/tag/lumieres-du-nord-lumieres-du-sud/",
+   "tax": "post_tag",
+   "name": "lumières du nord. Lumières du sud",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/de-stael-au-musee-picasso-dantibes-et-au-muma-au-havre/"
+  },
+  {
+   "path": "/wordpress/tag/raysse/",
+   "tax": "post_tag",
+   "name": "raysse",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/martial-raysse-au-centre-pompidou-jusquau-22-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/martial-raysse/",
+   "tax": "post_tag",
+   "name": "martial raysse",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/martial-raysse-au-centre-pompidou-jusquau-22-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/nouveau-realisme/",
+   "tax": "post_tag",
+   "name": "nouveau réalisme",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/martial-raysse-au-centre-pompidou-jusquau-22-septembre/"
+  },
+  {
+   "path": "/wordpress/tag/tzara/",
+   "tax": "post_tag",
+   "name": "tzara",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/litterature-revue-de-breton-soupault-et-aragon/"
+  },
+  {
+   "path": "/wordpress/tag/litterature/",
+   "tax": "post_tag",
+   "name": "littérature",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/litterature-revue-de-breton-soupault-et-aragon/"
+  },
+  {
+   "path": "/wordpress/tag/breton/",
+   "tax": "post_tag",
+   "name": "breton",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/litterature-revue-de-breton-soupault-et-aragon/"
+  },
+  {
+   "path": "/wordpress/tag/oldenburg/",
+   "tax": "post_tag",
+   "name": "oldenburg",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/les-magiciens-de-la-terre/"
+  },
+  {
+   "path": "/wordpress/tag/van-bruggen/",
+   "tax": "post_tag",
+   "name": "van Bruggen",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/les-magiciens-de-la-terre/"
+  },
+  {
+   "path": "/wordpress/tag/les-magiciens-de-la-terre/",
+   "tax": "post_tag",
+   "name": "les magiciens de la terre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/les-magiciens-de-la-terre/"
+  },
+  {
+   "path": "/wordpress/tag/jean-hubert-martin/",
+   "tax": "post_tag",
+   "name": "Jean-Hubert Martin",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/les-magiciens-de-la-terre/"
+  },
+  {
+   "path": "/wordpress/tag/sers/",
+   "tax": "post_tag",
+   "name": "sers",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito-de-philippe-sers-ed-hazan/"
+  },
+  {
+   "path": "/wordpress/tag/duchamp/",
+   "tax": "post_tag",
+   "name": "duchamp",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito-de-philippe-sers-ed-hazan/"
+  },
+  {
+   "path": "/wordpress/tag/lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito/",
+   "tax": "post_tag",
+   "name": "L’énigme. Marcel Duchamp. L’art à l’épreuve du cogito",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/lenigme-marcel-duchamp-lart-a-lepreuve-du-cogito-de-philippe-sers-ed-hazan/"
+  },
+  {
+   "path": "/wordpress/tag/stage-modele-vivant/",
+   "tax": "post_tag",
+   "name": "stage modèle vivant",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h/"
+  },
+  {
+   "path": "/wordpress/tag/modele-vivant/",
+   "tax": "post_tag",
+   "name": "modèle vivant",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/stage-de-modele-vivant-dessin-peinture-monotype-gravure-dimanche-22-mars-2015-de-17-a-20h/"
+  },
+  {
+   "path": "/wordpress/tag/olafur-oliasson/",
+   "tax": "post_tag",
+   "name": "olafur oliasson",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/contact-exposition-de-olafur-oliasson-jusquau-23-fevrier-a-la-fondation-l-vuitton-a-paris/"
+  },
+  {
+   "path": "/wordpress/tag/oliasson/",
+   "tax": "post_tag",
+   "name": "oliasson",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/contact-exposition-de-olafur-oliasson-jusquau-23-fevrier-a-la-fondation-l-vuitton-a-paris/"
+  },
+  {
+   "path": "/wordpress/tag/contact/",
+   "tax": "post_tag",
+   "name": "contact",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/contact-exposition-de-olafur-oliasson-jusquau-23-fevrier-a-la-fondation-l-vuitton-a-paris/"
+  },
+  {
+   "path": "/wordpress/tag/gehry/",
+   "tax": "post_tag",
+   "name": "gehry",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/franck-gehry-a-la-fondation-louis-vuitton-jusquau-16-mars/"
+  },
+  {
+   "path": "/wordpress/tag/decharme/",
+   "tax": "post_tag",
+   "name": "decharme",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusquau-18-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/bruno-decharme/",
+   "tax": "post_tag",
+   "name": "bruno decharme",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusquau-18-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/collection-abcd/",
+   "tax": "post_tag",
+   "name": "collection abcd",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/collection-abcd-de-bruno-decharme-a-la-maison-rouge-jusquau-18-janvier/"
+  },
+  {
+   "path": "/wordpress/tag/sade/",
+   "tax": "post_tag",
+   "name": "sade",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/sade-attaquer-le-soleil-annie-le-brun-ed-gallimard/"
+  },
+  {
+   "path": "/wordpress/tag/sade-attaquer-le-soleil/",
+   "tax": "post_tag",
+   "name": "sade. attaquer le soleil",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/sade-attaquer-le-soleil-annie-le-brun-ed-gallimard/"
+  },
+  {
+   "path": "/wordpress/tag/annie-le-brun/",
+   "tax": "post_tag",
+   "name": "annie le brun",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/sade-attaquer-le-soleil-annie-le-brun-ed-gallimard/"
+  },
+  {
+   "path": "/wordpress/tag/zonder/",
+   "tax": "post_tag",
+   "name": "zonder",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/fatum-de-jerome-zonder-a-la-maison-rouge-jusquau-10-mai/"
+  },
+  {
+   "path": "/wordpress/tag/jerome-zonder/",
+   "tax": "post_tag",
+   "name": "jérôme zonder",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/fatum-de-jerome-zonder-a-la-maison-rouge-jusquau-10-mai/"
+  },
+  {
+   "path": "/wordpress/tag/exposition/",
+   "tax": "post_tag",
+   "name": "exposition",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/6eme-salon-dart-de-saint-germain-en-laye-du-samedi-28-mars-au-jeudi-16-avril-2015-au-manege-royal-de-st-germain-en-laye/"
+  },
+  {
+   "path": "/wordpress/tag/manege-royal/",
+   "tax": "post_tag",
+   "name": "manège royal",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/6eme-salon-dart-de-saint-germain-en-laye-du-samedi-28-mars-au-jeudi-16-avril-2015-au-manege-royal-de-st-germain-en-laye/"
+  },
+  {
+   "path": "/wordpress/tag/maryl-de-berre/",
+   "tax": "post_tag",
+   "name": "maryl de berre",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/new-york-the-flatiron-evening/",
+   "tax": "post_tag",
+   "name": "New York. The Flatiron Evening",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/steichen/",
+   "tax": "post_tag",
+   "name": "steichen",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/telemaque/",
+   "tax": "post_tag",
+   "name": "télémaque",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/pictorialisme/",
+   "tax": "post_tag",
+   "name": "pictorialisme",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/wall/",
+   "tax": "post_tag",
+   "name": "wall",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/jeff-wall/",
+   "tax": "post_tag",
+   "name": "jeff wall",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/dominique-baque/",
+   "tax": "post_tag",
+   "name": "dominique baqué",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/photographie-plasticienne/",
+   "tax": "post_tag",
+   "name": "photographie plasticienne",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/maryl-le-berre-diptyque-a-la-galerie-marie-vitoux-jusquau-18-avril/"
+  },
+  {
+   "path": "/wordpress/tag/brian-odoherty/",
+   "tax": "post_tag",
+   "name": "Brian O’Doherty",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/white-cube/"
+  },
+  {
+   "path": "/wordpress/tag/white-cube/",
+   "tax": "post_tag",
+   "name": "white cube",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/white-cube/"
+  },
+  {
+   "path": "/wordpress/tag/exposition-surrealiste/",
+   "tax": "post_tag",
+   "name": "exposition surréaliste",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/white-cube/"
+  },
+  {
+   "path": "/wordpress/tag/salon-portrait/",
+   "tax": "post_tag",
+   "name": "salon portrait",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai/"
+  },
+  {
+   "path": "/wordpress/tag/salon-international-du-portrait/",
+   "tax": "post_tag",
+   "name": "salon international du portrait",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai/"
+  },
+  {
+   "path": "/wordpress/tag/exposition-cellettes/",
+   "tax": "post_tag",
+   "name": "exposition CELLETTES",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai/"
+  },
+  {
+   "path": "/wordpress/tag/chateau-de-beauregard/",
+   "tax": "post_tag",
+   "name": "Château de Beauregard",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai/"
+  },
+  {
+   "path": "/wordpress/tag/exposition-chateau-de-beauregard/",
+   "tax": "post_tag",
+   "name": "exposition Château de Beauregard",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/salon-international-du-portrait-a-l-orangerie-du-chateau-de-beauregard-41120-cellettes-du-18-avril-au-3-mai/"
+  },
+  {
+   "path": "/wordpress/tag/pulsart-2015/",
+   "tax": "post_tag",
+   "name": "puls'art 2015",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/exposition-a-pulsart-du-13-au-17-mai-au-mans/"
+  },
+  {
+   "path": "/wordpress/tag/kawamata/",
+   "tax": "post_tag",
+   "name": "kawamata",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/analyse-plastique-des-huts-de-kawamata/"
+  },
+  {
+   "path": "/wordpress/tag/huts/",
+   "tax": "post_tag",
+   "name": "huts",
+   "count": 1,
+   "pages": 1,
+   "redirect": "/wordpress/analyse-plastique-des-huts-de-kawamata/"
+  },
+  {
+   "path": "/wordpress/2012/07/",
+   "tax": "date",
+   "name": "2012-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2012/08/",
+   "tax": "date",
+   "name": "2012-08",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2012/09/",
+   "tax": "date",
+   "name": "2012-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2012/10/",
+   "tax": "date",
+   "name": "2012-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2012/11/",
+   "tax": "date",
+   "name": "2012-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2012/12/",
+   "tax": "date",
+   "name": "2012-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/01/",
+   "tax": "date",
+   "name": "2013-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/02/",
+   "tax": "date",
+   "name": "2013-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/03/",
+   "tax": "date",
+   "name": "2013-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/04/",
+   "tax": "date",
+   "name": "2013-04",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/08/",
+   "tax": "date",
+   "name": "2013-08",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/09/",
+   "tax": "date",
+   "name": "2013-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/10/",
+   "tax": "date",
+   "name": "2013-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/11/",
+   "tax": "date",
+   "name": "2013-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/01/",
+   "tax": "date",
+   "name": "2014-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/03/",
+   "tax": "date",
+   "name": "2014-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/06/",
+   "tax": "date",
+   "name": "2014-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/07/",
+   "tax": "date",
+   "name": "2014-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/09/",
+   "tax": "date",
+   "name": "2014-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/10/",
+   "tax": "date",
+   "name": "2014-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/11/",
+   "tax": "date",
+   "name": "2014-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/12/",
+   "tax": "date",
+   "name": "2014-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/02/",
+   "tax": "date",
+   "name": "2015-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/03/",
+   "tax": "date",
+   "name": "2015-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/04/",
+   "tax": "date",
+   "name": "2015-04",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/05/",
+   "tax": "date",
+   "name": "2015-05",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/06/",
+   "tax": "date",
+   "name": "2015-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/07/",
+   "tax": "date",
+   "name": "2015-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/08/",
+   "tax": "date",
+   "name": "2015-08",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/10/",
+   "tax": "date",
+   "name": "2015-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/01/",
+   "tax": "date",
+   "name": "2016-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/02/",
+   "tax": "date",
+   "name": "2016-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/03/",
+   "tax": "date",
+   "name": "2016-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/05/",
+   "tax": "date",
+   "name": "2016-05",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/07/",
+   "tax": "date",
+   "name": "2016-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/09/",
+   "tax": "date",
+   "name": "2016-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/10/",
+   "tax": "date",
+   "name": "2016-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/11/",
+   "tax": "date",
+   "name": "2016-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/12/",
+   "tax": "date",
+   "name": "2016-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/01/",
+   "tax": "date",
+   "name": "2017-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/02/",
+   "tax": "date",
+   "name": "2017-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/03/",
+   "tax": "date",
+   "name": "2017-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/04/",
+   "tax": "date",
+   "name": "2017-04",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/05/",
+   "tax": "date",
+   "name": "2017-05",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/06/",
+   "tax": "date",
+   "name": "2017-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/10/",
+   "tax": "date",
+   "name": "2017-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/12/",
+   "tax": "date",
+   "name": "2017-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/01/",
+   "tax": "date",
+   "name": "2018-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/02/",
+   "tax": "date",
+   "name": "2018-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/03/",
+   "tax": "date",
+   "name": "2018-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/05/",
+   "tax": "date",
+   "name": "2018-05",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/08/",
+   "tax": "date",
+   "name": "2018-08",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/09/",
+   "tax": "date",
+   "name": "2018-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/02/",
+   "tax": "date",
+   "name": "2019-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/07/",
+   "tax": "date",
+   "name": "2019-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/08/",
+   "tax": "date",
+   "name": "2019-08",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/09/",
+   "tax": "date",
+   "name": "2019-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/10/",
+   "tax": "date",
+   "name": "2019-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/11/",
+   "tax": "date",
+   "name": "2019-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/02/",
+   "tax": "date",
+   "name": "2020-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/03/",
+   "tax": "date",
+   "name": "2020-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/06/",
+   "tax": "date",
+   "name": "2020-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/07/",
+   "tax": "date",
+   "name": "2020-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/11/",
+   "tax": "date",
+   "name": "2020-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/12/",
+   "tax": "date",
+   "name": "2020-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/01/",
+   "tax": "date",
+   "name": "2021-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/02/",
+   "tax": "date",
+   "name": "2021-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/03/",
+   "tax": "date",
+   "name": "2021-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/04/",
+   "tax": "date",
+   "name": "2021-04",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/05/",
+   "tax": "date",
+   "name": "2021-05",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/06/",
+   "tax": "date",
+   "name": "2021-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/09/",
+   "tax": "date",
+   "name": "2021-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/11/",
+   "tax": "date",
+   "name": "2021-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/12/",
+   "tax": "date",
+   "name": "2021-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/01/",
+   "tax": "date",
+   "name": "2022-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/02/",
+   "tax": "date",
+   "name": "2022-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/06/",
+   "tax": "date",
+   "name": "2022-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/09/",
+   "tax": "date",
+   "name": "2022-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/10/",
+   "tax": "date",
+   "name": "2022-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/11/",
+   "tax": "date",
+   "name": "2022-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/01/",
+   "tax": "date",
+   "name": "2023-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/03/",
+   "tax": "date",
+   "name": "2023-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/04/",
+   "tax": "date",
+   "name": "2023-04",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/06/",
+   "tax": "date",
+   "name": "2023-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/07/",
+   "tax": "date",
+   "name": "2023-07",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/09/",
+   "tax": "date",
+   "name": "2023-09",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2024/06/",
+   "tax": "date",
+   "name": "2024-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2024/10/",
+   "tax": "date",
+   "name": "2024-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2024/11/",
+   "tax": "date",
+   "name": "2024-11",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2025/05/",
+   "tax": "date",
+   "name": "2025-05",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2025/06/",
+   "tax": "date",
+   "name": "2025-06",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2025/08/",
+   "tax": "date",
+   "name": "2025-08",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2025/10/",
+   "tax": "date",
+   "name": "2025-10",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2025/12/",
+   "tax": "date",
+   "name": "2025-12",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2026/01/",
+   "tax": "date",
+   "name": "2026-01",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2026/02/",
+   "tax": "date",
+   "name": "2026-02",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2026/03/",
+   "tax": "date",
+   "name": "2026-03",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2026/04/",
+   "tax": "date",
+   "name": "2026-04",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2012/",
+   "tax": "date",
+   "name": "2012",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2013/",
+   "tax": "date",
+   "name": "2013",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2014/",
+   "tax": "date",
+   "name": "2014",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2015/",
+   "tax": "date",
+   "name": "2015",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2016/",
+   "tax": "date",
+   "name": "2016",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2017/",
+   "tax": "date",
+   "name": "2017",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2018/",
+   "tax": "date",
+   "name": "2018",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2019/",
+   "tax": "date",
+   "name": "2019",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2020/",
+   "tax": "date",
+   "name": "2020",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2021/",
+   "tax": "date",
+   "name": "2021",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2022/",
+   "tax": "date",
+   "name": "2022",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2023/",
+   "tax": "date",
+   "name": "2023",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2024/",
+   "tax": "date",
+   "name": "2024",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2025/",
+   "tax": "date",
+   "name": "2025",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/2026/",
+   "tax": "date",
+   "name": "2026",
+   "count": 0,
+   "pages": 1,
+   "redirect": "/critiques/oeil-expo"
+  },
+  {
+   "path": "/wordpress/actualites-artistiques2/",
+   "tax": "blog",
+   "name": "Actualités artistiques (pagination)",
+   "count": 0,
+   "pages": 40,
+   "redirect": "/critiques/oeil-expo"
   }
  ]
 }

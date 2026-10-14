@@ -57,7 +57,7 @@ tables = collections.defaultdict(list)
 with open(args.dump, encoding='utf-8', errors='replace') as f:
     for line in f:
         m = re.match(r'INSERT INTO `(\w+)` VALUES ', line)
-        if m and m.group(1) in ('wp_posts', 'wp_terms', 'wp_term_taxonomy'):
+        if m and m.group(1) in ('wp_posts', 'wp_terms', 'wp_term_taxonomy', 'wp_term_relationships'):
             tables[m.group(1)] += parse_values(line, m.end())
 
 P = ['ID', 'author', 'date', 'date_gmt', 'content', 'title', 'excerpt', 'status', 'cs', 'ps', 'pw', 'name', 'to_ping', 'pinged',
@@ -167,6 +167,37 @@ for r in tables['wp_term_taxonomy']:
     if tax == 'category' and count > 0 and slug:
         archives.append({'path': f'/wordpress/category/{slug}/', 'tax': tax, 'name': html.unescape(name), 'count': count,
                          'pages': max(1, -(-count // 10)), 'redirect': CAT_DEST.get(slug) or '/'})
+
+# étiquettes : une étiquette qui ne contient qu'UN article redirige vers cet article (pertinent) ; les autres ne sont pas
+# redirigées, sauf celles que Google affiche déjà (PRIORITY_TAGS : la page de l'article le plus récent).
+PRIORITY_TAGS = {'morgenthau-plan', 'laurence-bertrand-dorleac', 'estampe-japonaise', 'sophie-ristelhueber', 'berlin'}
+entry_by_id = {e['wpId']: e for e in entries}
+tt_info = {r[0]: (r[1], r[2]) for r in tables['wp_term_taxonomy']}  # term_taxonomy_id -> (term_id, taxonomy)
+tag_posts = collections.defaultdict(list)
+for r in tables['wp_term_relationships']:
+    info = tt_info.get(r[1])
+    if info and info[1] == 'post_tag' and r[0] in entry_by_id:
+        tag_posts[info[0]].append(entry_by_id[r[0]])
+served = lambda e: e.get('target') and not e.get('redirect')
+n_tags = 0
+for term_id, lst in tag_posts.items():
+    name, slug = termslug.get(term_id, ('', ''))
+    ok = [e for e in lst if served(e)]
+    if not slug or not ok:
+        continue
+    if len(lst) == 1 or slug in PRIORITY_TAGS:
+        best = sorted(ok, key=lambda e: e['date'], reverse=True)[0]
+        archives.append({'path': f'/wordpress/tag/{slug}/', 'tax': 'post_tag', 'name': html.unescape(name), 'count': len(lst), 'pages': 1, 'redirect': best['path']})
+        n_tags += 1
+
+# archives par date (/wordpress/2020/03/, /wordpress/2020/) et pages du blog (/wordpress/actualites-artistiques2/page/N/)
+months = sorted({e['date'][:7] for e in entries if e['wpType'] == 'post'})
+for ym in months:
+    y, mth = ym.split('-')
+    archives.append({'path': f'/wordpress/{y}/{mth}/', 'tax': 'date', 'name': ym, 'count': 0, 'pages': 1, 'redirect': '/critiques/oeil-expo'})
+for y in sorted({m[:4] for m in months}):
+    archives.append({'path': f'/wordpress/{y}/', 'tax': 'date', 'name': y, 'count': 0, 'pages': 1, 'redirect': '/critiques/oeil-expo'})
+archives.append({'path': '/wordpress/actualites-artistiques2/', 'tax': 'blog', 'name': 'Actualités artistiques (pagination)', 'count': 0, 'pages': 40, 'redirect': '/critiques/oeil-expo'})
 
 routes = {}
 for e in entries:

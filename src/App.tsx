@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import type { Location } from "react-router-dom";
 import {
   createBrowserRouter,
@@ -20,7 +20,8 @@ import PressArticlePage from "@/pages/PressArticlePage";
 import ExhibitionPage from "@/pages/ExhibitionPage";
 import ResourceCategoryPage from "@/pages/ResourceCategoryPage";
 import ResourcePage from "@/pages/ResourcePage";
-import StudioPage from "@/pages/StudioPage";
+// Le Studio (plusieurs Mo) n'est chargé que sur /studio : il ne doit pas alourdir le site public.
+const StudioPage = lazy(() => import("@/pages/StudioPage"));
 import NotFoundPage from "@/pages/NotFoundPage";
 import LegacyRoute from "@/pages/LegacyRoute";
 import PreviewEnablePage from "@/pages/PreviewEnablePage";
@@ -107,8 +108,8 @@ const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
 
 const router = createBrowserRouter(
   [
-    { path: "studio", element: <StudioPage /> },
-    { path: "studio/*", element: <StudioPage /> },
+    { path: "studio", element: <Suspense fallback={null}><StudioPage /></Suspense> },
+    { path: "studio/*", element: <Suspense fallback={null}><StudioPage /></Suspense> },
     {
       path: "/",
       element: <Layout />,
