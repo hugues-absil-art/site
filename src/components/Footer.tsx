@@ -1,4 +1,4 @@
-import { Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin, Rss } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import type { SiteSettings } from "@/lib/sanity/data";
 import { navigateToSection } from "@/lib/sectionHash";
@@ -81,10 +81,20 @@ export default function Footer({ siteSettings, showFilmsLink = false, showJourna
             </ul>
           </div>
 
-          {(instagramUrl || linkedinUrl) && (
-            <div>
-              <h3 className="font-serif text-lg font-semibold mb-4">{footerSocialTitle}</h3>
-              <div className="flex space-x-4">
+          <div>
+            <h3 className="font-serif text-lg font-semibold mb-4">{footerSocialTitle}</h3>
+            <div className="flex space-x-4">
+              <a
+                href={`${import.meta.env.BASE_URL}feed.xml`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-medium hover:text-foreground transition-colors"
+                aria-label="Flux RSS"
+                title="Flux RSS : dernières publications"
+              >
+                <Rss className="w-5 h-5" />
+              </a>
+              <>
                 {instagramUrl && (
                   <a
                     href={instagramUrl}
@@ -107,9 +117,9 @@ export default function Footer({ siteSettings, showFilmsLink = false, showJourna
                     <Linkedin className="w-5 h-5" />
                   </a>
                 )}
-              </div>
+              </>
             </div>
-          )}
+          </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-medium">
