@@ -171,6 +171,7 @@ function renderPage({ title, description, canonicalPath, type = "website", image
     `<title>${esc(fullTitle)}</title>`,
     `<meta name="description" content="${attr(desc)}" />`,
     `<link rel="canonical" href="${attr(url)}" />`,
+    `<link rel="alternate" type="application/rss+xml" title="${attr(SITE_NAME)}" href="${attr(abs("/feed.xml"))}" />`,
     robots ? `<meta name="robots" content="${attr(robots)}" />` : "",
     `<meta property="og:title" content="${attr(fullTitle)}" />`,
     `<meta property="og:description" content="${attr(desc)}" />`,
@@ -440,6 +441,30 @@ for (const u of sitemap) {
 sm.push("</urlset>");
 const sitemapXml = sm.join("\n") + "\n";
 fs.writeFileSync(path.join(DIST, "sitemap.xml"), sitemapXml);
+// ---------- flux RSS : articles du journal + expositions récentes ou à venir ----------
+const horizon = new Date(Date.now() + 90 * 864e5).toISOString().slice(0, 10);
+const feedItems = docs
+  .filter((d) => (d.kind === "advice" || d.kind === "exhibition") && !d.dupOf && !d.noindex)
+  .map((d) => ({ d, day: dateOnly(d.kind === "exhibition" ? d.dateStart : d.date || d._updatedAt) }))
+  .filter((x) => /^\d{4}-(0[1-9]|1[0-2])-\d{2}$/.test(x.day) && x.day <= horizon)
+  .sort((a, b) => b.day.localeCompare(a.day))
+  .slice(0, 20);
+const rssDate = (day) => new Date(`${day}T12:00:00Z`).toUTCString();
+const feedXml = [
+  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>',
+  `<title>${esc(SITE_NAME)}</title>`,
+  `<link>${esc(abs("/"))}</link>`,
+  `<description>${esc(DEFAULT_DESC)}</description>`,
+  "<language>fr-FR</language>",
+  `<atom:link href="${esc(abs("/feed.xml"))}" rel="self" type="application/rss+xml" />`,
+  `<lastBuildDate>${new Date().toUTCString()}</lastBuildDate>`,
+  ...feedItems.map(({ d, day }) =>
+    `<item><title>${esc(d.title)}</title><link>${esc(abs(d.canonical))}</link><guid isPermaLink="true">${esc(abs(d.canonical))}</guid>` +
+    `<pubDate>${rssDate(day)}</pubDate><description>${esc(cut(d.excerpt || d.description || plain(d.body), 300))}</description></item>`),
+  "</channel></rss>",
+].join("\n");
+fs.writeFileSync(path.join(DIST, "feed.xml"), feedXml + "\n");
 fs.writeFileSync(path.join(DIST, "google_sitemap.xml.gz"), zlib.gzipSync(sitemapXml)); // ancien emplacement, mis à jour
 fs.writeFileSync(path.join(DIST, "robots.txt"), `User-agent: *\nAllow: /\nDisallow: ${BASE}/studio\n\nSitemap: ${abs("/sitemap.xml")}\n`);
 fs.writeFileSync(
@@ -450,5 +475,5 @@ fs.writeFileSync(
 console.log(
   `SEO : ${stats.docs} pages, dont ${stats.legacy} à l'adresse WordPress d'origine (+${stats.alternates} copies canoniques), ` +
     `${stats.categories} catégories, ${stats.redirects} redirections, ${stats.duplicates} doublons (canonique vers la page principale), ` +
-    `${stats.noindex} pages vides en noindex, ${sitemap.length} URL dans le sitemap.`
+    `${stats.noindex} pages vides en noindex, ${sitemap.length} URL dans le sitemap, ${feedItems.length} éléments dans le flux RSS.`
 );
