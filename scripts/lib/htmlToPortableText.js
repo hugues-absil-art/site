@@ -108,6 +108,8 @@ function tagName(el) {
 export async function buildPortableTextFromHtml(html, pageUrl, uploadImage) {
   const $ = cheerio.load(html);
   $("script, style, nav, footer, iframe").remove();
+  // Zone de commentaires WordPress (formulaire, liste, pingbacks) : ne doit pas être importée.
+  $(".comment-respond, #respond, #comments, .comments-area, .commentlist, .comment-list, .pingback").remove();
 
   let $root = $("main").first();
   if (!$root.length) $root = $("article").first();
