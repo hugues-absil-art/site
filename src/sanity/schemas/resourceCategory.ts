@@ -47,6 +47,8 @@ export const resourceCategory = defineType({
       type: "string",
       title: "Titre",
       description: "Affiché sur le site (ex. Histoire de l'art, Technique picturale)",
+ 
+      validation: (Rule) => Rule.required().error("Le titre est obligatoire : sans titre, le site peut planter."),
     }),
     defineField({
       name: "slug",
@@ -150,10 +152,15 @@ export const resourceCategory = defineType({
             }
             visited.add(canon);
 
+            // Le brouillon prime sur la version publiée : c'est lui que l'éditeur vient de modifier.
+            const [pub, draft] = idPair(id);
             const row: { p?: string; s?: string } | null = await client.fetch<{
               p?: string;
               s?: string;
-            } | null>(`*[_id in $ids][0]{ "p": parent._ref, "s": section }`, { ids: idPair(id) });
+            } | null>(
+              `(coalesce(*[_id == $draft][0], *[_id == $pub][0])){ "p": parent._ref, "s": section }`,
+              { pub, draft }
+            );
             if (!row) {
               // Réf. fantôme : ne pas bloquer (parent est weak). L’éditeur peut effacer le champ.
               return true;

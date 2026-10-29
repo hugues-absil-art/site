@@ -9,6 +9,7 @@ export const technique = defineType({
       name: "title",
       type: "string",
       title: "Titre",
+      validation: (Rule) => Rule.required().error("Le titre est obligatoire : sans titre, le site peut planter."),
     }),
     defineField({
       name: "slug",
