@@ -1,0 +1,59 @@
+name: Sauvegarde Sanity
+
+# Exporte chaque jour tout le contenu Sanity (brouillons compris, sans les fichiers d'images) et le dépose
+# dans un dépôt PRIVÉ : l'historique Git garde chaque version, on peut donc revenir à n'importe quel jour.
+# Secrets requis (Settings → Secrets and variables → Actions → Secrets) :
+#   SANITY_BACKUP_TOKEN : jeton Sanity en lecture seule (rôle « Viewer »)
+#   BACKUP_DEPLOY_KEY   : clé privée SSH dont la clé publique est ajoutée, avec droit d'écriture, au dépôt de sauvegarde
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  SANITY_PROJECT_ID: g5s39v35
+  SANITY_DATASET: production
+  BACKUP_REPO: hugues-absil-art/site-sauvegardes
+
+jobs:
+  sauvegarde:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exporter le contenu
+        env:
+          SANITY_BACKUP_TOKEN: ${{ secrets.SANITY_BACKUP_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer ${SANITY_BACKUP_TOKEN}" \
+            "https://${SANITY_PROJECT_ID}.api.sanity.io/v2021-06-07/data/export/${SANITY_DATASET}" \
+            | LC_ALL=C sort > production.ndjson
+          # Garde-fou : un export vide ou tronqué ne doit jamais écraser une bonne sauvegarde.
+          test "$(wc -l < production.ndjson)" -gt 500
+          echo "Documents exportés : $(wc -l < production.ndjson)"
+
+      - name: Déposer dans le dépôt privé
+        env:
+          BACKUP_DEPLOY_KEY: ${{ secrets.BACKUP_DEPLOY_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "${BACKUP_DEPLOY_KEY}" > ~/.ssh/backup_key
+          chmod 600 ~/.ssh/backup_key
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/backup_key -o IdentitiesOnly=yes"
+          git clone --depth 1 "git@github.com:${BACKUP_REPO}.git" depot
+          cp production.ndjson depot/production.ndjson
+          cd depot
+          git config user.name "Sauvegarde automatique"
+          git config user.email "actions@users.noreply.github.com"
+          git add production.ndjson
+          if git diff --cached --quiet; then
+            echo "Aucun changement depuis la dernière sauvegarde."
+          else
+            git commit -m "Sauvegarde du $(date -u +%Y-%m-%d)"
+            git push origin HEAD
+          fi
