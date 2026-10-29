@@ -183,7 +183,7 @@ export default function Gallery({ paintings, galleryUseFeatured = false }: Galle
         if (!map.has(key)) map.set(key, p.technique);
       }
     });
-    return Array.from(map.values()).sort((a, b) => a.title.localeCompare(b.title));
+    return Array.from(map.values()).sort((a, b) => (a.title ?? "").localeCompare(b.title ?? ""));
   }, [paintings]);
 
   const themeList = useMemo(() => {
@@ -194,7 +194,7 @@ export default function Gallery({ paintings, galleryUseFeatured = false }: Galle
         if (!map.has(key)) map.set(key, p.theme);
       }
     });
-    return Array.from(map.values()).sort((a, b) => a.title.localeCompare(b.title));
+    return Array.from(map.values()).sort((a, b) => (a.title ?? "").localeCompare(b.title ?? ""));
   }, [paintings]);
 
   const statusList = useMemo(() => {
@@ -205,7 +205,7 @@ export default function Gallery({ paintings, galleryUseFeatured = false }: Galle
         if (!map.has(key)) map.set(key, p.status);
       }
     });
-    return Array.from(map.values()).sort((a, b) => a.title.localeCompare(b.title));
+    return Array.from(map.values()).sort((a, b) => (a.title ?? "").localeCompare(b.title ?? ""));
   }, [paintings]);
 
   const seriesList = useMemo(() => {
@@ -216,7 +216,7 @@ export default function Gallery({ paintings, galleryUseFeatured = false }: Galle
         if (!map.has(key)) map.set(key, p.series);
       }
     });
-    return Array.from(map.values()).sort((a, b) => a.title.localeCompare(b.title));
+    return Array.from(map.values()).sort((a, b) => (a.title ?? "").localeCompare(b.title ?? ""));
   }, [paintings]);
 
   const categoryFilteredPaintings = useMemo(() => {
