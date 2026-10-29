@@ -470,7 +470,7 @@ export function searchIndex(items: SearchIndexItem[], query: string): SearchInde
     .filter((row): row is { item: SearchIndexItem; tier: SearchTier } => row != null)
     .sort((a, b) => {
       if (a.tier !== b.tier) return a.tier - b.tier;
-      return a.item.title.localeCompare(b.item.title, "fr");
+      return (a.item.title ?? "").localeCompare(b.item.title ?? "", "fr");
     });
 
   const usedByGroup: Partial<Record<SearchGroup, number>> = {};
