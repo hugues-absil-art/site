@@ -60,8 +60,15 @@ const sanity = createClient({ projectId, dataset, apiVersion: "2024-01-01", useC
 const RETIRED_IMAGE_LINK = /^https?:\/\/(?:www\.)?hugues-absil\.com\/wordpress\/wp-content\/uploads\/.+\.(?:jpe?g|png|gif|webp|avif|tiff?)(?:[?#"%].*)?$/i;
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const attr = esc;
-const href = (p) => `${BASE}${p}`;
-const abs = (p) => `${SITE_URL}${p}`;
+// GitHub Pages redirige /chemin vers /chemin/ : toutes les adresses publiées se terminent donc par « / » (sauf fichiers et ancres).
+const slash = (p) => {
+  const [pa, ...h] = p.split("#");
+  const last = pa.split("?")[0].split("/").pop();
+  const out = pa === "" || pa.endsWith("/") || last.includes(".") ? pa : `${pa}/`;
+  return h.length ? `${out}#${h.join("#")}` : out;
+};
+const href = (p) => `${BASE}${slash(p)}`;
+const abs = (p) => `${SITE_URL}${slash(p)}`;
 const dateOnly = (d) => (d ? String(d).slice(0, 10) : "");
 const stripHtml = (s) => String(s || "").replace(/\s+/g, " ").trim();
 const cut = (text, max = 160) => {
