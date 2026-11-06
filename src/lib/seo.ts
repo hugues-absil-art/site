@@ -137,7 +137,7 @@ export function useSeo(o: SeoOptions) {
     if (!enabled) return;
     const fullTitle = title === DEFAULT_TITLE ? title : `${title} | ${SITE_NAME}`;
     const desc = description || DEFAULT_DESCRIPTION;
-    const url = `${SITE_URL}${path}`;
+    const url = `${SITE_URL}${path.endsWith("/") || /\.[a-z0-9]+$/i.test(path) ? path : `${path}/`}`;
     document.title = fullTitle;
     setMeta("name", "description", desc);
     setCanonical(url);
