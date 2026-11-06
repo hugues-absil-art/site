@@ -20,7 +20,7 @@ export default function Header({ siteName = "Hugues Absil", navItems = [] }: Hea
     { label: "Biographie", href: "#biography" },
     { label: "Presse", href: "#press" },
     { label: "Performances", href: "#performances" },
-    { label: "Critiques", href: "#critiques" },
+    { label: "Écrits critiques", href: "#critiques" },
     { label: "Enseignement", href: "#enseignement" },
     { label: "Journal", href: "#journal" },
     { label: "Contact", href: "#contact" },

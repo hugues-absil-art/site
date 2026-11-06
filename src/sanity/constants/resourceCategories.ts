@@ -32,7 +32,7 @@ export const RESOURCE_CATEGORIES = [
   },
   {
     value: "technique-picturale",
-    label: "Technique picturale",
+    label: "Technique de création",
     description: "Cours sur les matériaux et techniques",
     section: "enseignement" as const,
   },

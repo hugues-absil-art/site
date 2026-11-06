@@ -31,7 +31,7 @@ const categories: EnseignementCategory[] = [
   },
   {
     id: "technique-picturale",
-    title: "Technique picturale",
+    title: "Technique de création",
     description: "Cours sur les matériaux et techniques",
     icon: <Palette className="w-8 h-8" />,
     href: "/enseignement/technique-picturale",

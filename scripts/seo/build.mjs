@@ -157,7 +157,7 @@ function ptToHtml(blocks, altFallback = "") {
 
 const NAV = [
   ["Accueil", "/"],
-  ["Critiques", "/critiques/oeil-expo"],
+  ["Écrits critiques", "/critiques/oeil-expo"],
   ["Enseignement", "/enseignement/histoire-art"],
 ];
 const navHtml = () => `<nav aria-label="Navigation principale">${NAV.map(([l, p]) => `<a href="${attr(href(p))}">${esc(l)}</a>`).join(" · ")}</nav>`;
