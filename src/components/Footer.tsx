@@ -23,7 +23,7 @@ const FOOTER_ANCHORS: { label: string; hash: string; show?: "films" | "journal" 
   { label: "Films", hash: "films", show: "films" },
   { label: "Presse", hash: "press" },
   { label: "Performances", hash: "performances" },
-  { label: "Critiques", hash: "critiques" },
+  { label: "Écrits critiques", hash: "critiques" },
   { label: "Enseignement", hash: "enseignement" },
   { label: "Journal", hash: "journal", show: "journal" },
   { label: "Contact", hash: "contact" },

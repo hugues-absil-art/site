@@ -13,8 +13,8 @@ function idPair(id: string): string[] {
 }
 
 const SECTION_LABEL: Record<string, string> = {
-  ecrits: "Critiques",
-  critiques: "Critiques",
+  ecrits: "Écrits critiques",
+  critiques: "Écrits critiques",
   enseignement: "Enseignement",
 };
 
@@ -46,7 +46,7 @@ export const resourceCategory = defineType({
       name: "title",
       type: "string",
       title: "Titre",
-      description: "Affiché sur le site (ex. Histoire de l'art, Technique picturale)",
+      description: "Affiché sur le site (ex. Histoire de l'art, Technique de création)",
  
       validation: (Rule) => Rule.required().error("Le titre est obligatoire : sans titre, le site peut planter."),
     }),
@@ -87,7 +87,7 @@ export const resourceCategory = defineType({
       title: "Section",
       options: {
         list: [
-          { title: "Critiques", value: "ecrits" },
+          { title: "Écrits critiques", value: "ecrits" },
           { title: "Enseignement", value: "enseignement" },
         ],
         layout: "radio",

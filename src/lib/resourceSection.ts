@@ -7,7 +7,7 @@
 export type ResourceSection = "ecrits" | "enseignement";
 
 export const CRITIQUES_SANITY_VALUE = "ecrits" as const;
-export const CRITIQUES_LABEL = "Critiques";
+export const CRITIQUES_LABEL = "Écrits critiques";
 export const CRITIQUES_URL_PREFIX = "critiques";
 export const CRITIQUES_HASH_ID = "critiques";
 export const LEGACY_CRITIQUES_URL_PREFIX = "ecrits";
@@ -28,7 +28,7 @@ export function sectionHomePath(section: string | undefined | null): string {
 }
 
 export function sectionBackLabel(section: string | undefined | null): string {
-  return isCritiquesSection(section) ? "Retour aux critiques" : "Retour à l'enseignement";
+  return isCritiquesSection(section) ? "Retour aux écrits critiques" : "Retour à l'enseignement";
 }
 
 /** `#critiques` depuis un id d’ancre. */
@@ -47,7 +47,7 @@ export function normalizeNavItem<T extends { label: string; href: string }>(item
       ? hashHref(CRITIQUES_HASH_ID)
       : item.href;
   const label =
-    item.label === "Écrits" || item.label === "Ecrits" ? CRITIQUES_LABEL : item.label;
+    item.label === "Écrits" || item.label === "Ecrits" || item.label === "Critiques" ? CRITIQUES_LABEL : item.label;
   return { ...item, label, href };
 }
 
