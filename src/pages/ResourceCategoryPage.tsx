@@ -85,6 +85,17 @@ function sortByResourceDateDesc(resources: Resource[]): Resource[] {
 }
 
 
+/** Critiques de livres : parutions récentes en tête, mises en avant (comme les expositions en cours). */
+const BOOK_REVIEW_CATEGORIES = new Set(["critiques-livres-d-art", "critiques-litteraires"]);
+const RECENT_BOOK_MONTHS = 12;
+
+function isRecentPublication(date: string | null | undefined): boolean {
+  if (!date) return false;
+  const limit = new Date();
+  limit.setMonth(limit.getMonth() - RECENT_BOOK_MONTHS);
+  return date >= limit.toISOString().slice(0, 10);
+}
+
 function CategoryTocBranch({
   node,
   filteredResources,
@@ -388,6 +399,15 @@ export default function ResourceCategoryPage() {
     [showDatedArchiveSplit, filteredResources]
   );
 
+  const showRecentBooksSplit = !!category && BOOK_REVIEW_CATEGORIES.has(category);
+  /** Livres triés par date de parution (récent d'abord, sans date à la fin) : le champ « Ordre » est ignoré ici. */
+  const booksByDate = useMemo(
+    () => (showRecentBooksSplit ? getLatestResources(filteredResources, filteredResources.length) : []),
+    [showRecentBooksSplit, filteredResources]
+  );
+  const recentBooks = useMemo(() => booksByDate.filter((r) => isRecentPublication(r.date)), [booksByDate]);
+  const otherBooks = useMemo(() => booksByDate.filter((r) => !isRecentPublication(r.date)), [booksByDate]);
+
   useEffect(() => {
     if (
       showDatedArchiveSplit &&
@@ -648,6 +668,48 @@ export default function ResourceCategoryPage() {
                         </div>
                       )}
                     </>
+                  )}
+                </div>
+              )}
+            </>
+          ) : showRecentBooksSplit ? (
+            <>
+              {recentBooks.length > 0 && (
+                <div className="mb-16">
+                  <h3 className="font-serif text-2xl font-semibold mb-8">Parutions récentes</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {recentBooks.map((resource) => (
+                      <ResourceCard
+                        key={resource._id}
+                        resource={resource}
+                        sectionPrefix={sectionPrefix}
+                        pageCategory={category}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+              {otherBooks.length > 0 && (
+                <div>
+                  {recentBooks.length > 0 && (
+                    <h3 className="font-serif text-2xl font-semibold mb-8">Autres critiques ({otherBooks.length})</h3>
+                  )}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {otherBooks.slice(0, displayCount).map((resource) => (
+                      <ResourceCard
+                        key={resource._id}
+                        resource={resource}
+                        sectionPrefix={sectionPrefix}
+                        pageCategory={category}
+                      />
+                    ))}
+                  </div>
+                  {displayCount < otherBooks.length && (
+                    <div className="text-center mt-8">
+                      <Button variant="outline" onClick={() => setDisplayCount((d) => d + LOAD_MORE_STEP)}>
+                        Charger plus
+                      </Button>
+                    </div>
                   )}
                 </div>
               )}
