@@ -32,6 +32,7 @@ const RESOURCE_STATUS_LABELS: Record<string, string> = {
 
 const SEARCH_PLACEHOLDERS: Record<string, string> = {
   "critiques-litteraires": "Rechercher un livre ou un auteur…",
+  "critiques-livres-d-art": "Rechercher un livre ou un auteur…",
   "oeil-expo": "Rechercher une exposition ou un artiste…",
 };
 const DEFAULT_SEARCH_PLACEHOLDER = "Rechercher…";

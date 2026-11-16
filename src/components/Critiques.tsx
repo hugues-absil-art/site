@@ -11,7 +11,7 @@ const categories = [
     title: "Critiques de livres d'art",
     description: "Articles et commentaires sur les livres d'art récents",
     icon: <BookOpen className="w-8 h-8" />,
-    href: `/${CRITIQUES_URL_PREFIX}/critiques-litteraires`,
+    href: `/${CRITIQUES_URL_PREFIX}/critiques-livres-d-art`,
   },
   {
     id: "oeil-expo",

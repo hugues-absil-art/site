@@ -104,6 +104,13 @@ function RedirectEcritsToCritiques() {
   return <Navigate to={path} replace />;
 }
 
+/** Ancienne adresse de la rubrique des critiques de livres (liste incomplète) → adresse de la rubrique Sanity. */
+function RedirectOldBookReviews() {
+  const { slug } = useParams();
+  const base = `/${CRITIQUES_URL_PREFIX}/critiques-livres-d-art`;
+  return <Navigate to={slug ? `${base}/${slug}` : base} replace />;
+}
+
 const basename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
 
 const router = createBrowserRouter(
@@ -119,6 +126,8 @@ const router = createBrowserRouter(
         { path: "journal/:slug", element: <JournalPostPage /> },
         { path: "presse/:slug", element: <PressArticlePage /> },
         { path: "expositions/:slug", element: <ExhibitionPage /> },
+        { path: `${CRITIQUES_URL_PREFIX}/critiques-litteraires`, element: <RedirectOldBookReviews /> },
+        { path: `${CRITIQUES_URL_PREFIX}/critiques-litteraires/:slug`, element: <RedirectOldBookReviews /> },
         { path: `${CRITIQUES_URL_PREFIX}/:category`, element: <ResourceCategoryPage /> },
         { path: `${CRITIQUES_URL_PREFIX}/:category/:slug`, element: <ResourcePage /> },
         { path: `${LEGACY_CRITIQUES_URL_PREFIX}/:category`, element: <RedirectEcritsToCritiques /> },
