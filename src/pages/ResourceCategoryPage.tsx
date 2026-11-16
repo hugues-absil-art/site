@@ -419,6 +419,15 @@ export default function ResourceCategoryPage() {
     }
   }, [showDatedArchiveSplit, searchQuery, currentAndUpcoming.length, pastResources.length]);
 
+  // Les hooks doivent tous être appelés avant le premier « return » (sinon erreur React 310).
+  const seoInfo = category ? categoryLabels[category] : undefined;
+  useSeo({
+    enabled: !!seoInfo,
+    title: seoInfo?.title ?? "",
+    description: seoInfo?.description || undefined,
+    path: `/${sectionUrlPrefix(seoInfo?.section)}/${category ?? ""}`,
+  });
+
   if (!category) {
     return (
       <div className="min-h-screen flex items-center justify-center pt-20">
@@ -440,14 +449,6 @@ export default function ResourceCategoryPage() {
       </div>
     );
   }
-
-  const seoInfo = category ? categoryLabels[category] : undefined;
-  useSeo({
-    enabled: !!seoInfo,
-    title: seoInfo?.title ?? "",
-    description: seoInfo?.description || undefined,
-    path: `/${sectionUrlPrefix(seoInfo?.section)}/${category ?? ""}`,
-  });
 
   if (!categoryLabels[category]) {
     return (
