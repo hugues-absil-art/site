@@ -361,13 +361,14 @@ export default function ResourceCategoryPage() {
   }, [searchQuery, initialDisplay]);
 
   const filteredResources = useMemo(() => {
-    const query = searchQuery.trim().toLowerCase();
-    if (!query) return resources;
+    // Sans accents ni majuscules ; tous les mots doivent figurer (dans n'importe quel ordre).
+    const norm = (v: string | null | undefined) =>
+      (v ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const words = norm(searchQuery).split(/\s+/).filter(Boolean);
+    if (words.length === 0) return resources;
     return resources.filter((r) => {
-      if (r.title?.toLowerCase().includes(query)) return true;
-      if (r.excerpt?.toLowerCase().includes(query)) return true;
-      if (r.tags?.some((tag) => tag?.toLowerCase().includes(query))) return true;
-      return false;
+      const haystack = norm([r.title, r.excerpt, ...(r.tags ?? [])].join(" "));
+      return words.every((w) => haystack.includes(w));
     });
   }, [resources, searchQuery]);
 
