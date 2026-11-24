@@ -275,6 +275,20 @@
    }
   },
   {
+   "path": "/wordpress/histoire-de-lart2/1908-cubisme-picasso-braque/",
+   "wpId": "283",
+   "wpSlug": "1908-cubisme-picasso-braque",
+   "wpType": "page",
+   "title": "1908. Cubisme de Picasso et Braque",
+   "date": "2012-09-12",
+   "modified": "2020-11-12",
+   "target": {
+    "id": "c45e37bc-d59a-4aaa-b1ad-b8bc7398033a",
+    "type": "resource",
+    "slug": "1908-cubisme-de-picasso-et-braque-cubisme-cubisme"
+   }
+  },
+  {
    "path": "/wordpress/1908-cubisme-de-picasso-et-braque/",
    "wpId": "225",
    "wpSlug": "1908-cubisme-de-picasso-et-braque",
@@ -296,20 +310,6 @@
    "title": "1908. cubisme de Picasso et Braque",
    "date": "2012-09-10",
    "modified": "2012-09-12",
-   "target": {
-    "id": "c45e37bc-d59a-4aaa-b1ad-b8bc7398033a",
-    "type": "resource",
-    "slug": "1908-cubisme-de-picasso-et-braque-cubisme-cubisme"
-   }
-  },
-  {
-   "path": "/wordpress/histoire-de-lart2/1908-cubisme-picasso-braque/",
-   "wpId": "283",
-   "wpSlug": "1908-cubisme-picasso-braque",
-   "wpType": "page",
-   "title": "1908. Cubisme de Picasso et Braque",
-   "date": "2012-09-12",
-   "modified": "2020-11-12",
    "target": {
     "id": "c45e37bc-d59a-4aaa-b1ad-b8bc7398033a",
     "type": "resource",

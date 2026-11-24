@@ -395,9 +395,13 @@ sitemap.unshift({ loc: "/", lastmod: "", images: [] });
 
 // ---------- redirections des anciennes adresses ----------
 const written = new Set(docs.map((d) => d.canonical).concat(docs.map((d) => d.newPath)));
+const docById = new Map(docs.map((d) => [d._id, d]));
 for (const e of legacy.entries) {
-  if (!e.redirect || written.has(e.path)) continue;
-  write(e.path, redirectPage(e.redirect));
+  if (written.has(e.path)) continue;
+  // Plusieurs anciennes adresses pour une même fiche (fusion de doublons) : les autres redirigent vers l'adresse principale.
+  const to = e.redirect || docById.get(e.target?.id)?.canonical;
+  if (!to || to === e.path) continue;
+  write(e.path, redirectPage(to));
   stats.redirects++;
 }
 for (const a of legacy.archives || []) {
