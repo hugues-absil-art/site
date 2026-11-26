@@ -2837,9 +2837,9 @@
    "date": "2017-03-27",
    "modified": "2017-03-28",
    "target": {
-    "id": "tTK2D0IWNDYy37c5BqyWr6",
+    "id": "e855b42b-f9bc-401a-831d-4d7127558ae5",
     "type": "resource",
-    "slug": "roue-md"
+    "slug": "roue-de-bicyclette-concue-en-1913-par-m-duchamp"
    }
   },
   {
@@ -4435,9 +4435,9 @@
    "date": "2021-06-13",
    "modified": "2021-06-21",
    "target": {
-    "id": "wp-resource-8876",
+    "id": "b375edab-9e07-4b4e-bdf8-ce5495ccf020",
     "type": "resource",
-    "slug": "le-pastel"
+    "slug": "nuage-au-pastel-sec-avec-boudin"
    }
   },
   {
@@ -4449,9 +4449,9 @@
    "date": "2021-06-21",
    "modified": "2021-06-21",
    "target": {
-    "id": "wp-resource-8904",
+    "id": "b375edab-9e07-4b4e-bdf8-ce5495ccf020",
     "type": "resource",
-    "slug": "pastel-de-ciel"
+    "slug": "nuage-au-pastel-sec-avec-boudin"
    }
   },
   {
@@ -4463,7 +4463,7 @@
    "date": "2021-06-21",
    "modified": "2021-06-24",
    "target": {
-    "id": "76y5EjmeLusgbergezd7qw",
+    "id": "3241de37-24f4-4456-9729-72bc1b1fc943",
     "type": "resource",
     "slug": "pastels-de-odilon-redon"
    }
