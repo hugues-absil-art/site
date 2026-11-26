@@ -5,7 +5,7 @@ export const videoEmbed = defineType({
   type: "object",
   title: "Vidéo",
   description:
-    "Collez une URL YouTube ou Vimeo pour afficher la vidéo au milieu du texte (cours, expos, écrits…). Pour une vidéo en bas de fiche ressource, utilisez plutôt le champ « URL vidéo » du document.",
+    "Collez une URL YouTube ou Vimeo : une vignette cliquable apparaît dans le texte (cours, expos, écrits…) (cours, expos, écrits…). Pour une vidéo en bas de fiche ressource, utilisez plutôt le champ « URL vidéo » du document.",
   fields: [
     defineField({
       name: "url",
@@ -27,16 +27,33 @@ export const videoEmbed = defineType({
       name: "layout",
       type: "string",
       title: "Mise en page",
+      description: "Flottant = le texte entoure la vignette. Pleine largeur = toute la colonne (la taille est alors ignorée).",
       options: {
         list: [
-          { value: "fullWidth", title: "Pleine largeur" },
+          { value: "floatLeft", title: "Flottant gauche (texte à droite)" },
+          { value: "floatRight", title: "Flottant droite (texte à gauche)" },
           { value: "centered", title: "Centré" },
           { value: "betweenText", title: "Entre le texte" },
-          { value: "floatLeft", title: "Flottant gauche" },
-          { value: "floatRight", title: "Flottant droite" },
+          { value: "fullWidth", title: "Pleine largeur" },
         ],
+        layout: "radio",
       },
-      initialValue: "betweenText",
+      initialValue: "floatLeft",
+    }),
+    defineField({
+      name: "size",
+      type: "string",
+      title: "Taille de la vignette",
+      description: "Sur le site, la vidéo n'est qu'une vignette : elle se lit en grand au clic. Ignorée si « Pleine largeur ».",
+      options: {
+        list: [
+          { value: "small", title: "Petit (≈ 180 px)" },
+          { value: "medium", title: "Moyen (≈ 290 px)" },
+          { value: "large", title: "Grand (≈ 450 px)" },
+        ],
+        layout: "radio",
+      },
+      initialValue: "small",
     }),
   ],
   preview: {

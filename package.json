@@ -28,7 +28,7 @@
     "@portabletext/types": "^4.0.1",
     "@sanity/client": "^7.14.1",
     "@sanity/image-url": "^2.0.3",
-    "@sanity/vision": "^5.7.0",
+    "@sanity/vision": "^5.31.2",
     "@sanity/visual-editing": "^6.1.2",
     "clsx": "^2.1.1",
     "framer-motion": "^12.29.2",
@@ -37,7 +37,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.0",
-    "sanity": "^5.7.0",
+    "sanity": "^5.31.2",
     "styled-components": "^6.3.8",
     "tailwind-merge": "^3.4.0"
   },

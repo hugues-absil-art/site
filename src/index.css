@@ -42,29 +42,51 @@
   }
 
   /*
-   * Images flottantes — CSS dédié (indépendant des utilitaires float Tailwind).
-   * Mobile : pleine largeur. Desktop : float + largeur limitée.
+   * Images et vidéos du texte : la largeur vient de --pt-size (taille choisie dans le Studio).
+   * - flottant : le texte contourne le média (dès 640 px) ; sur téléphone il passe en bloc centré ;
+   * - bloc (centré / entre le texte) : largeur plafonnée à --pt-size, centré ;
+   * - pleine largeur : toute la colonne.
    */
-  .portable-text .pt-float {
+  .portable-text .pt-media {
     display: block;
     width: 100%;
-    max-width: 100%;
+    margin-top: 0.25rem;
     margin-bottom: 1rem;
   }
 
-  @media (min-width: 768px) {
+  .portable-text .pt-block {
+    max-width: min(100%, var(--pt-size, 30rem));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .portable-text .pt-img-full {
+    max-width: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .portable-text .pt-float {
+    max-width: min(100%, var(--pt-size, 18rem));
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 640px) {
     .portable-text .pt-float-left {
       float: left;
-      width: min(50%, var(--pt-float-max, 28rem));
-      max-width: min(50%, var(--pt-float-max, 28rem));
-      margin: 0.25rem 1.5rem 0.75rem 0;
+      width: var(--pt-size, 18rem);
+      max-width: 50%;
+      margin: 0.25rem 1.25rem 0.5rem 0;
     }
 
     .portable-text .pt-float-right {
       float: right;
-      width: min(50%, var(--pt-float-max, 28rem));
-      max-width: min(50%, var(--pt-float-max, 28rem));
-      margin: 0.25rem 0 0.75rem 1.5rem;
+      width: var(--pt-size, 18rem);
+      max-width: 50%;
+      margin: 0.25rem 0 0.5rem 1.25rem;
     }
   }
 

@@ -6,7 +6,7 @@ export const imageWithLayout = defineType({
   type: "object",
   title: "Image",
   description:
-    "Pour que le texte entoure l'image, choisissez « Flottant gauche » ou « Flottant droite » et une taille Petit ou Moyen.",
+    "Pour que le texte entoure l'image, gardez « Flottant gauche » ou « Flottant droite ». Au clic, l'image s'agrandit sur le site.",
   fields: [
     defineField({
       name: "image",
@@ -24,14 +24,14 @@ export const imageWithLayout = defineType({
       type: "string",
       title: "Mise en page",
       description:
-        "Flottant gauche/droite = texte autour de l'image. Pleine largeur / Centré / Entre le texte = image en bloc.",
+        "Flottant = le texte entoure l'image. Centré / Entre le texte = image seule sur sa ligne. Pleine largeur = toute la colonne (la taille est alors ignorée).",
       options: {
         list: [
-          { value: "fullWidth", title: "Pleine largeur" },
-          { value: "centered", title: "Centré" },
-          { value: "betweenText", title: "Entre le texte" },
           { value: "floatLeft", title: "Flottant gauche (texte à droite)" },
           { value: "floatRight", title: "Flottant droite (texte à gauche)" },
+          { value: "centered", title: "Centré" },
+          { value: "betweenText", title: "Entre le texte" },
+          { value: "fullWidth", title: "Pleine largeur" },
         ],
         layout: "radio",
       },
@@ -41,16 +41,17 @@ export const imageWithLayout = defineType({
       name: "size",
       type: "string",
       title: "Taille",
-      description: "Ignorée si « Pleine largeur » est sélectionné.",
+      description:
+        "Au clic, le visiteur voit toujours l'image en grand : une petite taille ne gêne pas la lecture. Ignorée si « Pleine largeur ».",
       options: {
         list: [
-          { value: "small", title: "Petit" },
-          { value: "medium", title: "Moyen" },
-          { value: "large", title: "Grand" },
+          { value: "small", title: "Petit (≈ 180 px)" },
+          { value: "medium", title: "Moyen (≈ 290 px)" },
+          { value: "large", title: "Grand (≈ 450 px)" },
         ],
         layout: "radio",
       },
-      initialValue: "medium",
+      initialValue: "small",
     }),
   ],
   components: {
